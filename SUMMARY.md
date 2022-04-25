@@ -27,13 +27,3 @@
 * [Price Aggregation](how-pyth-works/price-aggregation.md)
 * [EMA Price Aggregation](how-pyth-works/ema-price-aggregation.md)
 * [Accounts](https://pyth.network/developers/accounts/)
-
-## Releases
-
-* [Current](releases/current.md)
-
-***
-
-* [GitHub](https://github.com/pyth-network)
-* [Rust package](https://crates.io/crates/pyth-client)
-* [npm package](https://www.npmjs.com/package/@pythnetwork/client)
