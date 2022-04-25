@@ -1,11 +1,6 @@
 # Table of contents
 
 * [Introduction](README.md)
-* [Pyth Network Summary](pyth-network-summary.md)
-* [Network Participants](network-participants.md)
-* [Network Interactions](network-interactions.md)
-* [Claims Process](claims-process.md)
-* [Participant Incentives](participant-incentives.md)
 
 ## Consume Data
 
@@ -21,9 +16,14 @@
 
 ## How Pyth Works
 
+* [Pyth Network Summary](how-pyth-works/pyth-network-summary.md)
 * [Design Overview](how-pyth-works/design-overview.md)
 * [Account Structure](how-pyth-works/account-structure.md)
 * [Product Metadata](how-pyth-works/product-metadata.md)
 * [Price Aggregation](how-pyth-works/price-aggregation.md)
 * [EMA Price Aggregation](how-pyth-works/ema-price-aggregation.md)
 * [Accounts](https://pyth.network/developers/accounts/)
+* [Network Participants](how-pyth-works/network-participants.md)
+* [Network Interactions](how-pyth-works/network-interactions.md)
+* [Claims Process](how-pyth-works/claims-process.md)
+* [Participant Incentives](how-pyth-works/participant-incentives.md)
