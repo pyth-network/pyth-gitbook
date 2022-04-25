@@ -1,8 +1,8 @@
 # Introduction
 
-Pyth is an oracle that publishes continuous real-world financial and crypto market data. **High-fidelity, first party data** originating off-chain is supplied at sub-second speeds with [cross-chain publishing](https://pythnetwork.medium.com/pyth-x-wormhole-6b7c17e18469) and [sophisticated aggregation](https://pythnetwork.medium.com/what-is-confidence-uncertainty-in-a-price-649583b598cf) that can both capture data richness and indicate conviction. This price data can be consumed by on-chain programs and off-chain applications.
+Pyth is an oracle that publishes continuous real-world financial and crypto market data. High-fidelity, first party data originating off-chain is supplied at sub-second speeds with [sophisticated aggregation](https://pythnetwork.medium.com/what-is-confidence-uncertainty-in-a-price-649583b598cf) that can both capture data richness and indicate conviction.
 
-The Pyth network is native on the [Solana](https://solana.com) blockchain, which allows data providers to continuously update prices at every slot: that’s once every [400ms](https://solana.com) — more than 200,000 updates daily. Furthermore, the network's throughput will increase over time with Solana’s scaling. The network's prices will also be available on Ethereum, BSC, and Terra, thanks to [Wormhole](https://solana.com/wormhole).
+This price data can be consumed by on-chain programs and off-chain applications, and is available on Solana, Terra and BSC.
 
 **Getting Started**
 
