@@ -1,4 +1,4 @@
-# Client Libraries
+# Consume Data
 
 We recommend using one of the following client libraries to consume Pyth prices in an application:&#x20;
 

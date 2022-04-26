@@ -4,7 +4,7 @@
 
 ## Consume Data
 
-* [Client Libraries](consumers/client-libraries.md)
+* [Consume Data](consumers/consume-data.md)
 * [Best Practices](consumers/best-practices.md)
 
 ## Publish Data
