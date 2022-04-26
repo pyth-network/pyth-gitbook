@@ -16,7 +16,7 @@
 
 ## How Pyth Works
 
-* [Pyth Network Summary](how-pyth-works/pyth-network-summary.md)
+* [How Pyth Works](how-pyth-works/how-pyth-works.md)
 * [Design Overview](how-pyth-works/design-overview.md)
 * [Account Structure](how-pyth-works/account-structure.md)
 * [Product Metadata](how-pyth-works/product-metadata.md)

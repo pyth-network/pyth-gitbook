@@ -4,7 +4,7 @@ description: >-
   https://pyth.network/whitepaper
 ---
 
-# Pyth Network Summary
+# How Pyth Works
 
 Growth in DeFi requires high-fidelity, time-sensitive, real-world data, direct from the source and made available on any L1 blockchain. Financial market data, however, is often accessible to only a limited set of institutions and users. Traditional markets typically maintain strict control over and access to both live and historical price feeds. Consequently, only a selected group of users has access to the most timely, accurate, and valuable information.
 

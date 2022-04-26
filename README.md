@@ -14,6 +14,6 @@ This price data can be consumed by on-chain programs and off-chain applications,
 [publishers/publish-data.md](publishers/publish-data.md)
 {% endcontent-ref %}
 
-{% content-ref url="how-pyth-works/design-overview.md" %}
-[how-pyth-works/design-overview.md](how-pyth-works/design-overview.md)
+{% content-ref url="how-pyth-works/how-pyth-works.md" %}
+[how-pyth-works/how-pyth-works.md](how-pyth-works/how-pyth-works.md)
 {% endcontent-ref %}
