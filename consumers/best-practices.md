@@ -4,11 +4,11 @@ description: Best practices for consuming Pyth data
 
 # Best Practices
 
-This page explains best practices for designing protocols that consume Pyth's price and confidence interval. Our suggestions are as follows:
+We strongly recommend that consumers of Pyth's price data follow these best practices:
 
 1. Use products with at least 3 active publishers.
-2. Check the status of the product
-3. Use the confidence interval to protect your users from price uncertainty
+2. Check the status of the product.
+3. Use the confidence interval to protect your users from price uncertainty.
 
 ## Active Publishers
 
@@ -20,7 +20,9 @@ Before consuming a price feed, we suggest consulting the page for that product a
 
 Sometimes, Pyth will not have a valid price for a product. This situation can happen for various reasons. For example, US equity markets only trade during certain hours, and outside those hours, it's not clear what an equity's price is. Alternatively, Solana congestion may prevent data publishers from being able to submit their prices. During these periods, Pyth will not have a valid price for a product.
 
-Pyth's price accounts have a `status` field that indicates whether or not the price is valid. A status of `trading` indicates a valid price that is permissible to use in downstream applications. If the status is not `trading`, the Pyth price can be **an arbitrary value**. Protocols should check the status field before consuming the price -- or use a client library that does this automatically -- and gracefully handle the case when pricing is currently unavailable.&#x20;
+Pyth's price feeds have a `status` field that indicates whether or not the price is currently valid. A status of `trading` indicates a valid price that is permissible to use in downstream applications. If the status is not `trading`, the Pyth price can be **an arbitrary value**. Consumers should check the status field before using the price and gracefully handle the case when pricing is currently unavailable.
+
+If the price is currently unavailable, consumers can decide to use the last known valid price. Pyth's price feeds expose the last known valid price, its confidence interval and the time at which it was valid. Consumers should check this timestamp is recent enough before using this price, as it could be from arbitrarily far in the past.
 
 ## Confidence Intervals
 
