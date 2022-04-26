@@ -4,11 +4,16 @@ Pyth is an oracle that publishes continuous real-world financial and crypto mark
 
 This price data can be consumed by on-chain programs and off-chain applications, and is available on Solana, Terra and BSC.
 
-**Getting Started**
+## Get Started
 
-We have several different guides to get started with Pyth depending on your use case:
+{% content-ref url="consumers/consume-data.md" %}
+[consumers/consume-data.md](consumers/consume-data.md)
+{% endcontent-ref %}
 
-* To learn more about the Pyth Network, read the Pyth Network Summary, Network Participants, Network Interactions, Claims Process, and Participant Incentives sections.&#x20;
-* To consume Pyth data in on- or off-chain applications, use one of the [Client Libraries](consumers/client-libraries.md) available in multiple programming languages.
-* To provide first-party data to Pyth, see the [Getting Started](publishers/getting-started.md) guide for publishers.&#x20;
-* For a high-level explanation of Pyth's architecture, see the [Design Overview](how-pyth-works/design-overview.md).
+{% content-ref url="publishers/publish-data.md" %}
+[publishers/publish-data.md](publishers/publish-data.md)
+{% endcontent-ref %}
+
+{% content-ref url="how-pyth-works/design-overview.md" %}
+[how-pyth-works/design-overview.md](how-pyth-works/design-overview.md)
+{% endcontent-ref %}
