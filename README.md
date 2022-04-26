@@ -17,7 +17,7 @@ Publish first-party data to Pyth:
 [publishers/publish-data.md](publishers/publish-data.md)
 {% endcontent-ref %}
 
-Dig in to the details of Pyth's design:
+Dig in to the details of Pyth's architecture and design:
 {% content-ref url="how-pyth-works/how-pyth-works.md" %}
 [how-pyth-works/how-pyth-works.md](how-pyth-works/how-pyth-works.md)
 {% endcontent-ref %}
