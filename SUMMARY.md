@@ -4,19 +4,19 @@
 
 ## Consume Data
 
-* [Client Libraries](consumers/client-libraries.md)
+* [Consume Data](consumers/consume-data.md)
 * [Best Practices](consumers/best-practices.md)
 
 ## Publish Data
 
-* [Getting Started](publishers/getting-started.md)
+* [Publish Data](publishers/publish-data.md)
 * [Understanding Publishing Slots](publishers/understanding-publishing-slots.md)
 * [pyth-client Websocket API](publishers/pyth-client-websocket-api.md)
 * [Confidence Interval and Crypto Exchange Fees](publishers/confidence-interval-and-crypto-exchange-fees.md)
 
 ## How Pyth Works
 
-* [Pyth Network Summary](how-pyth-works/pyth-network-summary.md)
+* [How Pyth Works](how-pyth-works/how-pyth-works.md)
 * [Design Overview](how-pyth-works/design-overview.md)
 * [Account Structure](how-pyth-works/account-structure.md)
 * [Product Metadata](how-pyth-works/product-metadata.md)

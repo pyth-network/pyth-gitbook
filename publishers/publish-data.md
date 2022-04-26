@@ -1,4 +1,4 @@
-# Getting Started
+# Publish Data
 
 > This page makes references to the Solana CLI. For more information, see [https://docs.solana.com/cli](https://docs.solana.com/cli)
 
