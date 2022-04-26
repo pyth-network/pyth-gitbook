@@ -9,7 +9,7 @@
 
 ## Publish Data
 
-* [Getting Started](publishers/getting-started.md)
+* [Publish Data](publishers/publish-data.md)
 * [Understanding Publishing Slots](publishers/understanding-publishing-slots.md)
 * [pyth-client Websocket API](publishers/pyth-client-websocket-api.md)
 * [Confidence Interval and Crypto Exchange Fees](publishers/confidence-interval-and-crypto-exchange-fees.md)
