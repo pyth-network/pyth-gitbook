@@ -1,6 +1,6 @@
 # Consume Data
 
-Pyth price feeds can be consumed in both off- and on-chain applications, and is available on several different chains.
+Pyth price feeds can be consumed in both off- and on-chain programs, and are available on several different chains.
 
 {% hint style="info" %}
 We recommend reading the [Best Practices](best-practices.md) documentation before using Pyth in your application, to ensure you are using the data safely.
