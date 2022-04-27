@@ -12,11 +12,11 @@ We strongly recommend that consumers of Pyth's price data follow these best prac
 ## Product Status
 
 
-Sometimes, Pyth will not have a valid price for a product. This situation can happen for various reasons. For example, US equity markets only trade during certain hours, and outside those hours, it's not clear what an equity's price is. Alternatively, Solana congestion may prevent data publishers from being able to submit their prices. During these periods, Pyth will not have a valid price for a product.
+Sometimes, Pyth will not be able to provide a price for a product. This situation can happen for various reasons. For example, US equity markets only trade during certain hours, and outside those hours, it's not clear what an equity's price is. Alternatively, Solana congestion may prevent data publishers from being able to submit their prices. In these cases querying a price feed's current price may fail, in the 
 
-Pyth's price feeds have a `status` field that indicates whether or not the price is currently valid. A status of `trading` indicates a valid price that is permissible to use in downstream applications. If the status is not `trading`, the Pyth price can be **an arbitrary value**. Consumers should check the status field before using the price and gracefully handle the case when pricing is currently unavailable.
+Under the hood, this is implemented using the price feeds' `status` field. A status of `trading` indicates a valid price that is permissible to use in downstream applications. If the status is not `trading`, the Pyth price can be any arbitrary value.
 
-If the price is currently unavailable, consumers can decide to use the most recent previous price update. Pyth's price feeds expose this previous price, its confidence interval and the time it was published. Consumers should check this timestamp is recent enough before using this price, as it could be from arbitrarily far in the past.
+If the price is currently unavailable, consumers can opt to use the most recent previous price update. Pyth's price feeds expose this previous price, its confidence interval and the time it was published. Consumers should check this timestamp is recent enough before using this price, as it could be from arbitrarily far in the past.
 
 ## Confidence Intervals
 
