@@ -12,7 +12,7 @@
 
 * [How Pyth Works](how-pyth-works/how-pyth-works.md)
   * [Design Overview](how-pyth-works/design-overview.md)
-  * [Account Structure](how-pyth-works/account-structure.md)
+  * [Solana Account Structure](how-pyth-works/account-structure.md)
   * [Product Metadata](how-pyth-works/product-metadata.md)
   * [Price Aggregation](how-pyth-works/price-aggregation.md)
   * [EMA Price Aggregation](how-pyth-works/ema-price-aggregation.md)
