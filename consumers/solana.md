@@ -5,7 +5,7 @@ description: Consume prices from Pyth on Solana in your on- and off-chain progra
 # Pyth on Solana
 
 {% hint style="info" %}
-We recommend reading the [Solana Account Structure](another-page.md) documentation when using Pyth on Solana.
+We recommend reading the [Solana Account Structure](../how-pyth-works/account-structure.md) documentation when using Pyth on Solana.
 {% endhint %}
 
 ## On-Chain Programs
@@ -18,7 +18,7 @@ The [pyth-sdk-solana crate](https://github.com/pyth-network/pyth-sdk-rs/tree/mai
 {% tab title="NEON EVM" %}
 [NEON](https://neon-labs.org) is an EVM compatibility layer for Solana, allowing users to migrate their Ethereum applications to Solana with minimum effort.
 
-The [pyth-neon](https://github.com/pyth-network/pyth-neon) library provides a drop-in replacement for the most popular Ethereum oracle, which Ethereum apps migrating to Solana can use.
+The [pyth-neon](https://github.com/pyth-network/pyth-neon) library is an interface to Pyth oracles for NEON applications. It includes a drop-in replacement for common Ethereum oracles, which Ethereum apps migrating to Solana can use.
 {% endtab %}
 {% endtabs %}
 
@@ -34,7 +34,7 @@ The [pyth-sdk-solana crate](https://crates.io/crates/pyth-sdk-solana) can be use
 {% endtab %}
 
 {% tab title="Python" %}
-The [pyth-client-py](https://github.com/pyth-network/pyth-client-py) Python library to consume Pyth prices inside your off-chain Python programs. An example can be found [here](https://github.com/pyth-network/pyth-client-py/blob/main/examples/read\_one\_price\_feed.py).
+The [pyth-client-py](https://github.com/pyth-network/pyth-client-py) Python library can be used to consume Pyth prices inside your off-chain Python programs. An example can be found [here](https://github.com/pyth-network/pyth-client-py/blob/main/examples/read\_one\_price\_feed.py).
 {% endtab %}
 
 {% tab title="Go" %}
