@@ -16,7 +16,7 @@ Sometimes, Pyth will not have a valid price for a product. This situation can ha
 
 Pyth's price feeds have a `status` field that indicates whether or not the price is currently valid. A status of `trading` indicates a valid price that is permissible to use in downstream applications. If the status is not `trading`, the Pyth price can be **an arbitrary value**. Consumers should check the status field before using the price and gracefully handle the case when pricing is currently unavailable.
 
-If the price is currently unavailable, consumers can decide to use the last known valid price. Pyth's price feeds expose the last known valid price, its confidence interval and the time at which it was valid. Consumers should check this timestamp is recent enough before using this price, as it could be from arbitrarily far in the past.
+If the price is currently unavailable, consumers can decide to use the most recent previous price update. Pyth's price feeds expose this previous price, its confidence interval and the time it was published. Consumers should check this timestamp is recent enough before using this price, as it could be from arbitrarily far in the past.
 
 ## Confidence Intervals
 
