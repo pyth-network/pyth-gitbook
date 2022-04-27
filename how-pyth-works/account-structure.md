@@ -1,4 +1,4 @@
-# Account Structure
+# Solana Account Structure
 
 The Pyth price oracle manages a number of on-chain accounts. There are three different types of accounts:
 
