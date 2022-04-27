@@ -6,17 +6,11 @@ description: Best practices for consuming Pyth data
 
 We strongly recommend that consumers of Pyth's price data follow these best practices:
 
-1. Use products with at least 3 active publishers.
-2. Check the status of the product.
-3. Use the confidence interval to protect your users from price uncertainty.
-
-## Active Publishers
-
-Pyth produces its price by aggregating price information from several different publishers. Each product in Pyth has a different number of publishers who are currently submitting prices. If a product has more publishers, each publisher has less influence on the overall price, which results in a more reliable aggregate price. If there are fewer than three publishers, then those publishers exert a substantial influence on the aggregate price.
-
-Before consuming a price feed, we suggest consulting the page for that product and determining how many publishers are actively submitting prices. For example, the BTC/USD product page is here: [https://pyth.network/markets/#BTC/USD](https://pyth.network/markets/#BTC/USD). If there are fewer than three publishers, we do not suggest using that price feed for high-value applications at the moment. We are working on adding more publishers to these products, and these feeds will become more robust over time.
+1. Check the status of the product.
+2. Use the confidence interval to protect your users from price uncertainty.
 
 ## Product Status
+
 
 Sometimes, Pyth will not have a valid price for a product. This situation can happen for various reasons. For example, US equity markets only trade during certain hours, and outside those hours, it's not clear what an equity's price is. Alternatively, Solana congestion may prevent data publishers from being able to submit their prices. During these periods, Pyth will not have a valid price for a product.
 
