@@ -4,6 +4,8 @@
 
 * [Consume Data](consumers/consume-data.md)
   * [Best Practices](consumers/best-practices.md)
+  * [Pyth on Solana](consumers/solana.md)
+  * [Pyth on Terra](consumers/terra.md)
 
 * [Publish Data](publishers/publish-data.md)
   * [Understanding Publishing Slots](publishers/understanding-publishing-slots.md)
