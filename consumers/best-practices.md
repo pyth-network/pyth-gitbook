@@ -1,28 +1,28 @@
 ---
-description: Best practices for consuming Pyth data
+description: How to use Pyth's Price Feeds.
 ---
 
-# Best Practices
+# Fixed-Point Representation
 
-This page explains best practices for designing protocols that consume Pyth's price and confidence interval. Our suggestions are as follows:
+Price feeds present the data in a fixed-point format. The same exponent is used for both the price and confidence interval. The integer representation of these values can be computed by multiplying by `10^exponent`. As an example, imagine Pyth reported the following values for AAPL/USD:
 
-1. Use products with at least 3 active publishers.
-2. Check the status of the product
-3. Use the confidence interval to protect your users from price uncertainty
+| Field      | Value    |
+| ---------- | -------- |
+| `exponent` | -5       |
+| `conf`     | 1500     |
+| `price`    | 12276250 |
 
-**Active Publishers**
+The confidence interval is `1500 * 10^(-5) = $0.015`, and the price is `12276250 * 10^(-5) = $122.7625 +- 0.015`.
 
-Pyth produces its price by aggregating price information from several different publishers. Each product in Pyth has a different number of publishers who are currently submitting prices. If a product has more publishers, each publisher has less influence on the overall price, which results in a more reliable aggregate price. If there are fewer than three publishers, then those publishers exert a substantial influence on the aggregate price.
+# Current Price Availability
 
-Before consuming a price feed, we suggest consulting the page for that product and determining how many publishers are actively submitting prices. For example, the BTC/USD product page is here: [https://pyth.network/markets/#BTC/USD](https://pyth.network/markets/#BTC/USD). If there are fewer than three publishers, we do not suggest using that price feed for high-value applications at the moment. We are working on adding more publishers to these products, and these feeds will become more robust over time.
+Sometimes, Pyth will not be able to provide the current price for a product. This situation can happen for various reasons. For example, US equity markets only trade during certain hours, and outside those hours, it's not clear what an equity's price is. Alternatively, Solana congestion may prevent data publishers from being able to submit their prices. In these cases querying for the current price may fail. Our SDK's expose this failure condition to consumers in an idiomatic way: for example, our Rust SDK may return `None`, and our Solidity SDK may revert the transaction.
 
-**Check Product Status**
+Under the hood, this is implemented using the price feeds' `status` field. A status of `trading` indicates that the current price is available and permissable to use in downstream applications. If the status is not `trading`, the price feed's internal `price` variable can be any arbitrary value.
 
-Sometimes, Pyth will not have a valid price for a product. This situation can happen for various reasons. For example, US equity markets only trade during certain hours, and outside those hours, it's not clear what an equity's price is. Alternatively, Solana congestion may prevent data publishers from being able to submit their prices. During these periods, Pyth will not have a valid price for a product.
+If the current price is unavailable, consumers can opt to use the most recent previous price update. Pyth's price feeds expose this previous price, its confidence interval and the time it was published. Consumers should check this timestamp is recent enough before using this price, as it could be from arbitrarily far in the past.
 
-Pyth's price accounts have a `status` field that indicates whether or not the price is valid. A status of `trading` indicates a valid price that is permissible to use in downstream applications. If the status is not `trading`, the Pyth price can be **an arbitrary value**. Protocols should check the status field before consuming the price -- or use a client library that does this automatically -- and gracefully handle the case when pricing is currently unavailable.&#x20;
-
-**Confidence Intervals**
+# Confidence Intervals
 
 At every point in time, Pyth publishes both a price and a confidence interval for each product. For example, Pyth may publish the current price of bitcoin as $50000 ± $10. Pyth publishes a confidence interval because, in real markets, there is _no one single price for a product_. For example, at any given time, bitcoin trades at different prices at different venues around the world. While these prices are typically similar, they can diverge for a number of reasons, such as when a cryptocurrency exchange block withdrawals on an asset. If this happens, prices diverge because arbitrageurs can no longer bring prices across exchanges into line. Alternatively, prices on different venues can differ simply because an asset is highly volatile at a particular point in time. At such times, bid/ask spreads tend to be wider, and trades on different markets at around the same time tend to occur at a wider range of prices.
 

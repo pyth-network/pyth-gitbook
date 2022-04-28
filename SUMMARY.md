@@ -3,7 +3,7 @@
 * [Introduction](README.md)
 
 * [Consume Data](consumers/consume-data.md)
-  * [Best Practices](consumers/best-practices.md)
+  * [Using Price Feeds](consumers/best-practices.md)
   * [Pyth on Solana](consumers/solana.md)
   * [Pyth on Terra](consumers/terra.md)
 
