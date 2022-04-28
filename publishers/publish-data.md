@@ -1,5 +1,9 @@
 # Getting started with publishing via pyth-client
 
+{% hint style="info" %}
+To publish data you will need to be permissioned: please reach out to the Pyth Data Association on [Discord](https://discord.gg/Ff2XDydUhu) or [Telegram](https://t.me/Pyth_Network) to get set up.
+{% endhint %}
+
 The pyth-client repo consists of two command-line administration tools (pyth & pyth_admin) and a json/websocket-based server (pythd).
 
 You can integrate with the pythd server via json/websockets. See `pctest/test_publish.py` for an example.
