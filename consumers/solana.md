@@ -40,7 +40,7 @@ The [Blockdaemon pyth-go](https://github.com/Blockdaemon/pyth-go) client can be 
 
 ## Price Feeds
 
-All the price feeds available on Solana are listed on the [pyth.network website](https://pyth.network/markets/). To consume a price feed, you need to look up the price feed ID for the symbol you're interested in. For Solana, this corresponds to the price account for that symbol.
+All the price feeds available on Solana are listed on the [pyth.network website](https://pyth.network/markets/). To consume a price feed, you need to look up the price feed ID for the symbol you're interested in. On Solana, this corresponds to the price account for that symbol.
 
 As an example, to find the price feed ID for BTC/USD in Devnet:
 
