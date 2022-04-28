@@ -2,7 +2,7 @@
 
 Pyth is an oracle that publishes continuous real-world financial and crypto market data. High-fidelity, first party data originating off-chain is supplied at sub-second speeds with [sophisticated aggregation](how-pyth-works/price-aggregation.md) that can both capture data richness and indicate conviction.
 
-This price data can be consumed by on-chain programs and off-chain applications, and is available on Solana, Terra and BSC.
+Our price feeds can be consumed by on-chain programs and off-chain applications, and are available on the Solana and Terra blockchains. We are working to bring Pyth price feeds to many more chains in the near future.
 
 ## Get Started
 We have several different guides to get started with Pyth, depending on your use case.
