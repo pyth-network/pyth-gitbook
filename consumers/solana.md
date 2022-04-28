@@ -4,10 +4,6 @@ description: Consume prices from Pyth on Solana in your on- and off-chain progra
 
 # Pyth on Solana
 
-{% hint style="info" %}
-We recommend reading the [Solana Account Structure](../how-pyth-works/account-structure.md) documentation when using Pyth on Solana.
-{% endhint %}
-
 ## On-Chain Programs
 
 {% tabs %}
