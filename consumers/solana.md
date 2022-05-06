@@ -42,7 +42,8 @@ The [Blockdaemon pyth-go](https://github.com/Blockdaemon/pyth-go) client can be 
 
 All the price feeds available on Solana are listed on the [pyth.network website](https://pyth.network/markets/). To consume a price feed, you need to look up the price feed ID for the symbol you're interested in. On Solana, this corresponds to the public key of that symbols' price account.
 
-As an example, to find the price feed ID for BTC/USD in Devnet:
+The price feeds available on each network are listed on the following pages:
 
-- Go to the [pyth.network](https://pyth.network/markets/) page for the product: https://pyth.network/markets/?cluster=devnet#Crypto.BTC/USD. Ensure that the correct network is selected.
-- Find the "Price" box on the lower right section of the page, under the "Price Components" section. The base58-encoded price account key will be listed immediately under the "Price" heading. For BTC/USD in Devnet this is `HovQMDrbAgAYPCmHVSrezcSmkMtXSSUsLDFANExrZh2J`. This is the price feed ID.
+- [Devnet](https://pyth.network/developers/price-feeds#solana-devnet)
+- [Testnet](https://pyth.network/developers/price-feeds#solana-testnet)
+- [Mainnet-Beta](https://pyth.network/developers/price-feeds#solana-mainnet-beta)
