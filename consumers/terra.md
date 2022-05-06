@@ -12,4 +12,4 @@ The [pyth-sdk-terra crate](https://github.com/pyth-network/pyth-sdk-rs/tree/main
 An example contract can be found [here](https://github.com/pyth-network/pyth-sdk-rs/tree/main/examples/terra-contract).
 
 # Price Feeds
-The price feeds available on Terra Testnet are listed [here](https://github.com/pyth-network/pyth-sdk-rs/tree/main/pyth-sdk-terra#contracts-and-price-feeds).
+The price feeds available on Terra Testnet are listed [here](https://pyth.network/developers/price-feeds#terra-testnet).
