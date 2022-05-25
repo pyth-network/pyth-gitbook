@@ -44,6 +44,6 @@ All the price feeds available on Solana are listed on the [pyth.network website]
 
 The price feeds available on each network are listed on the following pages:
 
-- [Devnet](https://pyth.network/developers/price-feeds#solana-devnet)
-- [Testnet](https://pyth.network/developers/price-feeds#solana-testnet)
-- [Mainnet-Beta](https://pyth.network/developers/price-feeds#solana-mainnet-beta)
+- [Devnet](https://pyth.network/developers/price-feed-ids#solana-devnet)
+- [Testnet](https://pyth.network/developers/price-feed-ids#solana-testnet)
+- [Mainnet-Beta](https://pyth.network/developers/price-feed-ids#solana-mainnet-beta)
