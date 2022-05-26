@@ -16,7 +16,7 @@ The confidence interval is `1500 * 10^(-5) = $0.015`, and the price is `12276250
 
 # Current Price Availability
 
-Sometimes, Pyth will not be able to provide the current price for a product. This situation can happen for various reasons. For example, US equity markets only trade during certain hours, and outside those hours, it's not clear what an equity's price is. Alternatively, Solana congestion may prevent data publishers from being able to submit their prices. In these cases querying for the current price may fail. Our SDK's expose this failure condition to consumers in an idiomatic way: for example, our Rust SDK may return `None`, and our Solidity SDK may revert the transaction.
+Sometimes, Pyth will not be able to provide the current price for a product. This situation can happen for various reasons. For example, US equity markets only trade during certain hours, and outside those hours, it's not clear what an equity's price is. Alternatively, Solana congestion may prevent data publishers from being able to submit their prices. In these cases querying for the current price may fail. Our SDKs expose this failure condition to consumers in an idiomatic way: for example, our Rust SDK may return `None`, and our Solidity SDK may revert the transaction.
 
 Under the hood, this is implemented using the price feeds' `status` field. A status of `trading` indicates that the current price is available and permissable to use in downstream applications. If the status is not `trading`, the price feed's internal `price` variable can be any arbitrary value.
 

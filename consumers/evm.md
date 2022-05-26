@@ -2,25 +2,26 @@
 description: Consume Pyth Network prices in applications on EVM-based chains
 ---
 
+# Pyth on EVM
+
 On-chain programs can use our [Solidity SDK](https://github.com/pyth-network/pyth-sdk-solidity) to read Pyth prices.
 Please see the SDK documentation for more information on expected usage and example code.
-Contract addresses for  are listed here [https://github.com/pyth-network/pyth-sdk-solidity#solidity-target-chains]
 
-# Networks
+On EVM-based chains, Pyth users are responsible for updating Pyth prices as needed.
+The [pyth-evm-js](https://github.com/pyth-network/pyth-js/tree/main/pyth-evm-js) library makes it easy for users to craft the necessary price update transactions.
+The library documentation has a worked example showing how to write both the on-chain program and frontend code to use Pyth.
 
-Pyth Network price feeds are available on the following EVM chains:
+## Networks
 
-*
-*
-*
+Pyth is currently available on the following EVM-based chains:
 
-Pyth price feeds are currently live on Terra Testnet. The contract address can be found [here](https://github.com/pyth-network/pyth-sdk-rs/tree/main/pyth-sdk-terra#testnet).
+- Goerli (Ethereum testnet)
+- Ropsten (Ethereum testnet)
+- Fuji (Avalanche testnet)
+- Fantom testnet
+- Mumbai (Polygon testnet)
+- BNB testnet
 
-# SDK
+## Price Feed IDs
 
-
-# Example
-An example contract can be found [here](https://github.com/pyth-network/pyth-sdk-rs/tree/main/examples/terra-contract).
-
-# Price Feeds
-The price feeds available on Terra Testnet are listed [here](https://pyth.network/developers/price-feeds#terra-testnet).
+All EVM chains share the same price feed IDs, which are listed [here](https://pyth.network/developers/price-feed-ids/#binance-smart-chain-testnet)
