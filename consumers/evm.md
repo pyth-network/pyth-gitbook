@@ -15,12 +15,15 @@ The library documentation has a worked example showing how to write both the on-
 
 Pyth is currently available on the following EVM-based chains:
 
-- Goerli (Ethereum testnet)
-- Ropsten (Ethereum testnet)
-- Fuji (Avalanche testnet)
-- Fantom testnet
-- Mumbai (Polygon testnet)
-- BNB testnet
+| Network | Contract address |
+| -- | -- |
+| Goerli (Ethereum testnet) | |
+| Ropsten (Ethereum testnet) | |
+| Fuji (Avalanche testnet) | |
+| Fantom testnet | |
+| Mumbai (Polygon testnet) | |
+| BNB testnet | |
+| -- | -- |
 
 ## Price Feed IDs
 

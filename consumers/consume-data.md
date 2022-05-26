@@ -9,7 +9,7 @@ In order to save gas and reduce chain congestion, Pyth Network does not continuo
 Instead, Pyth prices are streamed via the Wormhole cross-chain messaging protocol.
 Users of Pyth are responsible for submitting the relevant Wormhole message to the on-chain Pyth program to update its price.
 We recommend that users incorporate this price update operation into the same transaction as the one consuming the price.
-We also provide a library for constructing and submitting these messages that users can incorporate into the frontend of their application.
+Frontend applications can use the [pyth-js](https://github.com/pyth-network/pyth-js) library to construct and submit these messages on behalf of their users.
 
 The full list of Pyth Network price feeds is listed on the [pyth.network website](https://pyth.network/markets/).
 To consume a particular price feed on-chain, you will need to look up its price feed ID.
