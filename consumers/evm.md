@@ -15,7 +15,6 @@ The library documentation has a worked example showing how to write both the on-
 
 Pyth is currently available on the following EVM-based chains:
 
-
 | Network | Contract address |
 | -- | -- |
 | Goerli (Ethereum testnet) | `0xff1a0f4744e8582DF1aE09D5611b887B6a12925C` |
@@ -28,3 +27,4 @@ Pyth is currently available on the following EVM-based chains:
 ## Price Feed IDs
 
 All EVM chains share the same price feed IDs, which are listed [here](https://pyth.network/developers/price-feed-ids/#binance-smart-chain-testnet)
+
