@@ -11,20 +11,16 @@ Prices will also be coming soon to Cosmos-based chains, and we are working to br
 
 ## Get Started
 
-If you would like to consume Pyth data in on- or off-chain applications, please select the relevant guide below:
+We have several different guides to get started with Pyth, depending on your use case:
 
-* [Solana](consumers/solana.md)
-* [EVM](consumers/evm.md)
-* [Off-chain](consumers/solana.md)
+{% content-ref url="consumers/consume-data.md" %}
+[consumers/consume-data.md](consumers/consume-data.md)
+{% endcontent-ref %}
 
-Publishers in the network may 
-
-Publish first-party data to Pyth:
 {% content-ref url="publishers/publish-data.md" %}
 [publishers/publish-data.md](publishers/publish-data.md)
 {% endcontent-ref %}
 
-Dig in to the details of Pyth's architecture and design:
 {% content-ref url="how-pyth-works/how-pyth-works.md" %}
 [how-pyth-works/how-pyth-works.md](how-pyth-works/how-pyth-works.md)
 {% endcontent-ref %}

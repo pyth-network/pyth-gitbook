@@ -5,7 +5,9 @@
 * [Consume Data](consumers/consume-data.md)
   * [Using Price Feeds](consumers/best-practices.md)
   * [Pyth on Solana](consumers/solana.md)
+  * [Pyth on EVM](consumers/evm.md)  
   * [Pyth on Terra](consumers/terra.md)
+  * [Pyth for Off-chain Apps](consumers/off-chain.md)
 
 * [Publish Data](publishers/publish-data.md)
   * [Understanding Publishing Slots](publishers/understanding-publishing-slots.md)
