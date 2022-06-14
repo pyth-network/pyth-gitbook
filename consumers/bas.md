@@ -29,10 +29,11 @@ To deploy the `Pyth2Wormhole` receiver contracts to your BAS chain:
     MIGRATIONS_DIR=./migrations/prod-receiver    
     PYTH_TO_WORMHOLE_CHAIN_ID=0x1
 
-# Choose this value based on your network type (testnet, mainnet)
-# Testnet Pyth PYTH_TO_WORMHOLE_EMITTER=0xf346195ac02f37d60d4db8ffa6ef74cb1be3550047543a4a9ee9acf4d78697b0
-# Mainnet Pyth
-# PYTH_TO_WORMHOLE_EMITTER=0x6bb14509a612f01fbbc4cffeebd4bbfb492a86df717ebe92eb6df432a3f00a25
+    # Choose this value based on your network type (testnet, mainnet)
+    # Testnet Pyth
+    # PYTH_TO_WORMHOLE_EMITTER=0xf346195ac02f37d60d4db8ffa6ef74cb1be3550047543a4a9ee9acf4d78697b0
+    # Mainnet Pyth
+    # PYTH_TO_WORMHOLE_EMITTER=0x6bb14509a612f01fbbc4cffeebd4bbfb492a86df717ebe92eb6df432a3f00a25
     ```
  - Now run the Truffle migrations inside [`pyth2wormhole/migrations/prod-receiver`](https://github.com/pyth-network/pyth2wormhole/tree/main/ethereum/migrations/prod-receiver) using the instructions [here](https://github.com/pyth-network/pyth2wormhole/blob/main/ethereum/Deploying.md). Make sure you are deploying using the right environment file and to the correct network.
  - You can verify the contracts have been deployed successfully using the example [here](https://github.com/pyth-network/pyth2wormhole/blob/main/ethereum/Deploying.md#testing).
