@@ -24,7 +24,7 @@ To deploy the `Pyth2Wormhole` receiver contracts to your BAS chain:
     ```
     
  - Prepare a `.env.prod.my_bas_testnet` environment file in the `pyth2wormhole/ethereum` directory. Please note if you test the deployment in the test net, you need use the Testnet pyth variable of PYTH_TO_WORMHOLE_EMITTER like below. 
-    ```
+    ```shell
     # The truffle network name of your BAS chain, defined in the configuration earlier
     MIGRATIONS_NETWORK=my_bas_testnet
     
@@ -32,10 +32,17 @@ To deploy the `Pyth2Wormhole` receiver contracts to your BAS chain:
     MIGRATIONS_DIR=./migrations/prod-receiver    
     PYTH_TO_WORMHOLE_CHAIN_ID=0x1
     
-    # Wormhole Core Migrations
+    # Choose this value based on your network type (testnet, mainnet)
+    # Testnet Pyth
+    PYTH_TO_WORMHOLE_EMITTER=0xf346195ac02f37d60d4db8ffa6ef74cb1be3550047543a4a9ee9acf4d78697b0
     INIT_SIGNERS=["0x13947Bd48b18E53fdAeEe77F3473391aC727C638"]
     INIT_GOV_CHAIN_ID=0x1
     INIT_GOV_CONTRACT=0x0000000000000000000000000000000000000000000000000000000000000004
+    # Mainnet Pyth
+    # PYTH_TO_WORMHOLE_EMITTER=0x6bb14509a612f01fbbc4cffeebd4bbfb492a86df717ebe92eb6df432a3f00a25
+    # INIT_SIGNERS=["0x58CC3AE5C097b213cE3c81979e1B9f9570746AA5"]
+    # INIT_GOV_CHAIN_ID=0x1
+    # INIT_GOV_CONTRACT=0x0000000000000000000000000000000000000000000000000000000000000004
     
     # Choose this value based on your network type (testnet, mainnet)
     # Testnet Pyth
@@ -46,7 +53,7 @@ To deploy the `Pyth2Wormhole` receiver contracts to your BAS chain:
     
  - Now, under the pyth2wormhole/ethereum directory, install dependencies.
 
-    ```shel
+    ```shell
     npm install
     ```
 
