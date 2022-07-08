@@ -1,5 +1,7 @@
 # Pyth Dune Dashboard
 
+*Note: screenshots of Dune visualizations are taken at 8 July 2022, ~07:00:00 GMT*
+
 Find the full Dune Dashboard [here](https://dune.com/cctdaniel/pyth-oracle).
 
 ---
