@@ -25,6 +25,6 @@ We have several different guides to get started with Pyth, depending on your use
 [how-pyth-works/how-pyth-works.md](how-pyth-works/how-pyth-works.md)
 {% endcontent-ref %}
 
-{% content-ref url="metrics/dune-dashboard.md" %}
-[metrics/dune-dashboard.md](metrics/dune-dashboard.md)
+{% content-ref url="metrics/metrics.md" %}
+[metrics/metrics.md](metrics/metrics.md)
 {% endcontent-ref %}
