@@ -14,6 +14,6 @@ If you have any questions or suggestions about the Pyth metrics made available b
 [publisher-metrics.md](publisher-metrics.md)
 {% endcontent-ref %}
 
-{% content-ref url="kpi.md" %}
-[kpi.md](kpi.md)
+{% content-ref url="kpi/kpi.md" %}
+[kpi/kpi.md](kpi/kpi.md)
 {% endcontent-ref %}

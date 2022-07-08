@@ -1,1 +1,0 @@
-# Pyth Network KPI
