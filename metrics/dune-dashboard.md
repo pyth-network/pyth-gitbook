@@ -18,13 +18,13 @@ All price feed IDs can be found [here](https://pyth.network/developers/price-fee
 
 **Past 1W Price Accounts Count — Pyth Oracle Price Accounts Count (1W)**
 
-![Past 1W Price Accounts Count](../.gitbook/assets/dune/past_1w_price_accounts_count.png)
+![](../.gitbook/assets/dune/past_1w_price_accounts_count.png)
 
 This data point tracks how many Pyth price feeds have received at least one publisher price update in the past week. 
 
 **Past 1W Price Updates — Pyth Oracle Price Accounts (1W)**
 
-![Past 1W Price Updates](../.gitbook/assets/dune/past_1w_price_updates.png)
+![](../.gitbook/assets/dune/past_1w_price_updates.png)
 
 This table returns all Pyth price accounts that received at least one publisher price update in the past week, the number of active publishers that contributed to it, as well as the total count of price updates provided by all publishers.
 
@@ -32,13 +32,13 @@ This table returns all Pyth price accounts that received at least one publisher 
 
 **Past 1W Price Updates By Price Feeds — Pyth Oracle Price Accounts (1W)**
 
-![Past 1W Price Updates By Price Feeds](../.gitbook/assets/dune/past_1w_price_updates_by_price_feeds.png)
+![](../.gitbook/assets/dune/past_1w_price_updates_by_price_feeds.png)
 
 This pie chart displays how many individual price updates from publishers a price feed has received in the past week. 
 
 **Past 1W Price Updates By Publishers Count — Pyth Oracle Price Accounts (1W)**
 
-![Past 1W Price Updates By Publishers Count](../.gitbook/assets/dune/past_1w_price_updates_by_publishers_count.png)
+![](../.gitbook/assets/dune/past_1w_price_updates_by_publishers_count.png)
 
 This pie chart displays how many distinct publishers have been active on each price feed in the past week. 
 
@@ -46,20 +46,20 @@ This pie chart displays how many distinct publishers have been active on each pr
 
 EMBEDDED GRAPH / OR PICTURE
 
-![Past 24H Publisher Price Updates Ix Count](../.gitbook/assets/dune/past_24h_publisher_price_updates_ix_count.png)
+![](../.gitbook/assets/dune/past_24h_publisher_price_updates_ix_count.png)
 
 
 This data point tracks the total number of instructions that were called by the Pyth network publishers over the last 24 hours.
 
 **Past 1M Publisher Price Updates Ix Count — Pyth Oracle Daily Publisher Price Updates Ix Count (1M)**
 
-![Past 1M Publisher Price Updates Ix Count](../.gitbook/assets/dune/past_1m_publisher_price_updates_ix_count.png)
+![](../.gitbook/assets/dune/past_1m_publisher_price_updates_ix_count.png)
 
 This bar chart displays the total number of instructions that were called by the Pyth network publishers over the last month.
 
 **Past 24H Publisher Price Updates Tx Count — Pyth Oracle Daily Publisher Price Updates Tx Count**
 
-![Past 24H Publisher Price Updates Tx Count](../.gitbook/assets/dune/past_24h_publisher_price_updates_tx_count.png)
+![](../.gitbook/assets/dune/past_24h_publisher_price_updates_tx_count.png)
 
 This data point tracks the total number of Solana transactions performed by the Pyth network publishers over the last 24 hours.
 
@@ -67,19 +67,19 @@ Publishers submit price updates to the Pyth on-chain program by submitting Solan
 
 **Past 1M Publisher Price Updates Tx Count — Pyth Oracle Daily Publisher Price Updates Tx Count (1M)**
 
-![Past 1M Publisher Price Updates Tx Count](../.gitbook/assets/dune/past_1m_publisher_price_updates_tx_count.png)
+![](../.gitbook/assets/dune/past_1m_publisher_price_updates_tx_count.png)
 
 This bar chart displays the total number of Solana transactions performed by the Pyth network publishers over the last month.
 
 **Past 24H Most Used Price Feed — Pyth Oracle Daily Ix Count By Price Feeds**
 
-![Past 24H Most Used Price Feed](../.gitbook/assets/dune/past_24h_most_used_price_feed.png)
+![](../.gitbook/assets/dune/past_24h_most_used_price_feed.png)
 
 This data point returns the price feed that received the most instructions coming from the Pyth network users.
 
 **Past 1M Most Used Price Feeds — Pyth Oracle Daily Ix Count By Price Feeds (1M)**
 
-![Past 1M Most Used Price Feeds](../.gitbook/assets/dune/past_1m_most_used_price_feeds.png)
+![](../.gitbook/assets/dune/past_1m_most_used_price_feeds.png)
 
 This pie chart displays both the nominal usage of each Pyth price feed as well as its share within the whole set of Pyth price feeds.
 
@@ -91,13 +91,13 @@ The full list of publishers can be found [here](https://pyth.network/publishers/
 
 **Past 1W Active Publishers Count — Pyth Oracle Active Publishers Count (1W)**
 
-![Past 1W Active Publishers Count](../.gitbook/assets/dune/past_1w_active_publishers_count.png)
+![](../.gitbook/assets/dune/past_1w_active_publishers_count.png)
 
 This data point tracks how many distinct Pyth network publishers have submitted at least one price update in the last week.
 
 **Past 1W Active Publishers — Pyth Oracle Active Publishers (1W)**
 
-![Past 1W Active Publishers](../.gitbook/assets/dune/past_1w_active_publishers.png)
+![](../.gitbook/assets/dune/past_1w_active_publishers.png)
 
 This table returns each publisher's activity:
 1. how many price feeds they have submitted a price update to and
@@ -105,13 +105,13 @@ This table returns each publisher's activity:
 
 **Past 1W Active Publishers By Price Accounts Count — Pyth Oracle Active Publishers (1W)**
 
-![Past 1W Active Publishers By Price Accounts Count](../.gitbook/assets/dune/past_1w_active_publishers_by_price_accounts_count.png)
+![](../.gitbook/assets/dune/past_1w_active_publishers_by_price_accounts_count.png)
 
 This pie chart displays the number of price accounts each publisher provides price updates to for the past week.
 
 **Past 1W Active Publishers By Price Updates Count — Pyth Oracle Active Publishers (1W)**
 
-![Past 1W Active Publishers By Price Updates Count](../.gitbook/assets/dune/past_1w_active_publishers_by_price_updates_count.png)
+![](../.gitbook/assets/dune/past_1w_active_publishers_by_price_updates_count.png)
 
 This pie chart displays the share of each publisher total price updates provided to the Pyth network price feeds for the past week.
 
@@ -119,13 +119,13 @@ This pie chart displays the share of each publisher total price updates provided
 
 **Past 24H Fees — Pyth Oracle Daily Fees In SOL**
 
-![Past 24H Fees](../.gitbook/assets/dune/past_24h_fees.png)
+![](../.gitbook/assets/dune/past_24h_fees.png)
 
 This data point tracks the last 24 hours SOL consumption from all the publishers providing data to the network. 
 
 **Past 1M Fees — Pyth Oracle Daily Fees In SOL (1M)**
 
-![Past 1M Fees](../.gitbook/assets/dune/past_1m_fees.png)
+![](../.gitbook/assets/dune/past_1m_fees.png)
 
 This bar chart displays the last 30 days’ daily SOL consumption from all the publishers providing data to the network.  
 
@@ -133,7 +133,7 @@ This bar chart displays the last 30 days’ daily SOL consumption from all the p
 
 **Past 1M Fees By Publisher — Pyth Oracle Daily Fees In SOL By Publisher (1M)**
 
-![Past 1M Fees By Publisher](../.gitbook/assets/dune/past_1m_fees_by_publisher.png)
+![](../.gitbook/assets/dune/past_1m_fees_by_publisher.png)
 
 This stacked area chart displays the individual daily SOL consumption of each publisher over the last 30 days.
 
@@ -145,7 +145,7 @@ Who's #PoweredByPyth? Find the known integration on our [website](https://pyth.n
 
 **Past 24H Daily Active Consumers — Pyth Oracle Daily Active Consumers**
 
-![Past 24H Daily Active Consumers](../.gitbook/assets/dune/past_24h_daily_active_consumers.png)
+![](../.gitbook/assets/dune/past_24h_daily_active_consumers.png)
 
 This data point returns how many distinct on-chain programs have interacted and called any of the Pyth price feeds in the last 24 hours.
 
@@ -153,13 +153,13 @@ Off-chain integration of the Pyth price feeds are not included in the data.
 
  **Past 1M Daily Active Consumers — Pyth Oracle Daily Active Consumers (1M)**
 
-![Past 1M Daily Active Consumers](../.gitbook/assets/dune/past_1m_daily_active_consumers.png)
+![](../.gitbook/assets/dune/past_1m_daily_active_consumers.png)
 
 This line chart displays the evolution of how many distinct on-chain programs have interacted and called any of the Pyth price feeds in the last month.
 
 **Past 1M Consumers Ix Count — Pyth Oracle Daily Consumer Ix Count By Program (1M)**
 
-![Past 1M Consumers Ix Count](../.gitbook/assets/dune/past_1m_consumers_ix_count.png)
+![](../.gitbook/assets/dune/past_1m_consumers_ix_count.png)
 
 This stacked area chart displays how many instructions including the Pyth smart contract have been made by on-chain programs in the last month.
 
@@ -169,24 +169,24 @@ Users are defined as addresses that have signed transactions interacting with pr
 
 **Past 24H Daily Active Users — Pyth Oracle Daily Active Users**
 
-![Past 24H Daily Active Users](../.gitbook/assets/dune/past_24h_daily_active_users.png)
+![](../.gitbook/assets/dune/past_24h_daily_active_users.png)
 
 This data point returns how many distinct wallets/users have interacted with programs that compose with the Pyth program in the last 24 hours.
 
 **Past 1M Daily Active Users — Pyth Oracle Daily Active Users (1M)**
 
-![Past 1M Daily Active Users](../.gitbook/assets/dune/past_1m_daily_active_users.png)
+![](../.gitbook/assets/dune/past_1m_daily_active_users.png)
 
 This line chart displays how many distinct wallets/users have interacted with programs that compose with the Pyth program over the last month.
 
 **Past 24H Daily User Interactions — Pyth Oracle Daily Active Users**
 
-![Past 24H Daily User Interactions](../.gitbook/assets/dune/past_24h_daily_user_interactions.png)
+![](../.gitbook/assets/dune/past_24h_daily_user_interactions.png)
 
 This data point returns the total amount of interactions wallets/users have performed with programs that compose with Pyth in the last 24 hours.
 
 **Past 1M Daily User Interactions — Pyth Oracle Daily Active Users (1M)**
 
-![Past 1M Daily User Interactions](../.gitbook/assets/dune/past_1m_daily_user_interactions.png)
+![](../.gitbook/assets/dune/past_1m_daily_user_interactions.png)
 
 This line chart displays the total amount of interactions wallets/users have performed with programs that compose with Pyth over the last month.
