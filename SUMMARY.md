@@ -26,3 +26,8 @@
   * [Network Interactions](how-pyth-works/network-interactions.md)
   * [Claims Process](how-pyth-works/claims-process.md)
   * [Participant Incentives](how-pyth-works/participant-incentives.md)
+
+* [Pyth Metrics](metrics/metrics.md)
+  * [Pyth Dune Dashboard](metrics/dune-dashboard.md)
+  * [Pyth Publisher Metrics](metrics/publisher-metrics.md)
+  * [Pyth Network KPI](metrics/kpi/kpi.md)
