@@ -24,7 +24,3 @@ We have several different guides to get started with Pyth, depending on your use
 {% content-ref url="how-pyth-works/how-pyth-works.md" %}
 [how-pyth-works/how-pyth-works.md](how-pyth-works/how-pyth-works.md)
 {% endcontent-ref %}
-
-{% content-ref url="metrics/metrics.md" %}
-[metrics/metrics.md](metrics/metrics.md)
-{% endcontent-ref %}

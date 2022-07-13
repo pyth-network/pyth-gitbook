@@ -33,31 +33,3 @@ You can check Pyth’s adoption rate by looking at NPM and Rust downloads.
 NPM (“Node Package Manager”) is the default package manager for JavaScript’s runtime Node.js, which is needed whenever you want to integrate Pyth on your website frontend.
 
 A (Rust) crate is a binary or library. The crate root is a source file that the Rust compiler starts from and makes up the root module of your crate. This enables you to call on-chain data and make your protocol works.
-
-{% content-ref url="june-22.md" %}
-[june-22.md](june-22.md)
-{% endcontent-ref %}
-
-{% content-ref url="may-22.md" %}
-[may-22.md](may-22.md)
-{% endcontent-ref %}
-
-{% content-ref url="april-22.md" %}
-[april-22.md](april-22.md)
-{% endcontent-ref %}
-
-{% content-ref url="march-22.md" %}
-[march-22.md](march-22.md)
-{% endcontent-ref %}
-
-{% content-ref url="february-22.md" %}
-[february-22.md](february-22.md)
-{% endcontent-ref %}
-
-{% content-ref url="january-22.md" %}
-[january-22.md](january-22.md)
-{% endcontent-ref %}
-
-{% content-ref url="december-21.md" %}
-[december-21.md](december-21.md)
-{% endcontent-ref %}
