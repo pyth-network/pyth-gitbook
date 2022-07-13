@@ -29,6 +29,5 @@
 
 * [Pyth Metrics](metrics/metrics.md)
   * [Pyth Dune Dashboard](metrics/dune-dashboard.md)
-  * [Pyth Publishers Metrics](metrics/publisher-metrics.md)
+  * [Pyth Publisher Metrics](metrics/publisher-metrics.md)
   * [Pyth Network KPI](metrics/kpi/kpi.md)
-  
