@@ -6,11 +6,15 @@
 
 **Data Publishers**
 
-![1_ndCpO3TUmkunvMoaiWen-Q (1).png](../../.gitbook/assets/kpi/february-22/1_ndCpO3TUmkunvMoaiWen-Q_(1).png)
+![data_pubs.png](../../.gitbook/assets/kpi/february-22/Data_Providers.png)
 
 **Price Feeds**
 
+![price_feeds.png](../../.gitbook/assets/kpi/february-22/Price_Feeds_.png)
+
 **#PoweredByPyth Applications**
+
+![integrated_dapps.png](../../.gitbook/assets/kpi/february-22/dApp_Integration.png)
 
 **Total Value Secured**
 

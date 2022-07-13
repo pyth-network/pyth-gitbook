@@ -2,13 +2,19 @@
 
 **Recap**
 
-![End of Month _ March-22 v3 (2).jpg](../../.gitbook/assets/kpi/march-22/End_of_Month___March-22_v3_(2).jpg)
+![EOMRecap.png](../../.gitbook/assets/kpi/march-22/End_of_Month___March-22_v3.jpg)
 
 **Data Publishers**
 
+![pubs.png](../../.gitbook/assets/kpi/march-22/DataProvidersOnboarded.png)
+
 **Price Feeds**
 
+![pricefeeds.png](../../.gitbook/assets/kpi/march-22/PriceFeedsSep21Mar2.png)
+
 **#PoweredByPyth Applications**
+
+![dappsintegration.png](../../.gitbook/assets/kpi/march-22/dAppIntegration.png)
 
 **Total Value Secured**
 

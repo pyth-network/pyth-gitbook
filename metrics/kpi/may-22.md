@@ -6,13 +6,23 @@
 
 **Data Publishers**
 
+![publishers.png](../../.gitbook/assets/kpi/may-22/Data.png)
+
 **Price Feeds**
+
+![pricefeeds.png](../../.gitbook/assets/kpi/may-22/PriceFeeds.png)
 
 **#PoweredByPyth Applications**
 
+![dapps.png](../../.gitbook/assets/kpi/may-22/dAppIntegration.png)
+
 **Total Value Secured**
 
+![TVS.png](../../.gitbook/assets/kpi/may-22/MaydAppsTVS.png)
+
 **Total Trading Volume**
+
+![Trading.png](../../.gitbook/assets/kpi/may-22/MayTradingVolume.png)
 
 **Client Downloads**
 

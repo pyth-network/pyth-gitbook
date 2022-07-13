@@ -6,11 +6,15 @@
 
 **Data Publishers**
 
-![1_9B3ts6xzXBxbr8FVlpBXwQ.png](../../.gitbook/assets/kpi/april-22/1_9B3ts6xzXBxbr8FVlpBXwQ.png)
+![data_providers_onboarded.png](../../.gitbook/assets/kpi/april-22/Data_Providers_Onboarded.png)
 
 **Price Feeds**
 
+![Price_feeds.png](../../.gitbook/assets/kpi/april-22/Price_Feeds.png)
+
 **#PoweredByPyth Applications**
+
+![dApps_integrations.png](../../.gitbook/assets/kpi/april-22/dAp_Integration.png)
 
 **Total Value Secured**
 
@@ -18,7 +22,7 @@
 
 **Total Trading Volume**
 
-![1_4H-wLrYNIKtEEY2kNX_DYg (2).png](../../.gitbook/assets/kpi/april-22/1_4H-wLrYNIKtEEY2kNX_DYg_(2).png)
+![trading_volume_supported.png](../../.gitbook/assets/kpi/april-22/dApps_Trading.png)
 
 **Client Downloads**
 

@@ -2,19 +2,19 @@
 
 **Recap**
 
-TO BE DONE
+![EOM_Recap.png](../../.gitbook/assets/kpi/january-22/EndofMonth.jpg)
 
 **Data Publishers**
 
-TO BE DONE
+![Data_Pubs_Onboarded.png](../../.gitbook/assets/kpi/january-22/DataProvidersOnboarded.png)
 
 **Price Feeds**
 
-TO BE DONE
+![PriceFeeds.png](../../.gitbook/assets/kpi/january-22/PriceFeedsSep.png)
 
 **#PoweredByPyth Applications**
 
-TO BE DONE
+![Integrations.png](../../.gitbook/assets/kpi/january-22/dApp_Integration_Jun.png)
 
 **Total Value Secured**
 
