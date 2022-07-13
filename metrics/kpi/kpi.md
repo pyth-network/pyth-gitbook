@@ -34,30 +34,30 @@ NPM (“Node Package Manager”) is the default package manager for JavaScript�
 
 A (Rust) crate is a binary or library. The crate root is a source file that the Rust compiler starts from and makes up the root module of your crate. This enables you to call on-chain data and make your protocol works.
 
-{% content-ref url="kpi/june-22.md" %}
-[kpi/june-22.md](kpi/june-22.md)
+{% content-ref url="june-22.md" %}
+[june-22.md](june-22.md)
 {% endcontent-ref %}
 
-{% content-ref url="kpi/may-22.md" %}
-[kpi/may-22.md](kpi/may-22.md)
+{% content-ref url="may-22.md" %}
+[may-22.md](may-22.md)
 {% endcontent-ref %}
 
-{% content-ref url="kpi/april-22.md" %}
-[kpi/april-22.md](kpi/april-22.md)
+{% content-ref url="april-22.md" %}
+[april-22.md](april-22.md)
 {% endcontent-ref %}
 
-{% content-ref url="kpi/march-22.md" %}
-[kpi/march-22.md](kpi/march-22.md)
+{% content-ref url="march-22.md" %}
+[march-22.md](march-22.md)
 {% endcontent-ref %}
 
-{% content-ref url="kpi/february-22.md" %}
-[kpi/february-22.md](kpi/february-22.md)
+{% content-ref url="february-22.md" %}
+[february-22.md](february-22.md)
 {% endcontent-ref %}
 
-{% content-ref url="kpi/january-22.md" %}
-[kpi/january-22.md](kpi/january-22.md)
+{% content-ref url="january-22.md" %}
+[january-22.md](january-22.md)
 {% endcontent-ref %}
 
-{% content-ref url="kpi/december-21.md" %}
-[kpi/december-22.md](kpi/december-22.md)
+{% content-ref url="december-21.md" %}
+[december-21.md](december-21.md)
 {% endcontent-ref %}
