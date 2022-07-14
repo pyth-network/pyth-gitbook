@@ -30,7 +30,7 @@ The **calibration graph** shows how closely the publisher’s prices and confi
 
 **Accessing the Metrics**
 
-You can start at the [Pyth Markets page](https://pyth.network/price-feeds/), which will list every market symbol (“price feed”). Clicking on any price feed will bring you to the corresponding market page. We will use the [SOL/USD price page](https://pyth.network/price-feeds/#Crypto.SOL/USD) as our example.
+You can start at the [Pyth Price Feeds page](https://pyth.network/price-feeds/), which will list every market symbol (“price feed”). Clicking on any price feed will bring you to the corresponding market page. We will use the [SOL/USD price page](https://pyth.network/price-feeds/#Crypto.SOL/USD) as our example.
 
 Each price feed page has a list of price components (representing each publisher by their publisher keys). Each component will link to the corresponding Publisher Metrics page.
 
@@ -44,6 +44,6 @@ To open the metrics for another publisher (of that same price feed), you can cli
 
 ![](../.gitbook/assets/publisher-metrics/1_E52zxcRWkTtUAIAggbU-6Q.jpeg)
 
-If you want to review the Publisher Metrics of another price feed (e.g. ETH/USD), you will need to access the relevant asset. As mentioned, the [Pyth Markets page](https://www.google.com/url?q=https://pyth.network/markets/&sa=D&source=editors&ust=1644929491591273&usg=AOvVaw3d8EHQfqVdf07vdK6uB0Xm) has the full list of price feeds.
+If you want to review the Publisher Metrics of another price feed (e.g. ETH/USD), you will need to access the relevant asset. As mentioned, the [Pyth Price Feeds page](https://pyth.network/price-feeds/) has the full list of price feeds.
 
 For more details on the Pyth Publishers Metrics, please visit our [blog post](https://pythnetwork.medium.com/introducing-pyth-publishers-metrics-3b20de6f1bf3).
