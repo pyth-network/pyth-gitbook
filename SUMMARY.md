@@ -7,7 +7,6 @@
   * [Pyth on Solana](consumers/solana.md)
   * [Pyth on EVM-Based Chains](consumers/evm.md)  
   * [Pyth on BAS Chains](consumers/bas.md) 
-  * [Pyth on Terra](consumers/terra.md)
   * [Pyth for Off-chain Apps](consumers/off-chain.md)
 
 * [Publish Data](publishers/publish-data.md)
