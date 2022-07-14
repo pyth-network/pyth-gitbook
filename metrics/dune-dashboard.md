@@ -44,10 +44,7 @@ This pie chart displays how many distinct publishers have been active on each pr
 
 **Past 24H Publisher Price Updates Ix Count — Pyth Oracle Daily Publisher Price Updates Ix Count**
 
-EMBEDDED GRAPH / OR PICTURE
-
 ![](../.gitbook/assets/dune/past_24h_publisher_price_updates_ix_count.png)
-
 
 This data point tracks the total number of instructions that were called by the Pyth network publishers over the last 24 hours.
 
