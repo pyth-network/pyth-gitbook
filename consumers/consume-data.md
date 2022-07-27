@@ -29,8 +29,8 @@ We recommend reading the [_Using Price Feeds_](best-practices.md) guide to ensur
 [evm.md](evm.md)
 {% endcontent-ref %}
 
-{% content-ref url="terra.md" %}
-[terra.md](terra.md)
+{% content-ref url="bas.md" %}
+[bas.md](bas.md)
 {% endcontent-ref %}
 
 {% content-ref url="off-chain.md" %}
