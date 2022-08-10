@@ -1,6 +1,6 @@
 # Pyth Network KPI - July 2022
 
-**End of Month Recap**
+**Recap**
 
 ![End of Month _ July-22 v4](https://user-images.githubusercontent.com/110480440/182423913-8a3314a2-e7df-401c-9491-f1da1b080a8c.jpg)
 
