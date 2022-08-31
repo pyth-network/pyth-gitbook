@@ -30,7 +30,7 @@ In this approach, protocols will update the prices in the same transaction that 
 
 [Pyth EVM price pusher](https://github.com/pyth-network/pyth-js/tree/main/pyth-evm-price-pusher)
 is a service that regularly pushes price updates to the on-chain Pyth contract. Protocols can run this service to push regular updates to the on-chain
-Pyth price based on their desired time. Protocols can configure the frequency and conditions of pushing price updates to the EVM network as desired. This service is useful for protocols that already depend on regular push updates and want to facilitate their migration to Pyth. Please see the price pusher documentation for more information on its usage.
+Pyth price based on their desired time. Protocols can configure the frequency and conditions of pushing price updates to the EVM network based on their needs. This service is useful for protocols that already depend on regular push updates and want to facilitate their migration to Pyth. Please see the price pusher documentation for more information on its usage.
 
 ## How to use Pyth on-chain
 
