@@ -43,7 +43,7 @@ Pyth is currently available on the following EVM-based chains:
 
 ### Mainnet
 
-### Mainnet
+Mainnet contracts are still being tested. Please do not rely on them in production. 
 
 | Network   | Contract address                             |
 | --------- | -------------------------------------------- |
@@ -51,6 +51,10 @@ Pyth is currently available on the following EVM-based chains:
 | Fantom    | `0xff1a0f4744e8582DF1aE09D5611b887B6a12925C` |
 | Polygon   | `0xff1a0f4744e8582DF1aE09D5611b887B6a12925C` |
 | BNB       | `0x4D7E825f80bDf85e913E0DD2A2D54927e9dE1594` |
+| Ethereum  | `0x4305FB66699C3B2702D4d05CF36551390A4c69C6` |
+| Optimism  | `0xff1a0f4744e8582DF1aE09D5611b887B6a12925C` |
+| Aurora    | `0xF89C7b475821EC3fDC2dC8099032c05c6c0c9AB9` |
+| Arbitrum  | `0xff1a0f4744e8582DF1aE09D5611b887B6a12925C` |
 
 
 
@@ -69,4 +73,4 @@ Pyth is currently available on the following EVM-based chains:
 
 ## Price Feed IDs
 
-All EVM chains share the same price feed IDs, which are listed [here](https://pyth.network/developers/price-feed-ids/#pyth-cross-chain-testnet)
+All EVM chains share the same price feed IDs, which are listed [here](https://pyth.network/developers/price-feed-ids)
