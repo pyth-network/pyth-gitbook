@@ -30,6 +30,8 @@
   * [Pyth Dune Dashboard](metrics/dune-dashboard.md)
   * [Pyth Publisher Metrics](metrics/publisher-metrics.md)
   * [Pyth Network KPI](metrics/kpi/kpi.md)
+    * [August 2022](C:\Users\berna\Documents\GitHub\pyth-gitbook\metrics\kpi\august-22.md)
+    * [July 2022](C:\Users\berna\Documents\GitHub\pyth-gitbook\metrics\kpi\july-22.md)
     * [June 2022](metrics/kpi/june-22.md)
     * [May 2022](metrics/kpi/may-22.md)
     * [April 2022](metrics/kpi/april-22.md)
