@@ -2,6 +2,8 @@
 
 **Recap**
 
+
+
 ![](../../.gitbook/assets/kpi/august-22/End of Month _ August-22.jpg)
 
 **Data Publishers**
