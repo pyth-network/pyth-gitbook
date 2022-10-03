@@ -1,5 +1,5 @@
 ---
-description: Consume Pyth Network prices in applications on EVM-based chains
+description: Consume Pyth Network prices in EVM applications
 ---
 
 # Pyth on EVM
