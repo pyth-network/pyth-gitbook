@@ -6,7 +6,7 @@ description: Consume Pyth Network prices in applications on EVM-based chains
 
 ## How Pyth Works on EVM Chains
 
-Pyth prices are published on Pythnet and relayed to EVM chains using the [Wormhole Network](https://wormholenetwork.com/) as a cross-chain message passing bridge. The Wormhole Network observes when Pyth prices on Pythnet have changed and publishes an off-chain signed message attesting to this fact. This process is explained in more detail [here](https://docs.wormholenetwork.com/wormhole/).
+Pyth prices are published on Pythnet and relayed to EVM chains using the [Wormhole Network](https://wormholenetwork.com/) as a cross-chain message passing bridge. The Wormhole Network observes when Pyth prices on Pythnet have changed and publishes an off-chain signed message attesting to this fact. This process is explained in more detail [here](https://docs.wormhole.com/wormhole/).
 
 This signed price update message can then be submitted to the Pyth contract. The contract verifies the Wormhole message and updates the on-chain Pyth price to the new price.
 
