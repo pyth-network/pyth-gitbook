@@ -20,7 +20,7 @@ When a consumer needs to use the value of a price, they should first submit the 
 
 This approach has many advantages for Pyth and its consuming protocols:
 
-- Gas efficient: Prices will get updated only when they are needed. So no gas will be used to update a price that no one won't use.
+- Gas efficient: Prices will get updated only when they are needed. So no gas will be used to update a price that no one will use.
 - Access to low-latency prices: This approach allows protocols to use low-latency prices without sacrificing the gas. 
 - More price feeds: By doing so, Pyth can publish thousands of price feeds without paying extra costs to submit them on-chain.
 
