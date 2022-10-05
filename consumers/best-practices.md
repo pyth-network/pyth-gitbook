@@ -1,10 +1,22 @@
 ---
-description: How to use Pyth's Price Feeds.
+description: Introduction to Price Feeds
 ---
 
-# Fixed-Point Representation
+This page provides some technical details about Pyth price feeds that are necessary to use them safely and correctly.
+Please read this page before using Pyth price feeds in your application.
 
-Price feeds present the data in a fixed-point format. The same exponent is used for both the price and confidence interval. The integer representation of these values can be computed by multiplying by `10^exponent`. As an example, imagine Pyth reported the following values for AAPL/USD:
+# Price Feed IDs
+
+Each Pyth Network price feed is referred to via a unique id.
+However, the ids may be represented in different formats (e.g., hex or base58) depending on the blockchain.
+Price feeds also have different ids in mainnets than testnets or devnets.
+The full list of price feeds is listed on the [pyth.network website](https://pyth.network/price-feeds/).
+The [price feed ids page](https://pyth.network/developers/price-feed-ids) lists the id of each available price feed on every chain where they are available.
+To use a price feed on-chain, look up its id using these pages, then store the feed id in your program to use for price feed queries.
+
+# Fixed-Point Numeric Representation
+
+Price feeds represent numbers in a fixed-point format. The same exponent is used for both the price and confidence interval. The integer representation of these values can be computed by multiplying by `10^exponent`. As an example, imagine Pyth reported the following values for AAPL/USD:
 
 | Field      | Value    |
 | ---------- | -------- |
@@ -12,15 +24,22 @@ Price feeds present the data in a fixed-point format. The same exponent is used 
 | `conf`     | 1500     |
 | `price`    | 12276250 |
 
-The confidence interval is `1500 * 10^(-5) = $0.015`, and the price is `12276250 * 10^(-5) = $122.7625 +- 0.015`.
+The confidence interval is `1500 * 10^(-5) = $0.015`, and the price is `12276250 * 10^(-5) = $122.7625`.
 
-# Current Price Availability
+# Price Availability
 
-Sometimes, Pyth will not be able to provide the current price for a product. This situation can happen for various reasons. For example, US equity markets only trade during certain hours, and outside those hours, it's not clear what an equity's price is. Alternatively, Solana congestion may prevent data publishers from being able to submit their prices. In these cases querying for the current price may fail. Our SDKs expose this failure condition to consumers in an idiomatic way: for example, our Rust SDK may return `None`, and our Solidity SDK may revert the transaction.
+Sometimes, Pyth will not be able to provide a current price for a product.
+This situation can happen for various reasons.
+For example, US equity markets only trade during certain hours, and outside those hours, it's not clear what an equity's price is.
+Alternatively, a network outage (at the internet level, blockchain level, or at multiple data providers) may prevent the protocol from producing new price updates.
+(Such outages are unlikely, but integrators should still be prepared for the possibility.)
+In such cases, Pyth may return a stale price for the product.
 
-Under the hood, this is implemented using the price feeds' `status` field. A status of `trading` indicates that the current price is available and permissable to use in downstream applications. If the status is not `trading`, the price feed's internal `price` variable can be any arbitrary value.
-
-If the current price is unavailable, consumers can opt to use the most recent previous price update. Pyth's price feeds expose this previous price, its confidence interval and the time it was published. Consumers should check this timestamp is recent enough before using this price, as it could be from arbitrarily far in the past.
+Integrators should be careful to avoid accidentally using a stale price.
+The Pyth SDKs guard against this failure mode by incorporating a staleness check by default.
+Querying the current price will fail if too much time has elapsed since the last update.
+The SDKs expose this failure condition in an idiomatic way: for example, the Rust SDK may return `None`, and our Solidity SDK may revert the transaction.
+The SDK provides a sane default for the staleness threshold, but users may configure it to suit their use case.
 
 # Confidence Intervals
 

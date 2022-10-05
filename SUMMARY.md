@@ -2,10 +2,10 @@
 
 * [Introduction](README.md)
 
-* [Consume Data](consumers/consume-data.md)
+* [Consume Price Feeds](consumers/consume-data.md)
   * [Using Price Feeds](consumers/best-practices.md)
   * [Pyth on Solana](consumers/solana.md)
-  * [Pyth on EVM-Based Chains](consumers/evm.md)  
+  * [Pyth on EVM](consumers/evm.md)
   * [Pyth on Aptos](consumers/aptos.md)  
   * [Pyth on BAS Chains](consumers/bas.md) 
   * [Pyth for Off-chain Apps](consumers/off-chain.md)
