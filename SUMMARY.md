@@ -16,16 +16,17 @@
   * [Confidence Interval and Crypto Exchange Fees](publishers/confidence-interval-and-crypto-exchange-fees.md)
 
 * [How Pyth Works](how-pyth-works/how-pyth-works.md)
-  * [Design Overview](how-pyth-works/design-overview.md)
   * [Solana Account Structure](how-pyth-works/account-structure.md)
   * [Product Metadata](how-pyth-works/product-metadata.md)
   * [Price Aggregation](how-pyth-works/price-aggregation.md)
   * [EMA Price Aggregation](how-pyth-works/ema-price-aggregation.md)
   * [Accounts](https://pyth.network/developers/accounts/)
-  * [Network Participants](how-pyth-works/network-participants.md)
-  * [Network Interactions](how-pyth-works/network-interactions.md)
-  * [Claims Process](how-pyth-works/claims-process.md)
-  * [Participant Incentives](how-pyth-works/participant-incentives.md)
+
+* [Whitepaper](whitepaper/whitepaper.md)
+  * [Network Participants](whitepaper/network-participants.md)
+  * [Network Interactions](whitepaper/network-interactions.md)
+  * [Claims Process](whitepaper/claims-process.md)
+  * [Participant Incentives](whitepaper/participant-incentives.md)
 
 * [Pyth Metrics](metrics/metrics.md)
   * [Pyth Dune Dashboard](metrics/dune-dashboard.md)
