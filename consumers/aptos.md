@@ -35,7 +35,7 @@ Aptos contracts can update and fetch the Pyth prices using the Pyth Aptos Contra
 
 ### Networks 
 
-Pyth is currently live on Aptos Testnet, and will be available on Aptos Mainnet as soon as the chain is live.
+Pyth is currently deployed on Aptos Testnet, and will be available on Aptos Mainnet as soon as the chain is live.
 
 ### Addresses
 
@@ -53,8 +53,7 @@ When deploying contracts using Pyth, the [named addresses](https://diem.github.i
 | ------------- | -----------------------------------------------------------------------|
 | Aptos Testnet | `0xb138581594ebd7763cfa3c3e455050139b7304c6d41e7094a1c78da4e6761ed8`   |
 
-`deployer` and `wormhole` are implementation details of the Pyth contract: you will not need to interact
-with these.
+`deployer` and `wormhole` are implementation details of the Pyth contract: you will not need to interact with these.
 
 ## Testnet Price Feed IDs
 
