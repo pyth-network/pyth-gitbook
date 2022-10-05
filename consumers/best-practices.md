@@ -4,7 +4,29 @@ description: How to use Pyth Price Feeds.
 
 This page provides some technical details about Pyth prices that are necessary to use them safely and correctly.
 
-# Fixed-Point Representation
+# On-demand Prices
+
+In order to save gas and reduce chain congestion, Pyth Network does not continuously update the price feeds on most chains.
+Instead, Pyth prices are streamed off-chain via the Wormhole cross-chain messaging protocol.
+Each supported blockchain hosts a Pyth program that supports a permissionless price update operation; this operation accepts a Wormhole message, verifies its content, and updates an on-chain price stored in the program.
+Users of Pyth are responsible for invoking this permissionless update when they wish to use Pyth price.
+Most integrators should combine the price update into the same transaction that uses the price.
+However, you may also choose to run an off-chain service that periodically updates the on-chain price.
+The SDKs linked below help integrators craft the necessary transactions.
+
+## Exceptions
+
+The ex
+
+# Price Feed IDs
+
+Each Pyth Network price feed has a unique id that applications use to look up the current price.
+However, the ids can be represented in different formats (e.g., hex or base58) depending on the blockchain.
+The full list of price feeds is listed on the [pyth.network website](https://pyth.network/price-feeds/).
+The [price feed ids page](https://pyth.network/developers/price-feed-ids) lists the id of each available price feed on every chain where they are available.
+To consume a particular price feed on-chain, look up its id using these pages, then store the id in your program to use for price feed queries.
+
+# Fixed-Point Numeric Representation
 
 Price feeds represent numbers in a fixed-point format. The same exponent is used for both the price and confidence interval. The integer representation of these values can be computed by multiplying by `10^exponent`. As an example, imagine Pyth reported the following values for AAPL/USD:
 
@@ -16,7 +38,7 @@ Price feeds represent numbers in a fixed-point format. The same exponent is used
 
 The confidence interval is `1500 * 10^(-5) = $0.015`, and the price is `12276250 * 10^(-5) = $122.7625`.
 
-# Current Price Availability
+# Price Availability
 
 Sometimes, Pyth will not be able to provide the current price for a product. This situation can happen for various reasons. For example, US equity markets only trade during certain hours, and outside those hours, it's not clear what an equity's price is. Alternatively, an outage may prevent data publishers from submitting their prices. In such cases, integrators may accidentally use a price that has not been updated recently.
 
