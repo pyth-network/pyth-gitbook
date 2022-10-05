@@ -42,6 +42,6 @@ Aptos contracts can update and fetch the Pyth prices using the Pyth Aptos Contra
 Pyth will be available on Aptos Mainnet as soon as the chain is live.
 
 
-## Price Feed IDs
+## Testnet Price Feed IDs
 
-The full list of price feeds available on the Aptos networks is available [here](https://pyth.network/developers/price-feed-ids).
+The full list of price feeds available on Aptos Testnet is available [here](https://pyth.network/developers/price-feed-ids/#pyth-cross-chain-testnet). As these are Testnet price feeds, their IDs will be different to the feeds available on Aptos Mainnet.
