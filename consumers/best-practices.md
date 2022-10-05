@@ -3,6 +3,7 @@ description: Introduction to Price Feeds
 ---
 
 This page provides some technical details about Pyth price feeds that are necessary to use them safely and correctly.
+Please read this page before using Pyth price feeds in your application.
 
 # Price Feed IDs
 
