@@ -28,7 +28,12 @@ The confidence interval is `1500 * 10^(-5) = $0.015`, and the price is `12276250
 
 # Price Availability
 
-Sometimes, Pyth will not be able to provide a current price for a product. This situation can happen for various reasons. For example, US equity markets only trade during certain hours, and outside those hours, it's not clear what an equity's price is. Alternatively, an outage may prevent data publishers from submitting their prices. In such cases, Pyth may return a stale price for the product.
+Sometimes, Pyth will not be able to provide a current price for a product.
+This situation can happen for various reasons.
+For example, US equity markets only trade during certain hours, and outside those hours, it's not clear what an equity's price is.
+Alternatively, a network outage (at the internet level, blockchain level, or at multiple data providers) may prevent the protocol from producing new price updates.
+(Such outages are unlikely, but integrators should still be prepared for the possibility.)
+In such cases, Pyth may return a stale price for the product.
 
 Integrators should be careful to avoid accidentally using a stale price.
 The Pyth SDKs guard against this failure mode by incorporating a staleness check by default.
