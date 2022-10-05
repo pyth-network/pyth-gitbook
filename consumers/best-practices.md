@@ -1,30 +1,17 @@
 ---
-description: How to use Pyth Price Feeds.
+description: Introduction to Price Feeds
 ---
 
-This page provides some technical details about Pyth prices that are necessary to use them safely and correctly.
-
-# On-demand Prices
-
-In order to save gas and reduce chain congestion, Pyth Network does not continuously update the price feeds on most chains.
-Instead, Pyth prices are streamed off-chain via the Wormhole cross-chain messaging protocol.
-Each supported blockchain hosts a Pyth program that supports a permissionless price update operation; this operation accepts a Wormhole message, verifies its content, and updates an on-chain price stored in the program.
-Users of Pyth are responsible for invoking this permissionless update when they wish to use Pyth price.
-Most integrators should combine the price update into the same transaction that uses the price.
-However, you may also choose to run an off-chain service that periodically updates the on-chain price.
-The SDKs linked below help integrators craft the necessary transactions.
-
-## Exceptions
-
-The ex
+This page provides some technical details about Pyth price feeds that are necessary to use them safely and correctly.
 
 # Price Feed IDs
 
-Each Pyth Network price feed has a unique id that applications use to look up the current price.
-However, the ids can be represented in different formats (e.g., hex or base58) depending on the blockchain.
+Each Pyth Network price feed is referred to via a unique id.
+However, the ids may be represented in different formats (e.g., hex or base58) depending on the blockchain.
+Price feeds also have different ids in mainnets than testnets or devnets.
 The full list of price feeds is listed on the [pyth.network website](https://pyth.network/price-feeds/).
 The [price feed ids page](https://pyth.network/developers/price-feed-ids) lists the id of each available price feed on every chain where they are available.
-To consume a particular price feed on-chain, look up its id using these pages, then store the id in your program to use for price feed queries.
+To use a price feed on-chain, look up its id using these pages, then store the feed id in your program to use for price feed queries.
 
 # Fixed-Point Numeric Representation
 
@@ -40,15 +27,13 @@ The confidence interval is `1500 * 10^(-5) = $0.015`, and the price is `12276250
 
 # Price Availability
 
-Sometimes, Pyth will not be able to provide the current price for a product. This situation can happen for various reasons. For example, US equity markets only trade during certain hours, and outside those hours, it's not clear what an equity's price is. Alternatively, an outage may prevent data publishers from submitting their prices. In such cases, integrators may accidentally use a price that has not been updated recently.
+Sometimes, Pyth will not be able to provide a current price for a product. This situation can happen for various reasons. For example, US equity markets only trade during certain hours, and outside those hours, it's not clear what an equity's price is. Alternatively, an outage may prevent data publishers from submitting their prices. In such cases, Pyth may return a stale price for the product.
 
-The Pyth SDKs guard against this failure mode by incorporating an elapsed time check by default.
+Integrators should be careful to avoid accidentally using a stale price.
+The Pyth SDKs guard against this failure mode by incorporating a staleness check by default.
 Querying the current price will fail if too much time has elapsed since the last update.
 The SDKs expose this failure condition in an idiomatic way: for example, the Rust SDK may return `None`, and our Solidity SDK may revert the transaction.
-The SDK provides a sane default for this threshold, but users may configure it to suit their use case.
-
-(Under the hood, this is implemented using the price feeds' `status` field. A status of `trading` indicates that the current price is available and permissable to use in downstream applications. If the status is not `trading`, the price feed's internal `price` variable can be any arbitrary value.)
-
+The SDK provides a sane default for the staleness threshold, but users may configure it to suit their use case.
 
 # Confidence Intervals
 
