@@ -6,6 +6,7 @@
   * [Using Price Feeds](consumers/best-practices.md)
   * [Pyth on Solana](consumers/solana.md)
   * [Pyth on EVM-Based Chains](consumers/evm.md)  
+  * [Pyth on Aptos](consumers/aptos.md)  
   * [Pyth on BAS Chains](consumers/bas.md) 
   * [Pyth for Off-chain Apps](consumers/off-chain.md)
 

@@ -29,6 +29,10 @@ We recommend reading the [_Using Price Feeds_](best-practices.md) guide to ensur
 [evm.md](evm.md)
 {% endcontent-ref %}
 
+{% content-ref url="aptos.md" %}
+[aptos.md](aptos.md)
+{% endcontent-ref %}
+
 {% content-ref url="bas.md" %}
 [bas.md](bas.md)
 {% endcontent-ref %}
