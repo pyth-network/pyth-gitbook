@@ -31,7 +31,7 @@ The [pyth-aptos-js](https://github.com/pyth-network/pyth-js/tree/main/pyth-aptos
 
 ## Using Pyth On-Chain
 
-Aptos contracts can update and fetch the Pyth prices using the Pyth Aptos Contract, which has been deployed on Testnet. The documented source code can be found [here](https://github.com/pyth-network/pyth-crosschain/blob/main/aptos/contracts/sources/pyth.move).
+Aptos contracts can update and fetch the Pyth prices using the Pyth Aptos Contract, which has been deployed on Testnet. The documented source code can be found [here](https://github.com/pyth-network/pyth-crosschain/blob/main/aptos/contracts/sources/pyth.move). A minimal example of how to update and use the Pyth on-chain prices can be found [here](https://github.com/pyth-network/pyth-crosschain/blob/main/aptos/example).
 
 ### Networks 
 
