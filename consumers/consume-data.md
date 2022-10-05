@@ -1,25 +1,19 @@
 # Consume Price Feeds
 
-We provide a variety of SDKs for consuming Pyth price feeds in both on- and off-chain applications.
-For on-chain programs, there is a Pyth program deployed on each chain that stores all of our price data.
-Our SDKs allow on-chain programs to access this information in a simple way.
-The SDKs also implement some best practices to protect users from accidentially reading stale prices and other common programming errors.
+Pyth Network uses an on-demand pricing model where users are responsible for posting price updates on-chain when needed.
+In this model, Pyth Network does not continuously update the price feeds on most chains.
+Instead, Pyth prices are streamed off-chain via the Wormhole cross-chain messaging protocol.
+Each supported blockchain hosts a Pyth program that supports a permissionless price update operation; this operation accepts a Wormhole message, verifies its content, and updates an on-chain price stored in the program.
+Users of Pyth are responsible for invoking this permissionless update when they wish to use Pyth price.
 
-In order to save gas and reduce chain congestion, Pyth Network does not continuously update the price feeds on most chains.
-Instead, Pyth prices are streamed via the Wormhole cross-chain messaging protocol.
-Users of Pyth are responsible for submitting the relevant Wormhole message to the on-chain Pyth program to update its price.
-We recommend that users incorporate this price update operation into the same transaction as the one consuming the price.
-Frontend applications can use the [pyth-js](https://github.com/pyth-network/pyth-js) library to construct and submit these messages on behalf of their users.
+In the on-demand model, developers should integrate Pyth into both their on-chain and off-chain code:
+1. On-chain programs should read prices from the Pyth program deployed on the same chain
+2. Off-chain frontends and jobs should include Pyth price updates alongside (or within) their application-specific transactions.
 
-The full list of Pyth Network price feeds is listed on the [pyth.network website](https://pyth.network/price-feeds/).
-To consume a particular price feed on-chain, you will need to look up its price feed ID.
-This ID uniquely identifies this particular price feed and is required to query the Pyth on-chain program to obtain the current price.
-However, the ID may be stored in different formats depending on the target chain.
-The [price feed IDs page](https://pyth.network/developers/price-feed-ids) lists the ID of each available price feed on every chain where they are available.
-
-{% hint style="info" %}
-We recommend reading the [_Using Price Feeds_](best-practices.md) guide to ensure you are using price feeds safely and correctly.
-{% endhint %}
+Pyth provides ecosystem-specific SDKs to assist with both the on- and off-chain pieces of the integration.
+The easiest way to use Pyth price feeds is to integrate the appropriate SDKs into your application.
+Before getting started with an SDK, please read [_Introduction to Price Feeds_](best-practices.md) to understand how Pyth price feeds are represented, and to learn best practices to use Pyth prices safely and correctly.
+Then, follow the links below to find the right SDK for your ecosystem:
 
 {% content-ref url="solana.md" %}
 [solana.md](solana.md)
