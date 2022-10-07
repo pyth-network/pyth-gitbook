@@ -6,11 +6,15 @@ description: Consume Pyth Network prices in applications on Aptos
 
 Aptos contracts can update and fetch the Pyth prices using the Pyth Aptos Contract, which has been deployed on Testnet. The documented source code can be found [here](https://github.com/pyth-network/pyth-crosschain/blob/main/aptos/contracts/sources/pyth.move). A minimal example of how to update and use the Pyth on-chain prices can be found [here](https://github.com/pyth-network/pyth-crosschain/blob/main/aptos/example).
 
-### Networks 
+## Updating Price Feeds
+
+The [pyth-aptos-js](https://github.com/pyth-network/pyth-js/tree/main/pyth-aptos-js) package can be used to fetch price feed update data and which can be passed to the `pyth::update_price` on-chain function.
+
+## Networks 
 
 Pyth is currently deployed on Aptos Testnet, and will be available on Aptos Mainnet as soon as the chain is live.
 
-### Addresses
+## Addresses
 
 When deploying contracts using Pyth, the [named addresses](https://diem.github.io/move/address.html#named-addresses) `pyth`, `wormhole` and `deployer` need to be defined at compile time.
 
