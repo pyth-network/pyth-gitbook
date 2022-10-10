@@ -14,6 +14,17 @@ The full list of price feeds is listed on the [pyth.network website](https://pyt
 The [price feed ids page](https://pyth.network/developers/price-feed-ids) lists the id of each available price feed on every chain where they are available.
 To use a price feed on-chain, look up its id using these pages, then store the feed id in your program to use for price feed queries.
 
+# Fees
+
+The Pyth Network protocol has been designed to allow for the optional enablement of data fees in order to update the state of an on-chain price feeds.
+The ongoing existence of and size of the fee will be determined by governance on a per-blockchain basis; until governance is live, the fee will be 1 of the smallest denomination of the blockchain's native token (e.g., 1 wei on Ethereum).
+The fees collected by the protocol will go toward compensating data providers and possibly other uses as determined by governance.
+
+Note that protocols integrating with Pyth Network can pass these fees along to their users.
+Whenever a user submits a transaction that requires a price update, that transaction can also include payment of the necessary fee.
+This approach charges end users in proportion to their usage of Pyth Network data.
+The Pyth Network SDKs use this approach by default and include all of the necessary logic for computing and sending the fee along with every transaction.
+
 # Fixed-Point Numeric Representation
 
 Price feeds represent numbers in a fixed-point format. The same exponent is used for both the price and confidence interval. The integer representation of these values can be computed by multiplying by `10^exponent`. As an example, imagine Pyth reported the following values for AAPL/USD:
