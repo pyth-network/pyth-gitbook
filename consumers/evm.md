@@ -20,8 +20,6 @@ Pyth is currently available on the following EVM-based chains:
 
 ### Mainnet
 
-Mainnet contracts are still being tested. Please do not rely on them in production. 
-
 | Network   | Contract address                             |
 | --------- | -------------------------------------------- |
 | Avalanche | `0x4305FB66699C3B2702D4d05CF36551390A4c69C6` |
