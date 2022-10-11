@@ -1,4 +1,4 @@
-# Why On-Demand Price Updates
+# On-Demand Price Updates
 
 Pyth Network's on-demand price update model contrasts with other oracles that use a push model.
 In the push model, the oracle runs an off-chain process that continuously sends transactions to update an on-chain price.
