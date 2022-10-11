@@ -5,6 +5,7 @@ In this model, Pyth Network does not continuously update the price feeds on most
 Instead, Pyth prices are streamed off-chain via the Wormhole cross-chain messaging protocol.
 Each supported blockchain hosts a Pyth program that supports a permissionless price update operation; this operation accepts a Wormhole message, verifies its content, and updates an on-chain price stored in the program.
 Users of Pyth are responsible for invoking this permissionless update when they wish to use Pyth price.
+For a discussion of the costs and benefits of this model, see [_Why on-demand updates_](why-on-demand.md).
 
 In the on-demand model, developers should integrate Pyth into both their on-chain and off-chain code:
 1. On-chain programs should read prices from the Pyth program deployed on the same chain
