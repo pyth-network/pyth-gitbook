@@ -3,7 +3,7 @@
 * [Introduction](README.md)
 
 * [Consume Price Feeds](consumers/consume-data.md)
-  * [On-demand Updates](consumers/on-demand.md)
+  * [On-Demand Updates](consumers/on-demand.md)
   * [Using Price Feeds](consumers/best-practices.md)
   * [Pyth on Solana](consumers/solana.md)
   * [Pyth on EVM](consumers/evm.md)
