@@ -1,15 +1,17 @@
 # On-Demand Price Updates
 
-Pyth Network's on-demand price update model contrasts with other oracles that use a push model.
-In the push model, the oracle runs an off-chain process that continuously sends transactions to update an on-chain price.
-Updating the on-chain price is a permissioned operation that can only be performed by the oracle itself.
-In contrast, Pyth Network does not operate such a process and instead delegates this work to Pyth Network users.
+Pyth Network uses an on-demand price update model that is slightly different from other oracles you may be more familiar with.
+Most oracles today use a push model, where the oracle runs an off-chain process that continuously sends transactions to update an on-chain price.
+In contrast, Pyth Network does not operate an off-chain process that pushes prices on-chain.
+Instead, it delegates this work to Pyth Network users.
 Pyth price updates are streamed off-chain via the Wormhole Network, a cross-chain messaging protocol.
-These updates are signed in such a way that the Pyth on-chain program can verify their authenticity.
-Typically, users of Pyth Network prices will submit a single transaction that simultaneously updates the price and uses it.
-
+These updates are signed such that the Pyth on-chain program can verify their authenticity.
+Updating the on-chain price is a *permissionless* operation: anyone can submit a valid Wormhole message to the Pyth contract to update the price.
+Typically, users of Pyth Network prices will submit a single transaction that simultaneously updates the price and uses it in a downstream application.
 
 ## Advantages
+
+The on-demand model has several benefits over the push model:
 
 - **Gas efficiency** -- On-chain prices are only updated when they are needed.
   In the push model, the oracle can waste gas by submitting price updates that no one will use.
@@ -31,8 +33,9 @@ Typically, users of Pyth Network prices will submit a single transaction that si
 
 ## Integration
 
-Developers need to build their application to submit price updates on behalf of their users, which typically requires integrating with both the frontend and contract.
-The [Pyth Network SDKs](consume-data.md) cover both parts of this integration and are designed to simplify this process.
+Developers integrating with Pyth Network should build their application to submit the necessary price updates on their users' behalf.
+For example, if you need the BTC/USD price on-chain, then your frontend should submit the BTC/USD Pyth price update in every transaction that needs it.
+The [Pyth Network SDKs](consume-data.md) cover both parts of this integration -- frontend and contract -- and are designed to simplify this process.
 
 ## Fees
 
@@ -46,14 +49,16 @@ This approach charges end users in proportion to their usage of Pyth Network dat
 The Pyth Network SDKs use this approach by default and include all of the necessary logic for computing and sending the fee along with every transaction.
 
 In addition to update fees, end users ultimately bear the gas cost of updating the Pyth Network price feeds, which means that their transactions cost a little more than they would in the push model.
-However, the cost of a single price update is minimal; it is only expensive when added up across time and feeds.
-The gas and update fee should be only a small portion of the overall transaction cost for the end user.
+However, the cost of a single price update is minimal, so the combined gas and update fee should only be a small portion of the overall transaction cost for the end user.
 
-## Adversarial selection** -- Users of Pyth Network have some ability to select which price to use in a transaction.
-  This ability is highly circumscribed by various constraints: prices must move forward in time, and cannot be from too far in the past.
-  However, users can still chose any price update that satisfies these constraints.
-  This ability is functionally equivalent to additional latency on the oracle price; highly latency-sensitive protocols should take additional measures to ensure that they are not using stale prices.
-  One possible measure is to operate an off-chain service that pushes price updates when the price moves substantially.
-- **End user transaction cost** -- 
-  
+## Adversarial selection
 
+On-demand price updates gives users of Pyth Network some ability to select which price to use in a transaction.
+This ability is highly circumscribed by various constraints: on-chain prices must move forward in time, and cannot be from too far in the past.
+However, users can still chose any price update that satisfies these constraints.
+This ability is functionally equivalent to latency: it allows users to see the price in the future before using a price from the past. 
+
+The simplest way to guard against this attack vector is to incorporate a staleness check to ensure that the price used in a transaction is sufficiently recent.
+The Pyth Network SDKs include this check by default, where queries for the price will fail if the on-chain time differs from the price's timestamp by more than a threshold amount.
+Highly latency-sensitive protocols may wish to tune this threshold to suit their needs.
+Protocols may take additional measures to ensure that they are not using stale prices.
