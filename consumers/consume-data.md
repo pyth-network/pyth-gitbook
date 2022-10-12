@@ -1,10 +1,7 @@
 # Consume Price Feeds
 
-Pyth Network uses an on-demand pricing model where users are responsible for posting price updates on-chain when needed.
-In this model, Pyth Network does not continuously update the price feeds on most chains.
-Instead, Pyth prices are streamed off-chain via the Wormhole cross-chain messaging protocol.
-Each supported blockchain hosts a Pyth program that supports a permissionless price update operation; this operation accepts a Wormhole message, verifies its content, and updates an on-chain price stored in the program.
-Users of Pyth are responsible for invoking this permissionless update when they wish to use Pyth price.
+Pyth uses an on-demand price update model, where users are responsible for posting price updates on-chain when needed.
+Please see [_On-Demand Updates_](on-demand.md) to learn more about this model and what this means for integrators.
 
 In the on-demand model, developers should integrate Pyth into both their on-chain and off-chain code:
 1. On-chain programs should read prices from the Pyth program deployed on the same chain
