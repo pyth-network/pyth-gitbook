@@ -54,11 +54,11 @@ However, the cost of a single price update is minimal, so the combined gas and u
 ## Adversarial selection
 
 On-demand price updates gives users of Pyth Network some ability to select which price to use in a transaction.
-This ability is highly circumscribed by various constraints: on-chain prices must move forward in time, and cannot be from too far in the past.
+This ability is highly circumscribed by various constraints: on-chain prices must move forward in time and cannot be from too far in the past.
 However, users can still chose any price update that satisfies these constraints.
-This ability is functionally equivalent to latency: it allows users to see the price in the future before using a price from the past. 
+This ability is functionally equivalent to latency: it allows users to see the price in the future before using a price from the past.
 
 The simplest way to guard against this attack vector is to incorporate a staleness check to ensure that the price used in a transaction is sufficiently recent.
 The Pyth Network SDKs include this check by default, where queries for the price will fail if the on-chain time differs from the price's timestamp by more than a threshold amount.
-Highly latency-sensitive protocols may wish to tune this threshold to suit their needs.
-Protocols may take additional measures to ensure that they are not using stale prices.
+The default threshold is set per-chain, but is typically around 1 minute.
+Highly latency-sensitive protocols may wish to reduce this threshold to a few seconds to better suit their needs.
