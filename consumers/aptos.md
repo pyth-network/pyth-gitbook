@@ -20,15 +20,15 @@ When deploying contracts using Pyth, the [named addresses](https://diem.github.i
 
 | Network       | `pyth` Address                                                         |
 | ------------- | -----------------------------------------------------------------------|
-| Aptos Testnet | `0xaa706d631cde8c634fe1876b0c93e4dec69d0c6ccac30a734e9e257042e81541`   |
+| Aptos Testnet | `0xa1c1e6ec8eca84d93d0c0d2708b840c16895389e6e55c31a6447c97c9257d069`   |
 
 | Network       | `wormhole` Address                                                     |
 | ------------- | -----------------------------------------------------------------------|
-| Aptos Testnet | `0x1b1752e26b65fc24971ee5ec9718d2ccdd36bf20486a10b2973ea6dedc6cd197`   |
+| Aptos Testnet | `0xaf4faf174bad7dba8092fc5ac37b9b8fea3929f05fcb0677fd16dc735bc3ffc8`   |
 
 | Network       | `deployer` Address                                                     |
 | ------------- | -----------------------------------------------------------------------|
-| Aptos Testnet | `0xb138581594ebd7763cfa3c3e455050139b7304c6d41e7094a1c78da4e6761ed8`   |
+| Aptos Testnet | `0xb31e712b26fd295357355f6845e77c888298636609e93bc9b05f0f604049f434`   |
 
 `deployer` and `wormhole` are implementation details of the Pyth contract: you will not need to interact with these.
 
