@@ -9,7 +9,7 @@ These updates are signed such that the Pyth on-chain program can verify their au
 Updating the on-chain price is a *permissionless* operation: anyone can submit a valid Wormhole message to the Pyth contract to update the price.
 Typically, users of Pyth Network prices will submit a single transaction that simultaneously updates the price and uses it in a downstream application.
 
-Onchain prices can only move forward in time. If a user submits a Wormhole message with a less recent price the Pyth program will not fail but will
+On-chain prices can only move forward in time. If a user submits a Wormhole message with a less recent price the Pyth program will not fail but will
 also not update the price. This in particular means that there's no guarantee that when user that atomically updates the price and then interacts with an application powered by Pyth,
 the price that the application will use will be equal to the price the user submitted.
 ## Advantages
