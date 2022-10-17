@@ -65,3 +65,4 @@ The simplest way to guard against this attack vector is to incorporate a stalene
 The Pyth Network SDKs include this check by default, where queries for the price will fail if the on-chain time differs from the price's timestamp by more than a threshold amount.
 The default threshold is set per-chain, but is typically around 1 minute.
 Highly latency-sensitive protocols may wish to reduce this threshold to a few seconds to better suit their needs.
+Please also see the section on [latency mitigations](best-practices.md#latency) for additional ideas on how latency-sensitive protocols can minimize the impact of oracle latency.
