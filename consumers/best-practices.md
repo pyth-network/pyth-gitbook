@@ -47,11 +47,10 @@ Developers integrating Pyth Network price feeds should account for the differenc
 Although Pyth Network is designed with low latency in mind, no on-chain oracle can match the latency of an off-chain source due to the added overhead for consensus and security.
 The threat model for integrating protocols should assume that adversaries see price changes a short time before the protocol does.
 In this threat model, protocol designers should avoid situations where a Pyth price update must race against an adversary's transaction.
-The adversary has a head start in these races.
-Furthermore, sophisticated adversaries can highly optimize their network latencies, or pay miners for priority blockspace, such that they are virtually guaranteed to win these races.
+Adversaries are highly likely to win these races, as they have a head start, and sophisticated adversaries can additionally optimize their network latencies or pay miners for priority blockspace.
 
-This situation is analogous to the one faced by market makers in the traditional finance.
-These market makers place resting orders on exchanges with the hope of earning the bid/ask spread.
+This situation is analogous to market making in the traditional finance.
+Market makers place resting orders on exchanges with the hope of earning the bid/ask spread.
 When the “true price” moves, these market makers get picked off by adverse “smart flow” that is faster than they are.
 The smart flow is balanced by two-way flow, that is, people wanting to trade for other reasons besides a price change.
 
@@ -63,10 +62,10 @@ This analogy suggests two simple solutions to races:
 2. Give the protocol a "last look" to decide which transactions to accept.
    In traditional finance, some exchanges give market makers a chance to walk back a trade offer after a someone else has requested it.
    Protocols can implement this technique by splitting transactions into two parts: a request and a fulfillment.
-   First, the user requests an action to be performed with the current Pyth price.
-   Then, the protocol chooses to fulfil or deny that request with a time delay, at which point it can observe any changes to the Pyth price.
-   This second step can be implemented as a permissionless operation.
-   This approach gives the protocol extra time to observe price changes, giving it a head start in the latency race.
+   In the first transaction, the user requests to perform an action.
+   In the second transaction, the protocol chooses whether or not to fulfill the user's request; this step can be implemented as a permissionless operation.
+   The protocol can require a short delay between the two transactions, and the user's request gets fulfilled at the Pyth price as of the second transaction.
+   This technique gives the protocol extra time to observe price changes, giving it a head start in the latency race.
 
 # Confidence Intervals
 

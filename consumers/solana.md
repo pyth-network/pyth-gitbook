@@ -20,6 +20,10 @@ The [pyth-neon](https://github.com/pyth-network/pyth-neon) library is an interfa
 
 Pyth continuously updates its price feeds on Solana, so users do not have to relay Wormhole messages on-chain.
 
+## Example
+
+The Pyth Solana SDK includes a full [example on-chain contract](https://github.com/pyth-network/pyth-sdk-rs/tree/main/examples/sol-contract) that shows how to use Pyth price feeds.
+
 ## Price Feed IDs
 
 The price feeds available on each Solana network are listed on the following pages:
