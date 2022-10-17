@@ -38,4 +38,4 @@ When deploying contracts using Pyth, the [named addresses](https://diem.github.i
 
 ## Testnet Price Feed IDs
 
-The full list of price feeds available on Aptos Testnet is available [here](https://pyth.network/developers/price-feed-ids/#pyth-cross-chain-testnet). As these are Testnet price feeds, their IDs will be different to the feeds available on Aptos Mainnet.
+The full list of price feeds available on Aptos Testnet is available [here](https://pyth.network/developers/price-feed-ids#aptos-testnet). As these are Testnet price feeds, their IDs will be different to the feeds available on Aptos Mainnet.

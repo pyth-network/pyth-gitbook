@@ -49,5 +49,5 @@ Pyth is currently available on the following EVM-based chains:
 ## Price Feed IDs
 
 The price feed IDs for EVM chains differs depending on whether they are a mainnet or testnet (see above):
-* [List of mainnet ids](https://pyth.network/developers/price-feed-ids/#pyth-cross-chain-mainnet)
-* [List of testnet ids](https://pyth.network/developers/price-feed-ids/#pyth-cross-chain-testnet)
+* [List of mainnet ids](https://pyth.network/developers/price-feed-ids#pyth-evm-mainnet)
+* [List of testnet ids](https://pyth.network/developers/price-feed-ids#pyth-evm-testnet)
