@@ -25,7 +25,7 @@ When deploying contracts using Pyth, the [named addresses](https://diem.github.i
 | Named Address | Value                                                               |
 | ------------- | --------------------------------------------------------------------|
 | `pyth`        | `0xa1c1e6ec8eca84d93d0c0d2708b840c16895389e6e55c31a6447c97c9257d069`|
-| `wormhole`    | `0xaf4faf174bad7dba8092fc5ac37b9b8fea3929f05fcb0677fd16dc735bc3ffc8`|
+| `wormhole`    | `0x5bc11445584a763c1fa7ed39081f1b920954da14e04b32440cba863d03e19625`|
 | `deployer`    | `0xb31e712b26fd295357355f6845e77c888298636609e93bc9b05f0f604049f434`|
 
 `deployer` and `wormhole` are implementation details of the Pyth contract: you will not need to interact with these.
