@@ -34,5 +34,5 @@ When deploying contracts using Pyth, the [named addresses](https://diem.github.i
 
 | Network | Available Price Feeds                                             |
 | -------------- | -----------------------------------------------------------|
-| Aptos Testnet  |https://pyth.network/developers/price-feed-ids#aptos-testnet|
-| Aptos Mainnet  |https://pyth.network/developers/price-feed-ids#aptos-mainnet|
+| Aptos Testnet  |[https://pyth.network/developers/price-feed-ids#aptos-testnet](https://pyth.network/developers/price-feed-ids#aptos-testnet)|
+| Aptos Mainnet  |[https://pyth.network/developers/price-feed-ids#aptos-mainnet](https://pyth.network/developers/price-feed-ids#aptos-mainnet)|
