@@ -1,6 +1,6 @@
 # Off-Chain Applications
 
-We provide SDKs in various programming languages that allow you to read the values of Pyth price feeds in off-chain applications, such as web frontends.
+We provide SDKs in various programming languages that allow you to read the values of Pyth price feeds in off-chain applications, such as web frontends:
 
 {% tabs %}
 {% tab title="JavaScript" %}
