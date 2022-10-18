@@ -30,6 +30,9 @@ When deploying contracts using Pyth, the [named addresses](https://diem.github.i
 
 `deployer` and `wormhole` are implementation details of the Pyth contract: you will not need to interact with these.
 
-## Testnet Price Feed IDs
+## Price Feeds
 
-The full list of price feeds available on Aptos Testnet is available [here](https://pyth.network/developers/price-feed-ids#aptos-testnet). As these are Testnet price feeds, their IDs will be different to the feeds available on Aptos Mainnet.
+| Network | Available Price Feeds                                             |
+| -------------- | -----------------------------------------------------------|
+| Aptos Testnet  |https://pyth.network/developers/price-feed-ids#aptos-testnet|
+| Aptos Mainnet  |https://pyth.network/developers/price-feed-ids#aptos-mainnet|
