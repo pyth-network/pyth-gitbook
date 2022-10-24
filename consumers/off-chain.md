@@ -4,7 +4,14 @@ We provide SDKs in various programming languages that allow you to read the valu
 
 {% tabs %}
 {% tab title="JavaScript" %}
-The [@pythnetwork/client](https://www.npmjs.com/package/@pythnetwork/client) npm package can be used to consume Pyth prices inside your off-chain JavaScript programs. An example can be found [here](https://github.com/pyth-network/pyth-client-js#example-usage).
+There are different javascript SDKs for different purposes.
+
+If you are developing an application that runs on any blockchain except Solana, then the [javascript SDK for that blockchain](https://github.com/pyth-network/pyth-js) supports querying and streaming live Pyth prices.
+These SDKs also support generating [on-demand price updates](on-demand.md) for your target blockchain.
+An example for querying and streaming prices using these SDKs is shown [here](https://github.com/pyth-network/pyth-js/tree/main/pyth-evm-js#off-chain-prices).
+
+If you are developing an application for Solana, or without any blockchain whatsoever, then the [@pythnetwork/client](https://www.npmjs.com/package/@pythnetwork/client) npm package can be used to consume Pyth prices inside off-chain JavaScript programs.
+An example can be found [here](https://github.com/pyth-network/pyth-client-js#example-usage).
 {% endtab %}
 
 {% tab title="Rust" %}
