@@ -16,6 +16,9 @@
   * [pyth-client Websocket API](publishers/pyth-client-websocket-api.md)
   * [Confidence Interval and Crypto Exchange Fees](publishers/confidence-interval-and-crypto-exchange-fees.md)
 
+* [Participate in governance](token-holder/participate-in-governance.md)
+  * [The Staking Program](token-holder/the-staking-program.md)
+
 * [How Pyth Works](how-pyth-works/how-pyth-works.md)
   * [Design Overview](how-pyth-works/design-overview.md)
   * [Solana Account Structure](how-pyth-works/account-structure.md)
@@ -27,9 +30,6 @@
   * [Network Interactions](how-pyth-works/network-interactions.md)
   * [Claims Process](how-pyth-works/claims-process.md)
   * [Participant Incentives](how-pyth-works/participant-incentives.md)
-
-* [Token holders](token-holder/token-holder.md)
-  * [The Staking Program](token-holder/the-staking-program.md)
 
 * [Pyth Metrics](metrics/metrics.md)
   * [Pyth Dune Dashboard](metrics/dune-dashboard.md)

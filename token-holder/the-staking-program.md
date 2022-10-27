@@ -1,1 +1,0 @@
-# Confidence Interval and Crypto Exchange Fees
