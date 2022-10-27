@@ -1,4 +1,4 @@
-# The governance contract
+# The governance program
 
 For governance purposes, Pyth uses an instance of [spl-realms](https://realms.today/). This is binding onchain governance, please make sure you understand the contents of the transaction before you approve.
 It can be interacted with [here](https://app.realms.today/dao/PYTH)
