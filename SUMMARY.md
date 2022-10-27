@@ -28,6 +28,9 @@
   * [Claims Process](how-pyth-works/claims-process.md)
   * [Participant Incentives](how-pyth-works/participant-incentives.md)
 
+* [Token holders](token-holder/token-holder.md)
+  * [The Staking Program](token-holder/the-staking-program.md)
+
 * [Pyth Metrics](metrics/metrics.md)
   * [Pyth Dune Dashboard](metrics/dune-dashboard.md)
   * [Pyth Publisher Metrics](metrics/publisher-metrics.md)
