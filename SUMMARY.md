@@ -16,8 +16,8 @@
   * [pyth-client Websocket API](publishers/pyth-client-websocket-api.md)
   * [Confidence Interval and Crypto Exchange Fees](publishers/confidence-interval-and-crypto-exchange-fees.md)
 
-* [Participate in governance](token-holder/participate-in-governance.md)
-  * [The Staking Program](token-holder/the-staking-program.md)
+* [Participate in governance](token-holders/participate-in-governance.md)
+  * [The Staking Program](token-holders/the-staking-program.md)
 
 * [How Pyth Works](how-pyth-works/how-pyth-works.md)
   * [Design Overview](how-pyth-works/design-overview.md)
