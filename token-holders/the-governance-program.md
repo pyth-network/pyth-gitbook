@@ -1,12 +1,12 @@
 # The governance program
 
-For governance purposes, Pyth uses an instance of [spl-realms](https://realms.today/). Each proposal is a series of binding onchain transactions, please make sure you understand the contents of the transaction before you approve.
+For governance purposes, Pyth uses an instance of [spl-realms](https://realms.today/). Each proposal can be either a series of binding onchain transactions or a plain text advisory proposal.
 
 It can be interacted with [here](https://app.realms.today/dao/PYTH).
 
 The address of the governance program is [`GovFUVGZWWwyoLq8rhnoVWknRFkhDSbQiSoREJ5LiZCV`](https://explorer.solana.com/address/GovFUVGZWWwyoLq8rhnoVWknRFkhDSbQiSoREJ5LiZCV)
 
-Governance follows the following rules :
+The following are the rules of Pyth governance :
 
 - Only staked tokens can vote.
 - Anyone can create a proposal as long as they have `x`% of staked tokens

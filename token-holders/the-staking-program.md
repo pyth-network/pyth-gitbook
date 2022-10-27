@@ -6,7 +6,7 @@ It can be interacted with [here](https://staking.pyth.network/staking).
 
 The address of the staking program is [`sta99txADjRfwHQQMNckb8vUN4jcAAhN2HBMTR2Ah6d`](https://explorer.solana.com/address/sta99txADjRfwHQQMNckb8vUN4jcAAhN2HBMTR2Ah6d).
 
-Pyth staking follows the following rules : 
+The following are the rules of Pyth staking :
 
 1. Pyth staking is organized in one-week epochs. Each Thursday at 00:00am (midnight between Wednesday and Thursday), a new epoch starts. 
 2. When user stakes their Pyth tokens, their stake will only become active at the start of the next epoch.   
