@@ -18,6 +18,7 @@
 
 * [Participate in governance](token-holders/participate-in-governance.md)
   * [The Staking Program](token-holders/the-staking-program.md)
+  * [The Staking Program](token-holders/the-governance-program.md)
 
 * [How Pyth Works](how-pyth-works/how-pyth-works.md)
   * [Design Overview](how-pyth-works/design-overview.md)
