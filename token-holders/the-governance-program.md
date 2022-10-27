@@ -1,7 +1,9 @@
 # The governance program
 
-For governance purposes, Pyth uses an instance of [spl-realms](https://realms.today/). This is binding onchain governance, please make sure you understand the contents of the transaction before you approve.
-It can be interacted with [here](https://app.realms.today/dao/PYTH)
+For governance purposes, Pyth uses an instance of [spl-realms](https://realms.today/). Each proposal is a series of binding onchain transactions, please make sure you understand the contents of the transaction before you approve.
+
+It can be interacted with [here](https://app.realms.today/dao/PYTH).
+
 The address of the governance program is [`GovFUVGZWWwyoLq8rhnoVWknRFkhDSbQiSoREJ5LiZCV`](https://explorer.solana.com/address/GovFUVGZWWwyoLq8rhnoVWknRFkhDSbQiSoREJ5LiZCV)
 
 Governance follows the following rules :

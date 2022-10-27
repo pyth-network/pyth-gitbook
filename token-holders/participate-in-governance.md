@@ -1,7 +1,7 @@
 # Introduction
 
-The Pyth Network is governed by its token holders. They have the ultimate authority over protocol matters.
-Only staked tokens are eligible to vote. 
+The Pyth Network is governed by Pyth token-holders. They have the ultimate authority over the future of the protocol.
+Participating in governance requires locking Pyth tokens in the staking contract. Only staked tokens are eligible to vote.
 
 To get started with governance :
 - Lock your tokens in the [staking program](token-holders/the-staking-program.md) 
