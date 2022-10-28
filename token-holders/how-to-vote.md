@@ -8,7 +8,8 @@ First, go to the [governance frontend](https://app.realms.today/dao/PYTH) and co
 
 Once you connect your wallet, you can see your governance power on the top right corner. Typically your governance power will be more than your current staked tokens. This is because staked tokens get "boosted" governance power to compensate for unstaked tokens having 0 power.
 
-![This wallet has 30.41% of the total voting weight ](../.gitbook/assets/Screen Shot 2022-10-28 at 12.58.03 PM.png)
+Example: This wallet has 30.41% of the total governance power.
+![](<../.gitbook/assets/Screen Shot 2022-10-28 at 12.58.03 PM.png>)
 
 
 2. You'll see a list of all proposals
