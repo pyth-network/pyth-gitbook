@@ -8,12 +8,12 @@ First, go to the [staking frontend](https://staking.pyth.network/) and connect y
 
 Once you connect your wallet, you'll be presented with the state of your current stake account.
 
-A user's current wallet tokens can be seen next to `Balance` 
+The tokens in the current connected wallet can be seen next to `Balance`.
 
 A user can have 3 types of tokens in the staking program:
-- Locked : these are tokens that are staked, they can be unlocked by going to the unlock tab
-- Unlocked : these tokens are free to be withdrawn
-- Unvested : these tokens are subject to a vesting schedule, they can only be withdrawn once they vest. A user can see when is the next vesting event by clicking on `Unvested`. Additionally the owner of unvested tokens can choose to stake them, making them eligible to vote.
+- Locked : these are tokens that are staked, they can be unlocked by going to the `Unlock` tab
+- Unlocked : these tokens are free to be withdrawn in the `Withdraw` tab
+- Unvested : these tokens are subject to a vesting schedule, they can only be withdrawn once they vest. A user can see when is the next vesting event by clicking on `Unvested`. Additionally any owner of unvested tokens can choose to stake them, making them eligible to vote.
 
 Additionally some tokens are in warmup or cooldown:
 - Warmup tokens are represented in gray in the locked area, they'll become locked once enough time passes

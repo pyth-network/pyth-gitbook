@@ -10,9 +10,3 @@ Examples :
 - Daniel requests to lock his tokens in epoch 1, his tokens will become `Locked` on epoch 2.
 - Alice requests to unlock her tokens during epoch 1. Her tokens will become `Unlocked` at the start of epoch 3 and only then will she be able to withdraw them.
 
-There are 3 types of tokens in the staking contract:
-- Locked tokens : these are tokens that are staked, they can be unlocked by going to the unlock tab
-- Unlocked tokens : these tokens are free to be withdrawn
-- Unvested tokens : these tokens are subject to a vesting schedule, they can only be withdrawn once they vest. A user can see when is the next vesting event by clicking on `Unvested`. Additionally the owner of unvested tokens can choose to stake them, making them eligible to vote.
-
-
