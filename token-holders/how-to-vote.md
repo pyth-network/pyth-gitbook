@@ -12,9 +12,16 @@ Example: This wallet has 30.41% of the total governance power.
 ![](<../.gitbook/assets/Screen Shot 2022-10-28 at 12.58.03 PM.png>)
 
 
-2. You'll see a list of all proposals
-3. Click on the one you want to vote
-4. Click on yes
+You'll see a list of all proposals. A proposal can be in 4 states :
+-  Voting : This proposal is accepting votes
+-  Defeated : This proposal failed to pass 
+-  Completed : This proposal has succeeded and executed on-chain
+-  Finalizing : This proposal's voting window is over, but it hasn't been resolved on-chain yet
 
-# How to create an onchain proposal
+Example: There is one proposal and there are 59min and 44s left in the voting window.
+![](<../.gitbook/assets/Screen Shot 2022-10-28 at 1.33.12 PM.png>)
 
+To vote : 
+- Click on the proposal
+- On the bottom left corner, click `Vote Yes` or `Vote No`
+- (Optional) Leave a comment when confirming your vote, anyone that visits the proposal page will be able to see it.
