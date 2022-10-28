@@ -1,4 +1,4 @@
-# Introduction
+# Participate in governance
 
 The Pyth Network is governed by Pyth token-holders. They have the ultimate authority over the future of the protocol. 
 

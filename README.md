@@ -21,6 +21,10 @@ We have several different guides to get started with Pyth, depending on your use
 [publishers/publish-data.md](publishers/publish-data.md)
 {% endcontent-ref %}
 
+{% content-ref url="token-holders/participate-in-governance.md" %}
+[token-holders/participate-in-governance.md](token-holders/participate-in-governance.md)
+{% endcontent-ref %}
+
 {% content-ref url="how-pyth-works/how-pyth-works.md" %}
 [how-pyth-works/how-pyth-works.md](how-pyth-works/how-pyth-works.md)
 {% endcontent-ref %}
