@@ -17,6 +17,8 @@
   * [Confidence Interval and Crypto Exchange Fees](publishers/confidence-interval-and-crypto-exchange-fees.md)
 
 * [Participate in governance](token-holders/participate-in-governance.md)
+  * [How to stake](token-holders/how-to-stake.md)
+  * [How to vote](token-holders/how-to-vote.md)
   * [Staking rules](token-holders/staking-rules.md)
   * [Governance rules](token-holders/governance-rules.md)
 
