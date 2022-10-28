@@ -27,3 +27,5 @@ To vote :
 - Click on the proposal
 - On the bottom left corner, click `Vote Yes` or `Vote No`
 - (Optional) Leave a comment when confirming your vote, anyone that visits the proposal page will be able to see it.
+
+The current state of the proposal can be also seen on this page. The rules that decide whether the proposal is successful are explained [here](governance-rules.md).
