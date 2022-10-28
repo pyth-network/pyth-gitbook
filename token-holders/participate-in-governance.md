@@ -12,6 +12,6 @@ Governance involves interacting with two programs on the Solana blockchain.
 | `governance`  | [https://app.realms.today/dao/PYTH](https://app.realms.today/dao/PYTH)                                   | [`GovFUVGZWWwyoLq8rhnoVWknRFkhDSbQiSoREJ5LiZCV`](https://explorer.solana.com/address/GovFUVGZWWwyoLq8rhnoVWknRFkhDSbQiSoREJ5LiZCV) |
 
 To get started with governance :
-- Lock your tokens in the [staking program](the-staking-program.md) 
-- Cast your votes in the [governance program](the-governance-program.md) 
+- Lock your tokens in the [staking program](how-to-stake.md) 
+- Cast your votes in the [governance program](how-to-vote.md) 
 
