@@ -17,8 +17,8 @@
   * [Confidence Interval and Crypto Exchange Fees](publishers/confidence-interval-and-crypto-exchange-fees.md)
 
 * [Participate in governance](token-holders/participate-in-governance.md)
-  * [The Staking Program](token-holders/the-staking-program.md)
-  * [The Staking Program](token-holders/the-governance-program.md)
+  * [Staking rules](token-holders/staking-rules.md)
+  * [Governance rules](token-holders/governance-rules.md)
 
 * [How Pyth Works](how-pyth-works/how-pyth-works.md)
   * [Design Overview](how-pyth-works/design-overview.md)
