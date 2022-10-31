@@ -1,4 +1,4 @@
-# Staking rules
+# Staking Rules
 
 These are the current rules of Pyth staking :
 

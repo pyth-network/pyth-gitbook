@@ -1,4 +1,4 @@
-# Governance rules
+# Governance Rules
 
 For governance purposes, Pyth uses an instance of [spl-realms](https://realms.today/). 
 

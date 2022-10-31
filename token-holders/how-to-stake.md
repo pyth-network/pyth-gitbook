@@ -1,4 +1,4 @@
-# The staking UI
+## The staking UI
 
 {% hint style="info" %}
 Staked tokens can't be withdrawn immediately, make sure you understand the [rules](staking-rules.md) before staking your tokens.
@@ -27,13 +27,13 @@ As an example, the user in the image above has :
 - No unlocked tokens nor unvested tokens
 - No tokens in his current wallet
 
-# How to lock tokens
+## How to lock tokens
 
 - Go to the `Lock` tab
 - Enter the amount
 - Click the big `Lock` button
 
-# How to unlock tokens
+## How to unlock tokens
 
 - Go to the `Unlock` tab
 - Enter the amount
