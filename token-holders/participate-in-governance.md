@@ -4,7 +4,7 @@ The Pyth Network is governed by Pyth token-holders. They have the ultimate autho
 
 Any wallet that owns Pyth tokens can participate in governance. Doing so requires locking Pyth tokens in the staking contract. 
 
-To get started with governance :
+To get started with governance:
 - Lock your tokens in the [staking program](how-to-stake.md) 
 - Cast your votes in the [governance program](how-to-vote.md) 
 

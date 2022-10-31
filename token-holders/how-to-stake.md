@@ -21,7 +21,7 @@ Additionally some tokens may be in warmup or cooldown:
 
 ![](<../.gitbook/assets/Screen Shot 2022-10-28 at 10.56.59 AM.png>)
 
-As an example, the user in the image above has :
+As an example, the user in the image above has:
 - 0.5 locked tokens
 - 0.5 tokens in cooldown
 - No unlocked tokens nor unvested tokens
