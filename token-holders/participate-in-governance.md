@@ -1,5 +1,3 @@
-# Participate in Governance
-
 The Pyth Network is governed by Pyth token-holders. They have the ultimate authority over the future of the protocol. 
 
 Any wallet that owns Pyth tokens can participate in governance. Doing so requires locking Pyth tokens in the staking contract. 

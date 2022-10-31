@@ -1,5 +1,3 @@
-# How to Vote
-
 {% hint style="info" %}
 Pyth governance is binding and can execute arbitrary code on-chain, please make sure you understand the contents of a proposal before voting.
 {% endhint %}

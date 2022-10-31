@@ -2,8 +2,6 @@
 Staked tokens can't be withdrawn immediately, make sure you understand the [rules](staking-rules.md) before staking your tokens.
 {% endhint %}
 
-## The staking website
-
 First, go to the [staking website](https://staking.pyth.network/) and connect your wallet.
 
 Once you connect your wallet, you'll be presented with the state of your current stake account.
