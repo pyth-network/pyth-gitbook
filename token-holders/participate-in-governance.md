@@ -6,6 +6,18 @@ Any wallet that owns Pyth tokens can participate in governance. Doing so require
 
 Governance involves interacting with two programs on the Solana blockchain. 
 
+<style>
+table th:first-of-type {
+    width: 20%;
+}
+table th:nth-of-type(2) {
+    width: 40%;
+}
+table th:nth-of-type(3) {
+    width: 40%;
+}
+</style>
+
 | Program       | App                                                                 | On-chain address                               |
 | --- | --- | --- |
 | `staking` | [https://staking.pyth.network/](https://staking.pyth.network/) | [sta99...2Ah6d](https://explorer.solana.com/address/sta99txADjRfwHQQMNckb8vUN4jcAAhN2HBMTR2Ah6d) |
