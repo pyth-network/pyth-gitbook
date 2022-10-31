@@ -10,11 +10,11 @@ Once you connect your wallet, you'll be presented with the state of your current
 The tokens in the current connected wallet can be seen next to `Balance`.
 
 A user can have 3 types of tokens in the staking program:
-- **Locked** tokens are staked, they can be unlocked by going to the `Unlock` tab.
+- **Locked** tokens are staked, they can be unlocked by going to the `Unlock` tab. 
 - **Unlocked** tokens are free to be withdrawn in the `Withdraw` tab.
 - **Unvested** tokens are subject to a vesting schedule, they can only be withdrawn once they vest. A user can see when is the next vesting event by clicking on `Unvested`. Additionally any owner of unvested tokens can choose to stake them, making them eligible to vote.
 
-Additionally some tokens are in warmup or cooldown:
+Additionally some tokens may be in warmup or cooldown:
 - **Warmup** tokens are represented in gray in the locked area, they'll become locked once enough time passes.
 - **Cooldown** tokens are represented in gray in the unlocked area, they'll become unlocked once enough time passes
 
