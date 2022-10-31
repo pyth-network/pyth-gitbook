@@ -1,4 +1,4 @@
-# Participate in governance
+# Participate in Governance
 
 The Pyth Network is governed by Pyth token-holders. They have the ultimate authority over the future of the protocol. 
 
@@ -8,7 +8,7 @@ To get started with governance :
 - Lock your tokens in the [staking program](how-to-stake.md) 
 - Cast your votes in the [governance program](how-to-vote.md) 
 
-# Program addresses and websites 
+## Useful links to the Pyth DAO programs
 
 | Program       | Website                                              | On-chain address (Solana)            |
 | --- | --- | --- |

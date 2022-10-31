@@ -16,11 +16,11 @@
   * [pyth-client Websocket API](publishers/pyth-client-websocket-api.md)
   * [Confidence Interval and Crypto Exchange Fees](publishers/confidence-interval-and-crypto-exchange-fees.md)
 
-* [Participate in governance](token-holders/participate-in-governance.md)
-  * [How to stake](token-holders/how-to-stake.md)
-  * [How to vote](token-holders/how-to-vote.md)
-  * [Staking rules](token-holders/staking-rules.md)
-  * [Governance rules](token-holders/governance-rules.md)
+* [Participate in Governance](token-holders/participate-in-governance.md)
+  * [How to Stake](token-holders/how-to-stake.md)
+  * [How to Vote](token-holders/how-to-vote.md)
+  * [Staking Rules](token-holders/staking-rules.md)
+  * [Governance Rules](token-holders/governance-rules.md)
 
 * [How Pyth Works](how-pyth-works/how-pyth-works.md)
   * [Design Overview](how-pyth-works/design-overview.md)
