@@ -7,6 +7,6 @@ These are the current rules of Pyth staking:
 3. When a user requests to unlock their Pyth tokens, the tokens will go into cooldown at the end of the current epoch and will be withdrawable after one full epoch.
 
 Examples: 
-- Daniel requests to lock his tokens in epoch 1, his tokens will become **Locked** on epoch 2.
-- Alice requests to unlock her tokens during epoch 1. Her tokens will become **Unlocked** at the start of epoch 3 and only then will she be able to withdraw them.
+- Daniel requests to lock his tokens in epoch 1, his tokens will become locked on epoch 2.
+- Alice requests to unlock her tokens during epoch 1. Her tokens will become unlocked at the start of epoch 3 and only then will she be able to withdraw them.
 
