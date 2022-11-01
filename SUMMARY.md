@@ -5,6 +5,7 @@
 * [Consume Price Feeds](consumers/consume-data.md)
   * [On-Demand Updates](consumers/on-demand.md)
   * [Using Price Feeds](consumers/best-practices.md)
+  * [Price Service](consumers/price-service.md)
   * [Pyth on Solana](consumers/solana.md)
   * [Pyth on EVM](consumers/evm.md)
   * [Pyth on Aptos](consumers/aptos.md)  
