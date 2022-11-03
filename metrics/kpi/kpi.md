@@ -34,6 +34,10 @@ NPM (“Node Package Manager”) is the default package manager for JavaScript�
 
 A (Rust) crate is a binary or library. The crate root is a source file that the Rust compiler starts from and makes up the root module of your crate. This enables you to call on-chain data and make your protocol works.
 
+{% content-ref url="october-22.md" %}
+[october-22.md](october-22.md)
+{% endcontent-ref %}
+
 {% content-ref url="september-22.md" %}
 [september-22.md](september-22.md)
 {% endcontent-ref %}
