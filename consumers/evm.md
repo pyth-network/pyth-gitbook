@@ -38,7 +38,6 @@ Pyth is currently available on the following EVM-based chains:
 | Network                    | Contract address                             |
 | -------------------------- | -------------------------------------------- |
 | Goerli (Ethereum testnet)  | `0xff1a0f4744e8582DF1aE09D5611b887B6a12925C` |
-| Ropsten (Ethereum testnet) | `0xff1a0f4744e8582DF1aE09D5611b887B6a12925C` |
 | Fuji (Avalanche testnet)   | `0xff1a0f4744e8582DF1aE09D5611b887B6a12925C` |
 | Fantom testnet             | `0xff1a0f4744e8582DF1aE09D5611b887B6a12925C` |
 | Mumbai (Polygon testnet)   | `0xff1a0f4744e8582DF1aE09D5611b887B6a12925C` |
