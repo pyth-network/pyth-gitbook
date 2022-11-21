@@ -4,7 +4,7 @@ Pyth Network uses an on-demand price update model that is slightly different fro
 Most oracles today use a push model, where the oracle runs an off-chain process that continuously sends transactions to update an on-chain price.
 In contrast, Pyth Network does not operate an off-chain process that pushes prices on-chain.
 Instead, it delegates this work to Pyth Network users.
-Pyth price updates are streamed off-chain via the Wormhole Network, a cross-chain messaging protocol.
+Pyth price updates are created on [Pythnet](../how-pyth-works/pythnet.md) and streamed off-chain via the Wormhole Network, a cross-chain messaging protocol.
 These updates are signed such that the Pyth on-chain program can verify their authenticity.
 Updating the on-chain price is a *permissionless* operation: anyone can submit a valid Wormhole message to the Pyth contract to update the price.
 Typically, users of Pyth Network prices will submit a single transaction that simultaneously updates the price and uses it in a downstream application.
@@ -27,6 +27,9 @@ The on-demand model has several benefits over the push model:
 - **Low latency** -- Every transaction can use a recent off-chain price, instead of relying on the last on-chain update pushed by the oracle itself.
 - **More price feeds** -- Pyth Network can scale to thousands of price feeds due to its gas efficiency.
   The oracle incurs no added costs for each additional feed, and users pay gas costs for new feeds only when those feeds are used on-chain.
+- **Reliable in volatile conditions** -- Push oracles can fail to land price updates in volatile market conditions.
+  In these conditions, the oracle competes with other more valuable transactions (such as DEX trades or liquidations) for bandwidth, and often cannot pay enough to land price updates.
+  This problem does not occur in the on-demand model, as Pyth price updates are incorporated into the valuable transactions themselves.
 - **Common infrastructure** -- Every component of Pyth Network is *shared across blockchains* except for the contract deployed on the destination chain.
   These shared components can therefore be built with high reliability and accuracy targets, benefitting every chain the oracle is deployed on.
   This approach also allows Pyth Network to rapidly launch on new blockchains and ecosystems with all of the existing price feeds.
