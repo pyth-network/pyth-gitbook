@@ -4,11 +4,11 @@ Pythnet is an application-specific blockchain operated by Pyth's data providers.
 This blockchain is a computation substrate to securely combine the data provider's prices into a single aggregate price for each Pyth price feed.
 Pythnet forms the core of Pyth's off-chain price feeds that serve all blockchains (except Solana mainnet).
 
-Pythnet is a Solana network that is specially configured to be a proof-of-authority chain.
+Pythnet is powered by Solana technology: it runs the same validator software, but is a separate network that is specially configured to be a proof-of-authority chain.
 The network depends on a tightly controlled supply of the chain's native token, called PGAS, which is currently controlled by the Pyth Data Association.
 Operating a validator on the network requires a large stake of PGAS tokens.
 The Pyth Data Association allows each data provider to operate one validator by delegating them the necessary stake.
-Each data provider is then given a small quantity of PGAS tokens that enables them to publish prices to the network.
+Each data provider is then given a sufficient quantity of PGAS tokens to publish prices to the network.
 The network is configured such that account creation is very expensive, preventing anyone without a substantial quantity of PGAS from deploying programs to the network.
 Once governance is live, it will take over management of the PGAS token from the Pyth Data Association.
 
