@@ -20,6 +20,7 @@
 * [How Pyth Works](how-pyth-works/how-pyth-works.md)
   * [Design Overview](how-pyth-works/design-overview.md)
   * [Pythnet](how-pyth-works/pythnet.md)
+  * [Cross-chain](how-pyth-works/cross-chain.md)
   * [Solana Account Structure](how-pyth-works/account-structure.md)
   * [Product Metadata](how-pyth-works/product-metadata.md)
   * [Price Aggregation](how-pyth-works/price-aggregation.md)
