@@ -43,13 +43,13 @@ The SDK provides a sane default for the staleness threshold, but users may confi
 
 # Latency
 
-Developers integrating Pyth Network price feeds should account for the difference in latency between on-chain oracles and off-chain centralized exchanges.
+Developers integrating Pyth Network price feeds should account for the difference in latency between on-chain oracles and off-chain sources (e.g. centralized exchanges).
 Although Pyth Network is designed with low latency in mind, no on-chain oracle can match the latency of an off-chain source due to the added overhead for consensus and security.
 The threat model for integrating protocols should assume that adversaries see price changes a short time before the protocol does.
 In this threat model, protocol designers should avoid situations where a Pyth price update must race against an adversary's transaction.
 Adversaries are highly likely to win these races, as they have a head start, and sophisticated adversaries can additionally optimize their network latencies or pay miners for priority blockspace.
 
-This situation is analogous to market making in the traditional finance.
+This situation is analogous to market making in traditional finance.
 Market makers place resting orders on exchanges with the hope of earning the bid/ask spread.
 When the “true price” moves, these market makers get picked off by adverse “smart flow” that is faster than they are.
 The smart flow is balanced by two-way flow, that is, people wanting to trade for other reasons besides a price change.
@@ -60,7 +60,7 @@ This analogy suggests two simple solutions to races:
    The limited liquidity caps the losses to smart flow, while still earning profits from the two-way flow.
    A successful market maker tunes the spread and offered liquidity to limit adverse selection from smart traders while still interacting with two-way flow.
 2. Give the protocol a "last look" to decide which transactions to accept.
-   In traditional finance, some exchanges give market makers a chance to walk back a trade offer after a someone else has requested it.
+   In traditional finance, some exchanges give market makers a chance to walk back a trade offer after someone else has requested it.
    Protocols can implement this technique by splitting transactions into two parts: a request and a fulfillment.
    In the first transaction, the user requests to perform an action.
    In the second transaction, the protocol chooses whether or not to fulfill the user's request; this step can be implemented as a permissionless operation.
@@ -69,7 +69,7 @@ This analogy suggests two simple solutions to races:
 
 # Confidence Intervals
 
-At every point in time, Pyth publishes both a price and a confidence interval for each product. For example, Pyth may publish the current price of bitcoin as $50000 ± $10. Pyth publishes a confidence interval because, in real markets, there is _no one single price for a product_. For example, at any given time, bitcoin trades at different prices at different venues around the world. While these prices are typically similar, they can diverge for a number of reasons, such as when a cryptocurrency exchange block withdrawals on an asset. If this happens, prices diverge because arbitrageurs can no longer bring prices across exchanges into line. Alternatively, prices on different venues can differ simply because an asset is highly volatile at a particular point in time. At such times, bid/ask spreads tend to be wider, and trades on different markets at around the same time tend to occur at a wider range of prices.
+At every point in time, Pyth publishes both a price and a confidence interval for each product. For example, Pyth may publish the current price of bitcoin as $50000 ± $10. Pyth publishes a confidence interval because, in real markets, there is _no one single price for a product_. For example, at any given time, bitcoin trades at different prices at different venues around the world. While these prices are typically similar, they can diverge for a number of reasons, such as when a cryptocurrency exchange blocks withdrawals on an asset. If this happens, prices diverge because arbitrageurs can no longer bring prices across exchanges into line. Alternatively, prices on different venues can differ simply because an asset is highly volatile at a particular point in time. At such times, bid/ask spreads tend to be wider, and trades on different markets at around the same time tend to occur at a wider range of prices.
 
 Pyth represents these possibly-different prices by giving its users a _probability distribution over price_ instead of just a single price. Pyth models the price according to a Laplace distribution centered on the Pyth aggregate price with a standard deviation equal to the confidence interval (the scale parameter b of the Laplace distribution is equal to the square root of 2 times the standard deviation). The Laplace distribution contains ~95% of the probability mass within ~4.24 standard deviations (~3 times the scale parameter). If markets are behaving normally, then the confidence interval will be tight -- typically much less than 1% of the price -- and the Laplace distribution will be highly peaked. However, at unusual times, the confidence interval can widen out dramatically.
 
