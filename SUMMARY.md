@@ -28,7 +28,6 @@
   * [Accounts](https://pyth.network/developers/accounts/)
   * [Network Participants](how-pyth-works/network-participants.md)
   * [Network Interactions](how-pyth-works/network-interactions.md)
-  * [Claims Process](how-pyth-works/claims-process.md)
   * [Participant Incentives](how-pyth-works/participant-incentives.md)
 
 * [Pyth Metrics](metrics/metrics.md)
