@@ -1,6 +1,6 @@
 # Cross-chain
 
-Pyth needs a cross-chain component to ferry prices on Pythnet to target chains. The diagram below shows how prices are delivered from Pythnet to target chains.
+Pyth needs a cross-chain component to ferry prices on [Pythnet](pythnet.md) to target chains. The diagram below shows how prices are delivered from Pythnet to target chains.
 
 ![](<../.gitbook/assets/pythnet_schema.png>)
 
