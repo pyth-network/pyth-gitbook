@@ -2,7 +2,7 @@
 
 **Recap**
 
-![](../../.gitbook/assets/kpi/)
+![](../../.gitbook/assets/kpi/november-22/Momentum%20November-22.jpg)
 
 **Data Publishers**
 
