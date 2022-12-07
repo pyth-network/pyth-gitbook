@@ -30,7 +30,9 @@ Pyth is currently available on the following EVM-based chains:
 | Optimism  | `0xff1a0f4744e8582DF1aE09D5611b887B6a12925C` |
 | Aurora    | `0xF89C7b475821EC3fDC2dC8099032c05c6c0c9AB9` |
 | Arbitrum  | `0xff1a0f4744e8582DF1aE09D5611b887B6a12925C` |
-
+| Celo      | `0xff1a0f4744e8582DF1aE09D5611b887B6a12925C` |
+| KCC       | `0xE0d0e68297772Dd5a1f1D99897c581E2082dbA5B` |
+| Cronos    | `0xE0d0e68297772Dd5a1f1D99897c581E2082dbA5B` |
 
 
 ### Testnet
@@ -44,7 +46,9 @@ Pyth is currently available on the following EVM-based chains:
 | BNB testnet                | `0xd7308b14BF4008e7C7196eC35610B1427C5702EA` |
 | Aurora testnet             | `0x4305FB66699C3B2702D4d05CF36551390A4c69C6` |
 | Optimism Goerli (testnet)  | `0xff1a0f4744e8582DF1aE09D5611b887B6a12925C` |
-
+| Celo Alfajores (testnet)   | `0xff1a0f4744e8582DF1aE09D5611b887B6a12925C` |
+| KCC testnet                | `0x15D35b8985e350f783fe3d95401401E194ff1E6f` |
+| Cronos testnet             | `0xBAEA4A1A2Eaa4E9bb78f2303C213Da152933170E` |
 
 ## Price Feed IDs
 
