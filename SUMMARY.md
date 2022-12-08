@@ -2,15 +2,18 @@
 
 * [Introduction](README.md)
 
-* [Consume Price Feeds](consumers/consume-data.md)
-  * [On-Demand Updates](consumers/on-demand.md)
-  * [Using Price Feeds](consumers/best-practices.md)
-  * [Price Service](consumers/price-service.md)
-  * [Pyth on Solana](consumers/solana.md)
-  * [Pyth on EVM](consumers/evm.md)
-  * [Pyth on Aptos](consumers/aptos.md)  
-  * [Pyth on BAS Chains](consumers/bas.md) 
-  * [Pyth for Off-chain Apps](consumers/off-chain.md)
+* [Solana Price Feeds](solana-price-feeds/consume-data.md)
+  * [Using Price Feeds](solana-price-feeds/best-practices.md)
+  * [Solana SDKs](solana-price-feeds/solana.md)
+
+* [Pythnet Price Feeds](pythnet-price-feeds/consume-data.md)
+  * [On-Demand Updates](pythnet-price-feeds/on-demand.md)
+  * [Using Price Feeds](pythnet-price-feeds/best-practices.md)
+  * [Price Service](pythnet-price-feeds/price-service.md)
+  * [Pyth on EVM](pythnet-price-feeds/evm.md)
+  * [Pyth on Aptos](pythnet-price-feeds/aptos.md)  
+  * [Pyth on BAS Chains](pythnet-price-feeds/bas.md) 
+  * [Pyth for Off-chain Apps](pythnet-price-feeds/off-chain.md)
 
 * [Publish Data](publishers/publish-data.md)
   * [Understanding Publishing Slots](publishers/understanding-publishing-slots.md)
