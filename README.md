@@ -16,5 +16,3 @@ Other useful links may be:
   * [Publish Data](publishers/publish-data.md) -- Data Providers can read these documents to learn how to publish data to the Pyth Network.
   * [How Pyth Works](how-pyth-works/how-pyth-works.md) -- Learn more about the mechanisms behind the network.
   * [Pyth Metrics](metrics/metrics.md) -- See metrics of the network's adoption and growth.
-
-TODO: redirect links!

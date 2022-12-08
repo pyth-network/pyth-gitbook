@@ -1,18 +1,18 @@
 ---
-description: Introduction to Price Feeds
+description: Best Practices for using Pyth Price Feeds
 ---
 
 This page provides some technical details about Pyth price feeds that are necessary to use them safely and correctly.
 Please read this page before using Pyth price feeds in your application.
 
-# Price Feed IDs
+# Price Feed Account IDs
 
-Each Pyth Network price feed is referred to via a unique id.
-However, the ids may be represented in different formats (e.g., hex or base58) depending on the blockchain.
-Price feeds also have different ids in mainnets than testnets or devnets.
-The full list of price feeds is listed on the [pyth.network website](https://pyth.network/price-feeds/).
-The [price feed ids page](https://pyth.network/developers/price-feed-ids) lists the id of each available price feed on every chain where they are available.
-To use a price feed on-chain, look up its id using these pages, then store the feed id in your program to use for price feed queries.
+Each Pyth Network price feed is stored in a Solana account and is uniquely identified by its corresponding Solana account key.
+Price feeds have different ids in mainnet than in testnet or devnet.
+The full list of price feeds available on Solana is listed on the [pyth.network website under the "mainnet-beta" tag](https://pyth.network/price-feeds?cluster=mainnet-beta). 
+The [price feed ids page](https://pyth.network/developers/price-feed-ids#solana-mainnet-beta) lists the id of each available price feed.
+To use a price feed on-chain, look up its id using this page, then store the feed id in your program.
+You should then pass in the corresponding Solana account to any instruction that requires the current price and validate in your program that the account key matches the stored price feed id.
 
 # Fixed-Point Numeric Representation
 
@@ -36,7 +36,7 @@ Alternatively, a network outage (at the internet level, blockchain level, or at 
 In such cases, Pyth may return a stale price for the product.
 
 Integrators should be careful to avoid accidentally using a stale price.
-The Pyth SDKs guard against this failure mode by incorporating a staleness check by default.
+The SDKs guard against this failure mode by incorporating a staleness check by default.
 Querying the current price will fail if too much time has elapsed since the last update.
 The SDKs expose this failure condition in an idiomatic way: for example, the Rust SDK may return `None`, and our Solidity SDK may revert the transaction.
 The SDK provides a sane default for the staleness threshold, but users may configure it to suit their use case.

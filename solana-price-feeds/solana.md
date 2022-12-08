@@ -7,8 +7,8 @@ description: Consume Pyth prices in Solana programs.
 We provide two different SDKs for Solana on-chain programs to use Pyth prices:
 
 {% tabs %}
-{% tab title="Solana" %}
-The [pyth-sdk-solana crate](https://github.com/pyth-network/pyth-sdk-rs/tree/main/pyth-sdk-solana) can be used to consume Pyth prices inside your Solana programs.
+{% tab title="Rust" %}
+The [pyth-sdk-solana crate](https://github.com/pyth-network/pyth-sdk-rs/tree/main/pyth-sdk-solana) can be used to consume Pyth prices inside Solana programs written in Rust.
 {% endtab %}
 
 {% tab title="NEON EVM" %}
@@ -18,11 +18,10 @@ The [pyth-neon](https://github.com/pyth-network/pyth-neon) library is an interfa
 {% endtab %}
 {% endtabs %}
 
-Pyth continuously updates its price feeds on Solana, so users do not have to relay Wormhole messages on-chain.
+## Example Program
 
-## Example
-
-The Pyth Solana SDK includes a full [example on-chain contract](https://github.com/pyth-network/pyth-sdk-rs/tree/main/examples/sol-contract) that shows how to use Pyth price feeds.
+The Pyth Solana SDK includes two example programs that demonstrate how to use Pyth price feeds in Solana programs:
+a [program using only the basic Solana SDK](https://github.com/pyth-network/pyth-sdk-rs/tree/main/examples/sol-contract) and an [Anchor program](https://github.com/pyth-network/pyth-sdk-rs/tree/main/examples/sol-anchor-contract).
 
 ## Price Feed IDs
 
