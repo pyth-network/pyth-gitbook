@@ -7,7 +7,7 @@ Each price feed publishes a [robust aggregate](how-pyth-works/price-aggregation.
 
 Our price feeds are available on multiple blockchains and can also be used in off-chain applications.
 Prices are available in mainnet for [Solana](consumers/solana.md) and [many EVM chains](consumers/evm.md), including Ethereum, BNB, Avalanche and more.
-Prices are also available in [Aptos](consumers/aptos.md) testnet and will be coming soon to Cosmos chains and other ecosystems.
+Prices are also available in [Aptos](consumers/aptos.md) mainnet and will be coming soon to Cosmos chains and other ecosystems.
 
 ## Get Started
 
