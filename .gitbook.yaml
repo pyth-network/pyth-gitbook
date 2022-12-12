@@ -1,0 +1,8 @@
+root: ./
+
+structure:  
+    readme: README.md  
+    summary: SUMMARY.md
+
+redirects:  
+    consumers/best-practices: pythnet-price-feeds/best-practices.md

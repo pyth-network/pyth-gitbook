@@ -1,5 +1,5 @@
 ---
-description: Introduction to Price Feeds
+description: Best Practices for using Pyth Price Feeds
 ---
 
 This page provides some technical details about Pyth price feeds that are necessary to use them safely and correctly.
