@@ -2,11 +2,11 @@
 
 * [Introduction](README.md)
 
-* [Solana Price Feeds](solana-price-feeds/consume-data.md)
+* [Solana Price Feeds](solana-price-feeds/solana-price-feeds.md)
   * [Using Price Feeds](solana-price-feeds/best-practices.md)
   * [Solana SDKs](solana-price-feeds/solana.md)
 
-* [Pythnet Price Feeds](pythnet-price-feeds/consume-data.md)
+* [Pythnet Price Feeds](pythnet-price-feeds/pythnet-price-feeds.md)
   * [On-Demand Updates](pythnet-price-feeds/on-demand.md)
   * [Using Price Feeds](pythnet-price-feeds/best-practices.md)
   * [Price Service](pythnet-price-feeds/price-service.md)

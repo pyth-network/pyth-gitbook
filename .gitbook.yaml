@@ -6,3 +6,4 @@ structure:
 
 redirects:  
     consumers/best-practices: pythnet-price-feeds/best-practices.md
+    consume-data/best-practices: pythnet-price-feeds/best-practices.md
