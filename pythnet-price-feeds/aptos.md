@@ -4,7 +4,7 @@ description: Consume Pyth Network prices in applications on Aptos
 
 # Pyth on Aptos
 
-Aptos contracts can update and fetch the Pyth prices using the Pyth Aptos Contract, which has been deployed on Testnet. The documented source code can be found [here](https://github.com/pyth-network/pyth-crosschain/blob/main/aptos/contracts/sources/pyth.move).
+Aptos contracts can update and fetch the Pyth prices using the Pyth Aptos Contract, which has been deployed on Mainnet. The documented source code can be found [here](https://github.com/pyth-network/pyth-crosschain/blob/main/aptos/contracts/sources/pyth.move).
 
 ## Updating Price Feeds
 
@@ -16,7 +16,7 @@ The mechanism by which price feeds are updated on Aptos is explained [here](./co
 
 ## Networks 
 
-Pyth is currently deployed on Aptos Testnet, and will be available on Aptos Mainnet as soon as the chain is live.
+Pyth is currently deployed on Aptos Mainnet.
 
 ## Addresses
 
