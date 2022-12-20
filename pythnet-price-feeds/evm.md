@@ -49,6 +49,7 @@ Pyth is currently available on the following EVM-based chains:
 | Celo Alfajores (testnet)   | `0xff1a0f4744e8582DF1aE09D5611b887B6a12925C` |
 | KCC testnet                | `0x15D35b8985e350f783fe3d95401401E194ff1E6f` |
 | Cronos testnet             | `0xBAEA4A1A2Eaa4E9bb78f2303C213Da152933170E` |
+| Arbitrum Goerli (testnet)  | `0x939C0e902FF5B3F7BA666Cc8F6aC75EE76d3f900` |
 
 ## Price Feed IDs
 
