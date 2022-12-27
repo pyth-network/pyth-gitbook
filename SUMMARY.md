@@ -10,6 +10,7 @@
   * [On-Demand Updates](pythnet-price-feeds/on-demand.md)
   * [Using Price Feeds](pythnet-price-feeds/best-practices.md)
   * [Price Service](pythnet-price-feeds/price-service.md)
+  * [Pyth Cross-chain Batches](pythnet-price-feeds/cross-chain-batches.md)
   * [Pyth on EVM](pythnet-price-feeds/evm.md)
   * [Pyth on Aptos](pythnet-price-feeds/aptos.md)  
   * [Pyth on BAS Chains](pythnet-price-feeds/bas.md) 
