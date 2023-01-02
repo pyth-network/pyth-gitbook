@@ -50,6 +50,7 @@ Pyth is currently available on the following EVM-based chains:
 | KCC testnet                | `0x15D35b8985e350f783fe3d95401401E194ff1E6f` |
 | Cronos testnet             | `0xBAEA4A1A2Eaa4E9bb78f2303C213Da152933170E` |
 | Arbitrum Goerli (testnet)  | `0x939C0e902FF5B3F7BA666Cc8F6aC75EE76d3f900` |
+| zkSync v2 Goerli (testnet)    | `0xF532F2C1bB7b67E08f7D8B76f9fF804D0831725e` |
 
 ## Price Feed IDs
 
