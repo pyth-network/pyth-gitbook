@@ -20,9 +20,17 @@
 
 ![](../../.gitbook/assets/kpi/december-22/December%20dApps%20TVS-1.png)
 
-**Total Trading Volume**
+**Cumulative Trading Volume**
 
 ![](../../.gitbook/assets/kpi/december-22/Cumulative%20Traded%20Volume%20December.png)
+
+**Monthly Trading Volume**
+
+![](../../.gitbook/assets/kpi/december-22/December%20Trading%20Volume%20v2.png)
+
+**Client Downloads**
+
+![](../../.gitbook/assets/kpi/december-22/Client%20Downloads%20Cumulative%20December.png)
 
 **Connected Blockchains**
 
