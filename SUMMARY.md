@@ -38,6 +38,7 @@
   * [Pyth Dune Dashboard](metrics/dune-dashboard.md)
   * [Pyth Publisher Metrics](metrics/publisher-metrics.md)
   * [Pyth Network KPI](metrics/kpi/kpi.md)
+    * [December 2022](metrics/kpi/december-22.md)
     * [November 2022](metrics/kpi/november-22.md)
     * [October 2022](metrics/kpi/october-22.md)
     * [September 2022](metrics/kpi/september-22.md)
