@@ -15,11 +15,11 @@ An example can be found [here](https://github.com/pyth-network/pyth-client-js#ex
 {% endtab %}
 
 {% tab title="Rust" %}
-The [pyth-sdk-solana crate](https://crates.io/crates/pyth-sdk-solana) can be used to consume Pyth prices inside your off-chain Rust programs. An example can be found [here](https://github.com/pyth-network/pyth-sdk-rs/blob/main/pyth-sdk-solana/examples/eth\_price.rs).
+The [pyth-sdk-solana crate](https://crates.io/crates/pyth-sdk-solana) can be used to consume Pyth prices inside your off-chain Rust programs. An example can be found [here](https://github.com/pyth-network/pyth-sdk-rs/blob/main/pyth-sdk-solana/examples/eth_price.rs).
 {% endtab %}
 
 {% tab title="Python" %}
-The [pyth-client-py](https://github.com/pyth-network/pyth-client-py) Python library can be used to consume Pyth prices inside your off-chain Python programs. An example can be found [here](https://github.com/pyth-network/pyth-client-py/blob/main/examples/read\_one\_price\_feed.py).
+The [pyth-client-py](https://github.com/pyth-network/pyth-client-py) Python library can be used to consume Pyth prices inside your off-chain Python programs. An example can be found [here](https://github.com/pyth-network/pyth-client-py/blob/main/examples/read_one_price_feed.py).
 {% endtab %}
 
 {% tab title="Go" %}
