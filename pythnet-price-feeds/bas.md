@@ -3,12 +3,12 @@ description: Consume Pyth Network prices in applications on BNB Application Side
 ---
 
 # Deployment
-If, as is highly likely, your BAS chain doesn't already have a deployment of Pyth, you will need to deploy the `Pyth2Wormhole` receiver contracts yourself. This is easy to do and will enable contracts deployed on your BAS chain to consume Pyth price feeds from the `PythUpgradable` contract.
+If, as is highly likely, your BAS chain doesn't already have a deployment of Pyth, you will need to deploy the `pyth-crosschain` receiver contracts yourself. This is easy to do and will enable contracts deployed on your BAS chain to consume Pyth price feeds from the `PythUpgradable` contract.
 
-To deploy the `Pyth2Wormhole` receiver contracts to your BAS chain:
-- Clone the [pyth2wormhole repo](https://github.com/pyth-network/pyth2wormhole).
+To deploy the `pyth-crosschain` receiver contracts to your BAS chain:
+- Clone the [pyth-crosschain repo](https://github.com/pyth-network/pyth-crosschain).
 
-- Add your BAS network details to the [Truffle Networks configuration file](https://github.com/pyth-network/pyth2wormhole/blob/main/ethereum/truffle-config.js). An example using BAS test net is configured as below:
+- Add your BAS network details to the [Truffle Networks configuration file](https://github.com/pyth-network/pyth-crosschain/blob/main/target-chains/ethereum/truffle-config.js). An example using BAS test net is configured as below:
     ```json
     my_bas_testnet: {
         provider: () => new HDWalletProvider(
@@ -23,7 +23,7 @@ To deploy the `Pyth2Wormhole` receiver contracts to your BAS chain:
     }
     ```
     
- - Prepare a `.env.prod.my_bas_testnet` environment file in the `pyth2wormhole/ethereum` directory. Please note if you test the deployment in the test net, you need use the Testnet pyth variable of PYTH_TO_WORMHOLE_EMITTER like below. 
+ - Prepare a `.env.prod.my_bas_testnet` environment file in the `pyth-crosschain/target-chains/ethereum` directory. Please note if you test the deployment in the test net, you need use the Testnet pyth variable of PYTH_TO_WORMHOLE_EMITTER like below. 
     ```shell
     # The truffle network name of your BAS chain, defined in the configuration earlier
     MIGRATIONS_NETWORK=my_bas_testnet
@@ -57,9 +57,9 @@ To deploy the `Pyth2Wormhole` receiver contracts to your BAS chain:
     npm install
     ```
 
- - Now run the Truffle migrations inside [`pyth2wormhole/migrations/prod-receiver`](https://github.com/pyth-network/pyth2wormhole/tree/main/ethereum/migrations/prod-receiver) using the instructions [here](https://github.com/pyth-network/pyth2wormhole/blob/main/ethereum/Deploying.md). Make sure you are deploying using the right environment file and to the correct network.
+ - Now run the Truffle migrations inside [`pyth-crosschain/target-chains/ethereum/migrations/prod-receiver/`](https://github.com/pyth-network/pyth-crosschain/tree/main/target-chains/ethereum/migrations/prod-receiver) using the instructions [here](https://github.com/pyth-network/pyth-crosschain/blob/main/target-chains/ethereum/Deploying.md). Make sure you are deploying using the right environment file and to the correct network.
 
- - You can verify the contracts have been deployed successfully using the example [here](https://github.com/pyth-network/pyth2wormhole/blob/main/ethereum/Deploying.md#testing).
+ - You can verify the contracts have been deployed successfully using the example [here](https://github.com/pyth-network/pyth-crosschain/blob/main/target-chains/ethereum/Deploying.md#testing).
 
 # Usage
 After the pyth2wormhole contracts have been deployed to your BAS chain, please refer to the [Pyth on EVM-based chains documentation](evm.md) for how to consume price feeds.
