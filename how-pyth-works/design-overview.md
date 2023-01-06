@@ -11,4 +11,4 @@ Pythnet is an appchain used to aggregate the prices delivered to all other block
 In both cases, the Pyth program maintains a number of different [Solana accounts](account-structure.md) that list the products on Pyth and their current price data.
 Publishers publish their price and confidence by interacting with the on-chain program on every slot. The program stores this information in its accounts.
 The first price update in a slot additionally triggers [price aggregation](price-aggregation.md), which combines the price data from the previous slot into a single aggregate price and confidence interval.
-This aggregate price is written to the Solana account where it is readable by other on- and off-chain programs (see [Client Libraries](../consumers/client-libraries.md) for how to use this data).&#x20;
+This aggregate price is written to the Solana account where it is readable by other on- and off-chain programs (see [Solana Price Feeds](../solana-price-feeds/solana-price-feeds.md) or [Pythnet Price Feeds](../pythnet-price-feeds/pythnet-price-feeds.md) for how to use this data).&#x20;
