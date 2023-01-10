@@ -137,21 +137,22 @@ All existing batches are listed below:
 | | Crypto.STRK/USD
 | | Crypto.XMR/USD |
 | batch_crypto_spl_1 | Crypto.ATLAS/USD
+| | Crypto.BONK/USD
 | | Crypto.COPE/USD
 | | Crypto.FIDA/USD
-| | Crypto.GMT/USD
-| | Crypto.GOFX/USD |
-| batch_crypto_spl_2 | Crypto.HXRO/USD
+| | Crypto.GMT/USD |
+| batch_crypto_spl_2 | Crypto.GOFX/USD
+| | Crypto.HXRO/USD
 | | Crypto.JET/USD
 | | Crypto.MEAN/USD
-| | Crypto.MER/USD
-| | Crypto.MNGO/USD |
-| batch_crypto_spl_3 | Crypto.ORCA/USD
+| | Crypto.MER/USD |
+| batch_crypto_spl_3 | Crypto.MNGO/USD
+| | Crypto.ORCA/USD
 | | Crypto.PORT/USD
 | | Crypto.RAY/USD
-| | Crypto.SBR/USD
-| | Crypto.SLND/USD |
-| batch_crypto_spl_4 | Crypto.SNY/USD
+| | Crypto.SBR/USD |
+| batch_crypto_spl_4 | Crypto.SLND/USD
+| | Crypto.SNY/USD
 | | Crypto.SRM/USD
 | | Crypto.ZBC/USD |
 | batch_crypto_bep_1 | Crypto.ALPACA/USD
