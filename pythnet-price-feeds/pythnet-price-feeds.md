@@ -9,7 +9,7 @@ In the on-demand model, developers should integrate Pyth into both their on-chai
 
 Pyth provides ecosystem-specific SDKs to assist with both the on- and off-chain pieces of the integration.
 The easiest way to use Pyth price feeds is to integrate the appropriate SDKs into your application.
-Before getting started with an SDK, please read [_Introduction to Price Feeds_](best-practices.md) to understand how Pyth price feeds are represented, and to learn best practices to use Pyth prices safely and correctly.
+Before getting started with an SDK, please read [_Using Price Feeds_](best-practices.md) to understand how Pyth price feeds are represented, and to learn best practices to use Pyth prices safely and correctly.
 Then, follow the links below to find the right SDK for your ecosystem:
 
 {% content-ref url="evm.md" %}
