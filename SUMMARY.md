@@ -24,10 +24,11 @@
 * [How Pyth Works](how-pyth-works/design-overview.md)
   * [Pythnet](how-pyth-works/pythnet.md)
   * [Cross-chain](how-pyth-works/cross-chain.md)
+  * [Oracle Program](how-pyth-works/oracle-program.md)
+  * [Solana Account Structure](how-pyth-works/account-structure.md)
+  * [Product Metadata](how-pyth-works/product-metadata.md)  
   * [Price Aggregation](how-pyth-works/price-aggregation.md)
   * [EMA Price Aggregation](how-pyth-works/ema-price-aggregation.md)
-  * [Solana Account Structure](how-pyth-works/account-structure.md)
-  * [Product Metadata](how-pyth-works/product-metadata.md)
 
 * [Whitepaper](whitepaper/whitepaper.md)
   * [Network Participants](whitepaper/network-participants.md)
