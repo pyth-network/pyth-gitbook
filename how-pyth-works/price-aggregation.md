@@ -1,61 +1,64 @@
 # Price Aggregation
 
-As background, Pyth is an oracle that publishes an aggregate price and confidence interval for each product on every Solana slot. The Pyth program computes this price on-chain by aggregating the prices and confidence intervals submitted by individual publishers.
+Price aggregation combines the prices and confidences submitted by individual data providers into a single aggregate price and confidence.
 
-**We want Pyth’s aggregation algorithm to have 3 properties:**
+**Design Goals**
 
-**#1 Robust to manipulation**
-
-_If most publishers are submitting a price of $100 and one publisher submits a price of $80, the aggregate price should remain near $100 and not be overly influenced by the single outlying price._
+The aggregation algorithm is designed to achieve 3 properties. First, it must be **robust to manipulation.** If most publishers are submitting a price of $100 and one publisher submits a price of $80, the aggregate price should remain near $100 and not be overly influenced by the single outlying price. In the figure below, the aggregate price and confidence interval (represented by the red star) is not influenced by the blue publisher whose price is far away from the other publishers:
 
 ![](<../.gitbook/assets/https\_\_\_bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com\_public\_images\_8c7da880-4157-4543-a293-37b5f5bfdac1\_291x172 (1).jpeg>)
 
-**#2 Aggregate price should appropriately weight data sources with different levels of accuracy**
-
-_Pyth allows publishers to submit a confidence interval because they have varying levels of accuracy in observing the price of a product. This property can result in situations where one publisher reports a price of $101 +/- 1, and another reports $110 +/- 10. In these cases, we would like the aggregate price to be closer to $101 than $110._
+Second, the **aggregate price should appropriately weight data sources with different levels of accuracy.** Pyth allows publishers to submit a confidence interval because they have varying levels of accuracy in observing the price of a product. This property can result in situations where one publisher reports a price of $101 +/- 1, and another reports $110 +/- 10. In these cases, we would like the aggregate price to be closer to $101 than $110, as in the figure below.
 
 ![](<../.gitbook/assets/https\_\_\_bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com\_public\_images\_c0ab7e74-adb8-4324-9ef1-607c41bde1d4\_292x171 (1).jpeg>)
 
-**#3 Aggregate confidence interval should reflect the variation between publishers’ prices**
-
-_In reality, there is no single price for any given product. Every product trades at a slightly different price around the world and so we must be able to reflect these variations._
+Finally, the **aggregate confidence interval should reflect the variation between publishers’ prices.**
+Under normal market conditions, we expect the a product to trade at a similar price across exchanges.
+In these cases, we would like the aggregate confidence interval to reflect the confidence intervals of the individual data providers, as shown in the figure on the left.
+However, in some rare situations, a product can trade at different prices on different exchanges.
+In these cases, the aggregate confidence interval should widen out to reflect the variation between these prices, as shown in the figure on the right.
 
 ![](<../.gitbook/assets/https\_\_\_bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com\_public\_images\_0b4c8b1e-26bb-4131-8e2b-f725839d1bad\_577x181 (1).jpeg>)
 
-**How does the aggregation algorithm achieve the 3 above properties?**
+**Algorithm**
 
-The first step of the algorithm computes the aggregate price by giving each publisher three votes — one vote at their price and one vote at each of their price +/- their confidence interval — then taking the median of all the votes.&#x20;
+The aggregation algorithm itself is a simple two-step process.
+The first step computes the aggregate price by giving each publisher three votes — one vote at their price and one vote at each of their price +/- their confidence interval — then taking the median of all the votes.
+The second step computes distance from the aggregate price to the 25th and 75th percentiles of the votes, then selects the larger of the two as the aggregate confidence interval.
 
-The second step computes the distance from the aggregate price to the 25th and 75th percentiles of the votes, then selects the larger of the two as the aggregate confidence interval. Now, let’s put everything together and visualize it with 4 scenarios.
+This process acts like a hybrid between a mean and a median, giving confident publishers more influence, while still capping the maximum influence of any single publisher.
+The algorithm has an interpretation as computing the minimum of an objective function that penalizes the aggregate price from deviating too far from the publishers' prices.
+This interpretation allows us to prove properties of the algorithm's behavior: for example, the aggregate price will always lie between the 25th and 75th percentiles of the publishers' prices.
 
-_In the following graphs, the red star depicts the aggregate price and the bold red line depicts the aggregate confidence interval. The grey circles represent the 25th and 75th percentiles of the votes — the further one of these from the aggregate price determines the confidence interval’s width._
 
-* Scenario 1
+**Scenarios**
 
-One “confident” publisher (tight confidence interval) is an outlier to the cohort but does not impact the final aggregated price. Its only impact will be a greater aggregated confidence interval that could highlight a price dislocation of the asset on different venues.
+We can visualize the operation of this algorithm and objective function in the 4 scenarios from above.
+In the following graphs, the colored bars represent each publisher's price and confidence interval, and the grey dashed lines above depict the publisher's contribution to the overall objective function.
+The red line represents the combined objective function, that is, the sum of the dashed grey lines.
+The grey circles represent the 25th and 75th percentiles of the votes — the further one of these from the aggregate price determines the confidence interval’s width.
+Finally, the bold red star depicts the aggregate price and the bold red line depicts the aggregate confidence interval.
+
+In the first scenario, one publisher with a tight confidence interval is an outlier.
+Although this publisher does influence the objective function (the red line is lower on the left side than the right), it does not have enough influence to affect either the aggregate price or confidence interval.
 
 ![](<../.gitbook/assets/https\_\_\_bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com\_public\_images\_a48fd6dc-356f-49fc-975a-290042f368e6\_252x292 (1).jpeg>)
 
-* Scenario 2
-
-It demonstrates how publishers with tighter confidence intervals (while having overlapping quotes with the rest of the cohort) can exert greater influence over the location of the aggregate price.
+The second scenario depicts how publishers with tighter confidence intervals can exert more influence over the location of the aggregate price, as long as their prices are consistent with the confidence intervals of other publishers.
 
 ![](<../.gitbook/assets/https\_\_\_bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com\_public\_images\_26665263-76ef-43e7-ad50-37b7b3f2775a\_250x295 (1).jpeg>)
 
-* Scenario 3
-
-It features publishers in overall “agreement” regarding the price and their relative uncertainty towards it. The final result shows that the aggregate confidence interval accounts for each publishers’ CI and gives identical results to the ordinary median.
+The third scenario demonstrates the typical case where there are many publishers whose prices and confidence intervals roughly agree.
+In this case, the desired behavior is for the aggregate price and confidence to reflect those of the individual publishers.
 
 ![](<../.gitbook/assets/https\_\_\_bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com\_public\_images\_8a2812c7-73d9-4d3f-8058-d5489ec3407b\_230x290 (1) (1).jpeg>)
 
-* Scenario 4
-
-Publishers publish distinct prices with non-overlapping confidence intervals. In this case, all votes of a single publisher will be adjacent in the sorted list and will be treated as a single vote.
+Finally, the fourth scenario considers the case where the publishers publish distinct prices with non-overlapping confidence intervals.
+In this case, the confidence interval widens out because the dispersion between publishers creates a large gap between the aggregate price and the 25th/75th percentiles of the votes.
 
 ![](<../.gitbook/assets/https\_\_\_bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com\_public\_images\_812a2656-0c46-4b64-9538-fccb364cb343\_260x283 (1).jpeg>)
 
-**Even if we would not be in any of the above scenarios mentioned, the aggregate price will always lie within the 25th-75th percentile of the publisher’s prices.**
 
-In addition, we’re working on a staking system for publishers that incentivizes them to provide accurate data, and in that system, each publisher will have a varying amount of stake. All of the results also hold for stake weights if we simply replace the % of publishers with the % of stake controlled.
+**Further Reading**
 
-Note that in the future the weight calculation can be extended to include other non-price factors such as quoter stake (mentioned above), historical quoter performance, and many other relevant metrics.
+For more details on the aggregation algorithm and some of the theory behind it, please see the [price aggregation blog post](https://pythnetwork.medium.com/pyth-price-aggregation-proposal-770bfb686641).

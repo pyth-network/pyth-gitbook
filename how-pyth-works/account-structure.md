@@ -1,6 +1,6 @@
 # Solana Account Structure
 
-The Pyth price oracle manages a number of on-chain accounts. There are three different types of accounts:
+The Pyth oracle program manages a number of on-chain accounts. There are three different types of accounts:
 
 1. _Product accounts_ store metadata about a product, such as its symbol (e.g., "BTC/USD") and asset type.
 2. _Price accounts_ store the current price information for a particular product. This account has fields such as the current price, a confidence interval, an exponential moving average price, an exponential moving average confidence interval and whether or not a price is currently available.
@@ -10,7 +10,7 @@ The [Pyth Rust Client Library](https://github.com/pyth-network/pyth-client-rs) c
 
 **Product Accounts**
 
-Product accounts store metadata about a product. This metadata is represented as a set of reference attributes, stored as a list of text key/value pairs. Not all product accounts follow the same structure, for a comprehensive overview, visit the [Product Metadata page](product-metadata.md). For example, the product account for AAPL contains the following fields:
+Product accounts store metadata about a product. This metadata is represented as a set of reference attributes, stored as a list of text key/value pairs. Not all product accounts follow the same structure; for a comprehensive overview, visit the [Product Metadata page](product-metadata.md). For example, the product account for AAPL contains the following fields:
 
 ```
 product_account .. G89jkM5wFLpmnbvRbeePUumxsJyzoXaRfgBVjyx2CPzQ
