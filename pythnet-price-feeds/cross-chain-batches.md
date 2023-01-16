@@ -29,45 +29,77 @@ All existing batches are listed below:
 | batch_fx_3 | FX.USD/RUB
 | | FX.USD/SGD
 | | FX.USD/ZAR |
-| batch_equity_1 | Equity.US.AAPL/USD
+| batch_br_equity_1 | Equity.BR.ABEV3/BRL
+| | Equity.BR.AGRO3/BRL
+| | Equity.BR.APER3/BRL
+| | Equity.BR.ARZZ3/BRL
+| | Equity.BR.ASAI3/BRL |
+| batch_br_equity_2 | Equity.BR.BBDC4/BRL
+| | Equity.BR.BBSE3/BRL
+| | Equity.BR.BLAU3/BRL
+| | Equity.BR.BMOB3/BRL
+| | Equity.BR.CASH3/BRL |
+| batch_br_equity_3 | Equity.BR.DASA3/BRL
+| | Equity.BR.FESA4/BRL
+| | Equity.BR.ITUB4/BRL
+| | Equity.BR.LEVE3/BRL
+| | Equity.BR.LWSA3/BRL |
+| batch_br_equity_4 | Equity.BR.PETR4/BRL
+| | Equity.BR.RDOR3/BRL
+| | Equity.BR.ROMI3/BRL
+| | Equity.BR.USIM3/BRL
+| | Equity.BR.VALE3/BRL |
+| batch_gb_equity_1 | Equity.GB.IB01/USD
+| | Equity.GB.IBTA/USD |
+| batch_us_equity_1 | Equity.US.AAPL/USD
 | | Equity.US.AMC/USD
 | | Equity.US.AMGN/USD
 | | Equity.US.AMZN/USD
 | | Equity.US.AXP/USD |
-| batch_equity_2 | Equity.US.BA/USD
+| batch_us_equity_2 | Equity.US.BA/USD
 | | Equity.US.CAT/USD
 | | Equity.US.CRM/USD
 | | Equity.US.CSCO/USD
 | | Equity.US.CVX/USD |
-| batch_equity_3 | Equity.US.DIS/USD
+| batch_us_equity_3 | Equity.US.DIS/USD
 | | Equity.US.DOW/USD
+| | Equity.US.EFA/USD
 | | Equity.US.GE/USD
-| | Equity.US.GME/USD
-| | Equity.US.GOOG/USD |
-| batch_equity_4 | Equity.US.GS/USD
+| | Equity.US.GME/USD |
+| batch_us_equity_4 | Equity.US.GOOG/USD
+| | Equity.US.GOVT/USD
+| | Equity.US.GS/USD
 | | Equity.US.HD/USD
-| | Equity.US.HON/USD
-| | Equity.US.IBM/USD
-| | Equity.US.INTC/USD |
-| batch_equity_5 | Equity.US.JNJ/USD
-| | Equity.US.JPM/USD
+| | Equity.US.HON/USD |
+| batch_us_equity_5 | Equity.US.IBM/USD
+| | Equity.US.INTC/USD
+| | Equity.US.IVV/USD
+| | Equity.US.IWM/USD
+| | Equity.US.JNJ/USD |
+| batch_us_equity_6 | Equity.US.JPM/USD
 | | Equity.US.KO/USD
 | | Equity.US.MCD/USD
+| | Equity.US.MINT/USD
 | | Equity.US.MMM/USD |
-| batch_equity_6 | Equity.US.MRK/USD
+| batch_us_equity_7 | Equity.US.MRK/USD
 | | Equity.US.MSFT/USD
 | | Equity.US.NFLX/USD
 | | Equity.US.NKE/USD
 | | Equity.US.PG/USD |
-| batch_equity_7 | Equity.US.QQQ/USD
+| batch_us_equity_8 | Equity.US.QQQ/USD
+| | Equity.US.SHV/USD
 | | Equity.US.SPY/USD
-| | Equity.US.TRV/USD
-| | Equity.US.TSLA/USD
-| | Equity.US.UNH/USD |
-| batch_equity_8 | Equity.US.V/USD
-| | Equity.US.VZ/USD
+| | Equity.US.TLT/USD
+| | Equity.US.TRV/USD |
+| batch_us_equity_9 | Equity.US.TSLA/USD
+| | Equity.US.UNH/USD
+| | Equity.US.USO/USD
+| | Equity.US.V/USD
+| | Equity.US.VOO/USD |
+| batch_us_equity_10 | Equity.US.VZ/USD
 | | Equity.US.WBA/USD
-| | Equity.US.WMT/USD |
+| | Equity.US.WMT/USD
+| | Equity.US.XLE/USD |
 | batch_crypto_stablecoin_1 | Crypto.BRZ/USD
 | | Crypto.BUSD/USD
 | | Crypto.CUSD/USD
