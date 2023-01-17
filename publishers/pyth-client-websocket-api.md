@@ -14,6 +14,8 @@ Batch requests are processed in the order the requests appear within the batch.
 
 Get the list of available symbols and associated metadata.
 
+Please note that all of the fields in the `attr_dict` dictionary should be considered optional: your publishing software should gracefully handle cases where any of these fields are missing.
+
 The request looks like:
 
 ```
@@ -152,7 +154,9 @@ Where the result is an integer corresponding to a subscription identifier. All s
 
 ### get\_product
 
-Get the full set of data for the given product
+Get the full set of data for the given product.
+
+Please note that all of the fields in the `attr_dict` dictionary should be considered optional: your publishing software should gracefully handle cases where any of these fields are missing.
 
 The request looks like:
 
@@ -223,7 +227,9 @@ A successful response looks something like:
 
 ### get\_all\_products
 
-Get full set of data for the given product
+Get full set of data for the given product.
+
+Please note that all of the fields in the `attr_dict` dictionary should be considered optional: your publishing software should gracefully handle cases where any of these fields are missing.
 
 The request looks like:
 
