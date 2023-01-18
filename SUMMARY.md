@@ -30,6 +30,8 @@
   * [Price Aggregation](how-pyth-works/price-aggregation.md)
   * [EMA Price Aggregation](how-pyth-works/ema-price-aggregation.md)
 
+* [Security](security/security.md)
+
 * [Whitepaper](whitepaper/whitepaper.md)
   * [Network Participants](whitepaper/network-participants.md)
   * [Network Interactions](whitepaper/network-interactions.md)
