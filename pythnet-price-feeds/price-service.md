@@ -17,6 +17,6 @@ These endpoints can be used to test integrations with Pyth Network:
 For production deployments, developers integrating with Pyth Network are **strongly encouraged** to host their own instance of the price service for maximum resilience and decentralization.
 By running an independent instance of this service, developers tap directly into Wormhole's peer-to-peer network to stream Pyth price updates.
 This peer-to-peer network has built-in redundancy and is therefore inherently more reliable than a centralized service operated by the PDA.
-Please find more information about building and running the price service from [here](https://github.com/pyth-network/pyth-crosschain/blob/main/price-service/README.md).
+Please find more information about building and running the price service from [here][price-service-repo].
 
 [price-service-repo]: https://github.com/pyth-network/pyth-crosschain/tree/main/price-service
