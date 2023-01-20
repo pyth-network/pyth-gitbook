@@ -8,16 +8,12 @@ Cosmwasm contracts can update and fetch the Pyth prices using the Pyth Cosmwasm 
 
 ## Updating Price Feeds
 
-The mechanism by which price feeds are updated on Cosmwasm is explained [here](./pythnet-price-feeds.md). Once fetched price feed update data can be passed to the `ExecuteMsg` on-chain function as `UpdatePriceFeeds { data: Vec<Binary> }`.
+The mechanism by which price feeds are updated on Cosmwasm is explained [here](./pythnet-price-feeds.md). Once fetched, price feed update data can be passed to the `ExecuteMsg`, on-chain function.
 
 ## Examples
 - [Minimal on-chain contract](https://github.com/pyth-network/pyth-crosschain/blob/main/target-chains/cosmwasm/examples/cw-contract) which queries the pyth contract. 
 
-## Networks 
-
-Pyth is currently deployed on Injective Testnet.
-
-## Addresses
+## Networks
 
 Pyth is currently available on the following cosmwasm chains: 
 ### Testnet
