@@ -4,7 +4,7 @@ description: Consume Pyth Network prices in applications on Cosmwasm
 
 # Pyth on Cosmwasm
 
-Cosmwasm contracts can update and fetch the Pyth prices using the Pyth Cosmwasm Contract, which has been deployed on Testnet. The documented source code can be found [here](https://github.com/pyth-network/pyth-crosschain/tree/main/target-chains/cosmwasm/contracts/pyth).
+Cosmwasm contracts can update and fetch the Pyth prices using the Pyth Cosmwasm Contract, deployed on their network. The documented source code can be found [here](https://github.com/pyth-network/pyth-crosschain/tree/main/target-chains/cosmwasm/contracts/pyth).
 
 ## Updating Price Feeds
 
