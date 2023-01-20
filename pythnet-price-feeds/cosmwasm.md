@@ -8,7 +8,7 @@ Cosmwasm contracts can update and fetch the Pyth prices using the Pyth Cosmwasm 
 
 ## Updating Price Feeds
 
-The mechanism by which price feeds are updated on Cosmwasm is explained [here](./pythnet-price-feeds.md). Once fetched, price feed update data can be passed to the `ExecuteMsg`, on-chain function.
+The mechanism by which price feeds are updated on Cosmwasm is explained [here](./pythnet-price-feeds.md). The [pyth-common-js](https://github.com/pyth-network/pyth-js/tree/main/pyth-common-js) can be used to fetch the latest price feed data which then can be passed to the `ExecuteMsg`, on-chain function.
 
 ## Examples
 - [Minimal on-chain contract](https://github.com/pyth-network/pyth-crosschain/blob/main/target-chains/cosmwasm/examples/cw-contract) which queries the pyth contract. 
