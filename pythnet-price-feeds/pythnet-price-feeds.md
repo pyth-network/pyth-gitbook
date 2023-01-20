@@ -24,6 +24,10 @@ Then, follow the links below to find the right SDK for your ecosystem:
 [bas.md](bas.md)
 {% endcontent-ref %}
 
+{% content-ref url="cosmwasm.md" %}
+[cosmwasm.md](cosmwasm.md)
+{% endcontent-ref %}
+
 {% content-ref url="off-chain.md" %}
 [off-chain.md](off-chain.md)
 {% endcontent-ref %}
