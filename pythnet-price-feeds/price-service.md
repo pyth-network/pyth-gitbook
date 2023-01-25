@@ -19,4 +19,4 @@ By running an independent instance of this service, developers tap directly into
 This peer-to-peer network has built-in redundancy and is therefore inherently more reliable than a centralized service operated by the PDA.
 Please find more information about building and running the price service from [here][price-service-repo].
 
-[price-service-repo]: https://github.com/pyth-network/pyth-crosschain/tree/main/price-service
+[price-service-repo]: https://github.com/pyth-network/pyth-crosschain/tree/main/price_service
