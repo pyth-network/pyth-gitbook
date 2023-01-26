@@ -4,15 +4,15 @@ description: Consume Pyth Network prices in applications on Aptos
 
 # Pyth on Aptos
 
-Aptos contracts can update and fetch the Pyth prices using the Pyth Aptos Contract, which has been deployed on Mainnet. The documented source code can be found [here](https://github.com/pyth-network/pyth-crosschain/blob/main/target-chains/aptos/contracts/sources/pyth.move).
+Aptos contracts can update and fetch the Pyth prices using the Pyth Aptos Contract, which has been deployed on Mainnet. The documented source code can be found [here](https://github.com/pyth-network/pyth-crosschain/blob/main/target_chains/aptos/contracts/sources/pyth.move).
 
 ## Updating Price Feeds
 
 The mechanism by which price feeds are updated on Aptos is explained [here](./pythnet-price-feeds.md). The [pyth-aptos-js](https://github.com/pyth-network/pyth-js/tree/main/pyth-aptos-js) package can be used to fetch price feed update data which can be passed to the `pyth::update_price` on-chain function.
 
 ## Examples
-- [Minimal on-chain contract](https://github.com/pyth-network/pyth-crosschain/blob/main/target-chains/aptos/examples/fetch_btc_price/sources/example.move) which updates and returns the Pyth BTC/USD price.
-- [Full-stack React app and on-chain contract](https://github.com/pyth-network/pyth-crosschain/tree/main/target-chains/aptos/examples/mint_nft) which uses the [pyth-aptos-js](https://github.com/pyth-network/pyth-js/tree/main/pyth-aptos-js) package to update the price used by the contract.
+- [Minimal on-chain contract](https://github.com/pyth-network/pyth-crosschain/blob/main/target_chains/aptos/examples/fetch_btc_price/sources/example.move) which updates and returns the Pyth BTC/USD price.
+- [Full-stack React app and on-chain contract](https://github.com/pyth-network/pyth-crosschain/tree/main/target_chains/aptos/examples/mint_nft) which uses the [pyth-aptos-js](https://github.com/pyth-network/pyth-js/tree/main/pyth-aptos-js) package to update the price used by the contract.
 
 ## Networks 
 
