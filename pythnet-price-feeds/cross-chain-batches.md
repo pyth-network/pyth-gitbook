@@ -29,26 +29,6 @@ All existing batches are listed below:
 | batch_fx_3 | FX.USD/RUB
 | | FX.USD/SGD
 | | FX.USD/ZAR |
-| batch_br_equity_1 | Equity.BR.ABEV3/BRL
-| | Equity.BR.AGRO3/BRL
-| | Equity.BR.APER3/BRL
-| | Equity.BR.ARZZ3/BRL
-| | Equity.BR.ASAI3/BRL |
-| batch_br_equity_2 | Equity.BR.BBDC4/BRL
-| | Equity.BR.BBSE3/BRL
-| | Equity.BR.BLAU3/BRL
-| | Equity.BR.BMOB3/BRL
-| | Equity.BR.CASH3/BRL |
-| batch_br_equity_3 | Equity.BR.DASA3/BRL
-| | Equity.BR.FESA4/BRL
-| | Equity.BR.ITUB4/BRL
-| | Equity.BR.LEVE3/BRL
-| | Equity.BR.LWSA3/BRL |
-| batch_br_equity_4 | Equity.BR.PETR4/BRL
-| | Equity.BR.RDOR3/BRL
-| | Equity.BR.ROMI3/BRL
-| | Equity.BR.USIM3/BRL
-| | Equity.BR.VALE3/BRL |
 | batch_gb_equity_1 | Equity.GB.IB01/USD
 | | Equity.GB.IBTA/USD |
 | batch_us_equity_1 | Equity.US.AAPL/USD
