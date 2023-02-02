@@ -2,36 +2,36 @@
 
 **Recap**
 
-![](../../.gitbook/assets/kpi/january-23/Pyth%20Jan%2023.jpg)
+![](../../.gitbook/assets/kpi/january-23/pyth-jan-23.jpg)
 
 **Data Publishers**
 
-![](../../.gitbook/assets/kpi/january-23/Jan%2023%20-%20Publisher%20Growth.png)
+![](../../.gitbook/assets/kpi/january-23/jan-23-publisher-growth.png)
 
 **Price Feeds**
 
-![](../../.gitbook/assets/kpi/january-23/Jan%2023%20-%20Price%20Feeds.png)
+![](../../.gitbook/assets/kpi/january-23/jan-23-price-feeds.png)
 
 **#PoweredByPyth Applications**
 
-![](../../.gitbook/assets/kpi/january-23/Jan%2023%20-%20Apps%20Integrations%20v2.png)
+![](../../.gitbook/assets/kpi/january-23/jan-23-apps-integrations.png)
 
 **Total Value Secured**
 
-![](../../.gitbook/assets/kpi/january-23/Jan%2023%20-%20dApps%20TVS.png)
+![](../../.gitbook/assets/kpi/january-23/jan-23-dapps-tvs.png)
 
 **Cumulative Trading Volume**
 
-![](../../.gitbook/assets/kpi/january-23/Jan%2023%20-%20Traded%20Volume.png)
+![](../../.gitbook/assets/kpi/january-23/jan-23-traded-volume.png)
 
 **Monthly Trading Volume**
 
-![](../../.gitbook/assets/kpi/january-23/Jan%2023%20-%20Trading%20Volume.png)
+![](../../.gitbook/assets/kpi/january-23/jan-23-trading-volume.png)
 
 **Client Downloads**
 
-![](../../.gitbook/assets/kpi/january-23/Jan%2023%20-%20Client%20Downloads.png)
+![](../../.gitbook/assets/kpi/january-23/jan-23-client-downloads.png)
 
 **Connected Blockchains**
 
-![](../../.gitbook/assets/kpi/january-23/Jan%2023%20-%20Connected%20Blockchains.png)
+![](../../.gitbook/assets/kpi/january-23/jan-23-connected-blockchains.png)
