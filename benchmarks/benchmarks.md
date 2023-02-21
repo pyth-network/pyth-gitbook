@@ -2,13 +2,10 @@
 description: Use historical Pyth price data in your application
 ---
 
-Pyth enables users to retrieve a benchmark price for any asset at a specific date and time, e.g., last Friday at 8:00 AM UTC.
-This price can be used for contract settlement or any other application that requires historical price data.
-
 Pyth benchmarks allows users to query a historical archive of prices from [Pythnet Price Feeds](../pythnet-price-feeds).
-This archive is developed and maintained by the Pyth Data Association.
-Thus, the benchmark price at any point in time is equivalent to the real-time price published on Pythnet Price Feeds at that time.
-The historical data is verifiable on-chain with the same trust assumptions as Pythnet Price Feeds.
+For example, applications can retrieve the price of BTC/USD as of last Friday at 8:00 AM UTC.
+This price can be used for contract settlement or any other application that requires historical price data.
+Benchmarks data is signed and verifiable on-chain with the same trust assumptions as Pythnet Price Feeds.
 
 Users can access benchmark prices in several different ways, depending on the use case:
 
