@@ -1,0 +1,42 @@
+---
+description: Use historical Pyth price data in your application
+---
+
+Pyth enables users to retrieve a benchmark price for any asset at a specific date and time, e.g., last Friday at 8:00 AM UTC.
+This price can be used for contract settlement or any other application that requires historical price data.
+
+Pyth benchmarks allows users to query a historical archive of prices from [Pythnet Price Feeds](../pythnet-price-feeds).
+This archive is developed and maintained by the Pyth Data Association.
+Thus, the benchmark price at any point in time is equivalent to the real-time price published on Pythnet Price Feeds at that time.
+The historical data is verifiable on-chain with the same trust assumptions as Pythnet Price Feeds.
+
+Users can access benchmark prices in several different ways, depending on the use case:
+
+# Manual Browsing
+
+The [benchmarks page](todo) of the pyth.network website allows users to search the archive of benchmark prices.
+It also provides default options for common settlement dates and times.
+
+# Charting
+
+TODO: link to tradingview documentation
+
+# On-chain Contracts
+
+On-chain contracts can consume benchmark prices using the same on-demand model as [Pythnet Price Feeds](../pythnet-price-feeds).
+Integrators can follow these three steps:
+
+1. Use the [price service](../pythnet-price-feeds/price-service) endpoint `/api/get_vaa` to retrieve a signed price update for the desired price feed and time.
+   This endpoint will return a signed price update.
+   This step can be done in either a web frontend or a backend process, depending on who is expected to initiate the transaction.
+2. Pass this price update to your on-chain contract as part of the transaction that needs the benchmark data.
+3. In your on-chain contract, pass the price update to the `parsePriceFeedUpdates` function on the Pyth contract.
+   This function will check the validity of the update and return the price of the requested asset (if valid).
+   The price update will only be valid if the signatures are correct and the update falls within a user-configured time interval; integrators should set this time interval such that it matches their desired time.
+
+Note that this process is similar to the standard process for consuming on-demand updates.
+The main differences are that users call the `get_vaa` endpoint instead of `latest_vaas`, and the on-chain contract calls `parsePriceFeedUpdates` instead of `updatePriceFeeds`.
+
+TODO: link to an example integration.
+
+

@@ -15,7 +15,9 @@
   * [Pyth on BAS Chains](pythnet-price-feeds/bas.md) 
   * [Pyth for Off-chain Apps](pythnet-price-feeds/off-chain.md)
   * [Price Service](pythnet-price-feeds/price-service.md)
-  * [Price Feed Batches](pythnet-price-feeds/cross-chain-batches.md)  
+  * [Price Feed Batches](pythnet-price-feeds/cross-chain-batches.md)
+
+* [Benchmarks](benchmarks/benchmarks.md)
 
 * [Publish Data](publishers/publish-data.md)
   * [Understanding Publishing Slots](publishers/understanding-publishing-slots.md)
