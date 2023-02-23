@@ -1,6 +1,6 @@
-# pyth-client Websocket API
+# pyth-agent API
 
-The pythd daemon supports a websocket interface based on the json-rpc 2.0 standard. Methods include:
+[pyth-agent](https://github.com/pyth-network/pyth-agent) supports a websocket interface based on the json-rpc 2.0 standard. Methods include:
 
 * [get\_product\_list](pyth-client-websocket-api.md#get\_product\_list)
 * [update\_price](pyth-client-websocket-api.md#update\_price)
@@ -81,7 +81,7 @@ A successful response looks something like:
 
 ## update\_price
 
-Update component price of some symbols using the publishing key of the pythd daemon.
+Update component price of some symbols using the publishing key of pyth-agent.
 
 The request includes the pricing account from the get\_product\_list output and looks something like:
 
@@ -113,7 +113,7 @@ A successful response looks like:
 
 ## subscribe\_price\_sched
 
-Subscribe to price update schedule. pythd will notify the client whenever it should submit the next price for a subscribed symbol.
+Subscribe to price update schedule. pyth-agent will notify the client whenever it should submit the next price for a subscribed symbol.
 
 The request looks like:
 

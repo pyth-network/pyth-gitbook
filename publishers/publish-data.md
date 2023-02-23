@@ -1,76 +1,57 @@
-# Getting started with publishing via pyth-client
+---
+description: Get started publishing data
+---
 
-{% hint style="info" %}
-To publish data you will need to be permissioned: please reach out to the Pyth Data Association on [Discord](https://discord.gg/Ff2XDydUhu) or [Telegram](https://t.me/Pyth_Network) to get set up.
-{% endhint %}
+Data providers can get started publishing data to the Pyth Network by performing the following steps.
 
-The pyth-client repo consists of two command-line administration tools (pyth & pyth_admin) and a json/websocket-based server (pythd).
+## Request access
 
-You can integrate with the pythd server via json/websockets. See `pctest/test_publish.py` for an example.
+First, contact the Pyth Data Association and request to become a data provider.
+You can reach out on [Discord](https://discord.gg/Ff2XDydUhu) or [Telegram](https://t.me/Pyth_Network).
+**Only data providers with first-party data (exchanges, market makers, and trading firms) are allowed to participate in the network.**
 
-Before doing this you need to setup a *key-store* directory. A key-store is a collection of cryptographic keys for interacting with the solana block-chain. This can be done via the pyth command-line tool.  First, build the project by following the instructions in the README.md file and cd to the build directory, then run the following:
+## Generate keypair
 
-
-```
-KDIR=$HOME/.pythd
-./pyth init_key -k $KDIR
-
-```
-
-You can replace `$KDIR` with a directory of your choice.
-
-This creates the directory (if it didn't already exist) and creates a key-pair file containing the identifier you're going to use to publish to the block-chain: `$KDIR/publish_key_pair.json`.
-
-Please extract the public key from this key-pair and send it to the administrator so it can be permissioned for your symbols of interest. The public key can be extracted as follows:
+Every data provider is identified on the network by a public key, and their prices are signed by the corresponding private key.
+You will need a Solana public/private key pair for this purpose.
+If you do not already have a keypair, you can create one using the instructions below:
 
 ```
-solana-keygen pubkey $KDIR/publish_key_pair.json
+# Install the Solana Tool Suite, needed for creating the key used to sign your transactions.
+# See https://docs.solana.com/cli/install-solana-cli-tools for the latest version
+sh -c "$(curl -sSfL https://release.solana.com/v1.14.13/install)"
+
+# Generate a public/private keypair.
+solana-keygen new --no-bip39-passphrase --outfile publish_key_pair.json
 ```
 
-This will output the public key in base58 encoding and will look something like:
+This command will create a public/private keypair in `publish_key_pair.json`.
+Please extract the public key from this file and share it with the Pyth Data Association so they can enable you to publish prices.
+
+```
+# Print the public key of the keypair.
+solana-keygen pubkey publish_key_pair.json
+```
+
+This command will output the public key in base58 encoding and will look something like:
 
 ```
 5rYvdyWAunZgD2EC1aKo7hQbutUUnkt7bBFM6xNq2z7Z
 ```
 
-Once permissioned, you need two additional public keys in the key-store. The id of the mapping-account that contains the directory listing of the on-chain symbols and the id of the on-chain oracle program that you use to publish prices.  Mapping and program accounts are maintained in two separate environments: devnet and forthcoming mainnet-beta.
+Most data providers choose to generate two separate keypairs, one for testing and one for production.
+If you do so, please share both public keys with the Pyth Data Association.
 
-Use the init_key_store.sh script to initialize these account keys:
+## Procure validators
 
-```
-KENV=devnet  # or testnet, mainnet
+Every data provider to the network will require both a Solana RPC node and a Pythnet validator.
+The Pyth Data Association will assist you with this step.
 
-# initialize keys for solana devnet
-../pctest/init_key_store.sh $KENV $KDIR
+## Pyth-agent
 
-```
-
-This creates two files: `$KDIR/mapping_key.json` and `$KDIR/program_key.json`.
-
-Once permissioned, you can test your setup by running the test_publish.py example program against pythd for publishing and subscribing to a test symbol.  To test publishing on devnet you first need to run an instance of the pythd server:
-
-
-```
-RHOST=api.devnet.solana.com
-./pythd -k $KDIR -r $RHOST -x
-```
-
-Where RHOST is the location of the Solana validator instance.
-
-Run the test_publish.py example program on the same host to connect to the pythd server:
-
-```
-../pctest/test_publish.py
-
-```
-
-
-## Running the dashboard
-
-The pythd server also exports a dashboard web page for watching the ticking pyth prices.  The public key you create above does not need publish-permission to watch the ticking pyth prices.  To activate the dashboard page include an additional `-w` argument to pythd pointing at the html/javscript code directory:
-
-```
-./pythd -k $KDIR -r $RHOST -w ../dashboard
-```
-
-Connect to the dashboard via http://localhost:8910.
+Data providers can publish data to the network using the [pyth-agent](https://github.com/pyth-network/pyth-agent) software package.
+This package abstracts away all of the communication with the underlying blockchain and exposes a simple JSON RPC interface for submitting price data.
+Please see the [README](https://github.com/pyth-network/pyth-agent) of that package for instructions on using it.
+This software requires you to configure both the keypair and validators from the previous steps in order to run.
+Please also see the [JSON RPC API documentation](./pyth-client-websocket-api.md).
+Finally, the [example publisher](https://github.com/pyth-network/example-publisher) is a fully-worked example of how to integrate with the pyth-agent API.
