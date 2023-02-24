@@ -13,10 +13,8 @@ Users can access benchmark prices in several different ways, depending on the us
 
 The [benchmarks page](todo) of the pyth.network website allows users to search the archive of benchmark prices.
 It also provides default options for common settlement dates and times.
-
-# Charting
-
-TODO: link to tradingview documentation
+Users can select a time and see all of the Pyth prices that were active at that time.
+Technically, each displayed price corresponds to the Pyth price update published just before the selected time; this ensures that the displayed price is the one a user would have seen if they observed the Pyth price at that time.
 
 # On-chain Contracts
 
@@ -24,7 +22,7 @@ On-chain contracts can consume benchmark prices using the same on-demand model a
 Integrators can follow these three steps:
 
 1. Use the [price service](../pythnet-price-feeds/price-service) endpoint `/api/get_vaa` to retrieve a signed price update for the desired price feed and time.
-   This endpoint will return a signed price update.
+   This endpoint will return a signed price update, specifically the price update immediately after the queried time.
    This step can be done in either a web frontend or a backend process, depending on who is expected to initiate the transaction.
 2. Pass this price update to your on-chain contract as part of the transaction that needs the benchmark data.
 3. In your on-chain contract, pass the price update to the `parsePriceFeedUpdates` function on the Pyth contract.
