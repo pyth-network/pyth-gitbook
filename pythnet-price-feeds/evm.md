@@ -4,11 +4,11 @@ description: Consume Pyth Network prices in EVM applications
 
 # Pyth on EVM
 
-On-chain EVM programs can use the [Solidity SDK](https://github.com/pyth-network/pyth-sdk-solidity) to read Pyth prices. The off-chain portion of the application can use [pyth-evm-js](https://github.com/pyth-network/pyth-js/tree/main/pyth-evm-js) to generate price update transactions. This repository's [Quickstart](https://github.com/pyth-network/pyth-js/tree/main/pyth-evm-js#quickstart) includes an example of both the on- and off-chain code necessary to integrate with Pyth.
+On-chain EVM programs can use the [Solidity SDK](https://github.com/pyth-network/pyth-sdk-solidity) to read Pyth prices. The off-chain portion of the application can use [pyth-evm-js](https://github.com/pyth-network/pyth-crosschain/tree/main/target_chains/ethereum/sdk/js) to generate price update transactions. This repository's [Quickstart](https://github.com/pyth-network/pyth-crosschain/tree/main/target_chains/ethereum/sdk/js#quickstart) includes an example of both the on- and off-chain code necessary to integrate with Pyth.
 
 ## EVM price pusher
 
-[Pyth EVM price pusher](https://github.com/pyth-network/pyth-js/tree/main/pyth-evm-price-pusher)
+[Pyth EVM price pusher](https://github.com/pyth-network/pyth-crosschain/tree/main/price_pusher)
 is a service that regularly pushes price updates to the on-chain Pyth contract.
 Protocols can run this service to push regular updates to the on-chain Pyth price based on various conditions, such as a minimum update frequency, or a price change threshold.
 This service is useful for protocols that already depend on regular push updates and want to simplify  migrating to Pyth.
