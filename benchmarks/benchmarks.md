@@ -31,3 +31,4 @@ Integrators can follow these three steps:
 
 Note that this process is similar to the standard process for consuming on-demand updates.
 The main differences are that users call the `get_vaa` endpoint instead of `latest_vaas`, and the on-chain contract calls `parsePriceFeedUpdates` instead of `updatePriceFeeds`.
+The pyth-crosschain repo has [example code](https://github.com/pyth-network/pyth-crosschain/blob/main/target_chains/ethereum/sdk/js/src/examples/EvmBenchmark.ts) for an integration along the lines above for EVM chains.
