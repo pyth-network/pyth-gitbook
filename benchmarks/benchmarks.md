@@ -31,7 +31,3 @@ Integrators can follow these three steps:
 
 Note that this process is similar to the standard process for consuming on-demand updates.
 The main differences are that users call the `get_vaa` endpoint instead of `latest_vaas`, and the on-chain contract calls `parsePriceFeedUpdates` instead of `updatePriceFeeds`.
-
-TODO: link to an example integration.
-
-
