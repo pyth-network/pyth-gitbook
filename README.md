@@ -7,8 +7,8 @@ Each price feed publishes a [robust aggregate](how-pyth-works/price-aggregation.
 
 Price feeds are available on multiple blockchains and can also be used in off-chain applications.
 Pyth offers two sets of price feeds for different applications:
-  * [Solana Price Feeds](solana-price-feeds/consume-data.md) are available in mainnet for Solana
-  * [Pythnet Price Feeds](pythnet-price-feeds/consume-data.md) are available in mainnet for most [EVM chains](pythnet-price-feeds/evm.md), including Ethereum, BNB, Avalanche, and more.
+  * [Solana Price Feeds](solana-price-feeds/solana-price-feeds.md) are available in mainnet for Solana
+  * [Pythnet Price Feeds](pythnet-price-feeds/pythnet-price-feeds.md) are available in mainnet for most [EVM chains](pythnet-price-feeds/evm.md), including Ethereum, BNB, Avalanche, and more.
     These feeds are also available in [Aptos](pythnet-price-feeds/aptos.md) mainnet and will be coming soon to Cosmos chains and other ecosystems.
 
 Application developers can follow the links above to learn more about how to consume Pyth Network data for the relevant ecosystem.
