@@ -14,7 +14,7 @@
 
 **#PoweredByPyth Applications**
 
-![](../../.gitbook/assets/kpi/january-23/jan-23-apps-integrations.png)
+![](../../.gitbook/assets/kpi/february-23/feb-23-apps-integrations.png)
 
 **Total Value Secured**
 
