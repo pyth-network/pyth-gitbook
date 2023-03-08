@@ -52,6 +52,8 @@ Pyth is currently available on the following EVM-based chains:
 | Arbitrum Goerli (testnet)  | `0x939C0e902FF5B3F7BA666Cc8F6aC75EE76d3f900` |
 | zkSync v2 Goerli (testnet) | `0xF532F2C1bB7b67E08f7D8B76f9fF804D0831725e` |
 | Base Goerli (testnet)      | `0x5955C1478F0dAD753C7E2B4dD1b4bC530C64749f` |
+| Shimmer testnet            | `0x354bF866A4B006C9AF9d9e06d9364217A8616E12` |
+| Chiado (Gnosis testnet)    | `0xdDAf6D29b8bc81c1F0798a5e4c264ae89c16a72B` |
 
 
 ## Price Feed IDs
