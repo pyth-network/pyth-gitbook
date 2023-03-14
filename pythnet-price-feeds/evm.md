@@ -33,6 +33,7 @@ Pyth is currently available on the following EVM-based chains:
 | Celo      | `0xff1a0f4744e8582DF1aE09D5611b887B6a12925C` |
 | KCC       | `0xE0d0e68297772Dd5a1f1D99897c581E2082dbA5B` |
 | Cronos    | `0xE0d0e68297772Dd5a1f1D99897c581E2082dbA5B` |
+| EVMOS     | `0x354bF866A4B006C9AF9d9e06d9364217A8616E12` |
 
 
 ### Testnet
