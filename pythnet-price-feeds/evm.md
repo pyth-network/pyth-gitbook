@@ -34,6 +34,7 @@ Pyth is currently available on the following EVM-based chains:
 | KCC       | `0xE0d0e68297772Dd5a1f1D99897c581E2082dbA5B` |
 | Cronos    | `0xE0d0e68297772Dd5a1f1D99897c581E2082dbA5B` |
 | ZkSync    | `0xf087c864AEccFb6A2Bf1Af6A0382B0d0f6c5D834` |
+| EVMOS     | `0x354bF866A4B006C9AF9d9e06d9364217A8616E12` |
 
 
 ### Testnet
@@ -55,6 +56,7 @@ Pyth is currently available on the following EVM-based chains:
 | Base Goerli (testnet)      | `0x5955C1478F0dAD753C7E2B4dD1b4bC530C64749f` |
 | Shimmer testnet            | `0x354bF866A4B006C9AF9d9e06d9364217A8616E12` |
 | Chiado (Gnosis testnet)    | `0xdDAf6D29b8bc81c1F0798a5e4c264ae89c16a72B` |
+| EVMOS testnet              | `0x354bF866A4B006C9AF9d9e06d9364217A8616E12` |
 
 
 ## Price Feed IDs
