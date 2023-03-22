@@ -58,6 +58,7 @@ Pyth is currently available on the following EVM-based chains:
 | Chiado (Gnosis testnet)    | `0xdDAf6D29b8bc81c1F0798a5e4c264ae89c16a72B` |
 | EVMOS testnet              | `0x354bF866A4B006C9AF9d9e06d9364217A8616E12` |
 | Neon devnet                | `0x2FF312f50689ad279ABb164dB255Eb568733BD6c` |
+| Polygon zkEVM testnet      | `0xd54bf1758b1C932F86B178F8b1D5d1A7e2F62C2E` |
 
 
 ## Price Feed IDs
