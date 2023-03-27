@@ -20,21 +20,22 @@ Pyth is currently available on the following EVM-based chains:
 
 ### Mainnet
 
-| Network   | Contract address                             |
-| --------- | -------------------------------------------- |
-| Avalanche | `0x4305FB66699C3B2702D4d05CF36551390A4c69C6` |
-| Fantom    | `0xff1a0f4744e8582DF1aE09D5611b887B6a12925C` |
-| Polygon   | `0xff1a0f4744e8582DF1aE09D5611b887B6a12925C` |
-| BNB       | `0x4D7E825f80bDf85e913E0DD2A2D54927e9dE1594` |
-| Ethereum  | `0x4305FB66699C3B2702D4d05CF36551390A4c69C6` |
-| Optimism  | `0xff1a0f4744e8582DF1aE09D5611b887B6a12925C` |
-| Aurora    | `0xF89C7b475821EC3fDC2dC8099032c05c6c0c9AB9` |
-| Arbitrum  | `0xff1a0f4744e8582DF1aE09D5611b887B6a12925C` |
-| Celo      | `0xff1a0f4744e8582DF1aE09D5611b887B6a12925C` |
-| KCC       | `0xE0d0e68297772Dd5a1f1D99897c581E2082dbA5B` |
-| Cronos    | `0xE0d0e68297772Dd5a1f1D99897c581E2082dbA5B` |
-| ZkSync    | `0xf087c864AEccFb6A2Bf1Af6A0382B0d0f6c5D834` |
-| EVMOS     | `0x354bF866A4B006C9AF9d9e06d9364217A8616E12` |
+| Network       | Contract address                             |
+| ---------     | -------------------------------------------- |
+| Avalanche     | `0x4305FB66699C3B2702D4d05CF36551390A4c69C6` |
+| Fantom        | `0xff1a0f4744e8582DF1aE09D5611b887B6a12925C` |
+| Polygon       | `0xff1a0f4744e8582DF1aE09D5611b887B6a12925C` |
+| BNB           | `0x4D7E825f80bDf85e913E0DD2A2D54927e9dE1594` |
+| Ethereum      | `0x4305FB66699C3B2702D4d05CF36551390A4c69C6` |
+| Optimism      | `0xff1a0f4744e8582DF1aE09D5611b887B6a12925C` |
+| Aurora        | `0xF89C7b475821EC3fDC2dC8099032c05c6c0c9AB9` |
+| Arbitrum      | `0xff1a0f4744e8582DF1aE09D5611b887B6a12925C` |
+| Celo          | `0xff1a0f4744e8582DF1aE09D5611b887B6a12925C` |
+| KCC           | `0xE0d0e68297772Dd5a1f1D99897c581E2082dbA5B` |
+| Cronos        | `0xE0d0e68297772Dd5a1f1D99897c581E2082dbA5B` |
+| ZkSync        | `0xf087c864AEccFb6A2Bf1Af6A0382B0d0f6c5D834` |
+| EVMOS         | `0x354bF866A4B006C9AF9d9e06d9364217A8616E12` |
+| Polygon zkEVM | `0xC5E56d6b40F3e3B5fbfa266bCd35C37426537c65` |
 
 
 ### Testnet
