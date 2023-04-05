@@ -41,7 +41,8 @@ The on-demand model has several benefits over the push model:
 
 Developers integrating with Pyth Network should build their application to submit the necessary price updates on their users' behalf.
 For example, if you need the BTC/USD price on-chain, then your frontend should submit the BTC/USD Pyth price update in every transaction that needs it.
-The [Pyth Network SDKs](consume-data.md) cover both parts of this integration -- frontend and contract -- and are designed to simplify this process.
+The Pyth Network SDKs cover both parts of this integration -- frontend and contract -- and are designed to simplify this process.
+These SDKs are blockchain-specific and are described in more detail in the subsequent sections of this documentation.
 Developers should also host an instance of the [price service](price-service.md), which is a convenient wrapper around the Wormhole Network that the frontend SDKs use to fetch on-demand updates.
 
 ## Fees
