@@ -27,23 +27,24 @@ the frontend to interact with the contract. **Warning this example is intended o
 
 ### Mainnet
 
-| Network       | Contract address                             |
-| ---------     | -------------------------------------------- |
-| Avalanche     | `0x4305FB66699C3B2702D4d05CF36551390A4c69C6` |
-| Fantom        | `0xff1a0f4744e8582DF1aE09D5611b887B6a12925C` |
-| Polygon       | `0xff1a0f4744e8582DF1aE09D5611b887B6a12925C` |
-| BNB           | `0x4D7E825f80bDf85e913E0DD2A2D54927e9dE1594` |
-| Ethereum      | `0x4305FB66699C3B2702D4d05CF36551390A4c69C6` |
-| Optimism      | `0xff1a0f4744e8582DF1aE09D5611b887B6a12925C` |
-| Aurora        | `0xF89C7b475821EC3fDC2dC8099032c05c6c0c9AB9` |
-| Arbitrum      | `0xff1a0f4744e8582DF1aE09D5611b887B6a12925C` |
-| Celo          | `0xff1a0f4744e8582DF1aE09D5611b887B6a12925C` |
-| KCC           | `0xE0d0e68297772Dd5a1f1D99897c581E2082dbA5B` |
-| Cronos        | `0xE0d0e68297772Dd5a1f1D99897c581E2082dbA5B` |
-| zkSync Era    | `0xf087c864AEccFb6A2Bf1Af6A0382B0d0f6c5D834` |
-| EVMOS         | `0x354bF866A4B006C9AF9d9e06d9364217A8616E12` |
-| Polygon zkEVM | `0xC5E56d6b40F3e3B5fbfa266bCd35C37426537c65` |
-| Meter         | `0xbFe3f445653f2136b2FD1e6DdDb5676392E3AF16` |
+| Network        | Contract address                             |
+| -------------- | -------------------------------------------- |
+| Avalanche      | `0x4305FB66699C3B2702D4d05CF36551390A4c69C6` |
+| Fantom         | `0xff1a0f4744e8582DF1aE09D5611b887B6a12925C` |
+| Polygon        | `0xff1a0f4744e8582DF1aE09D5611b887B6a12925C` |
+| BNB            | `0x4D7E825f80bDf85e913E0DD2A2D54927e9dE1594` |
+| Ethereum       | `0x4305FB66699C3B2702D4d05CF36551390A4c69C6` |
+| Optimism       | `0xff1a0f4744e8582DF1aE09D5611b887B6a12925C` |
+| Aurora         | `0xF89C7b475821EC3fDC2dC8099032c05c6c0c9AB9` |
+| Arbitrum       | `0xff1a0f4744e8582DF1aE09D5611b887B6a12925C` |
+| Celo           | `0xff1a0f4744e8582DF1aE09D5611b887B6a12925C` |
+| KCC            | `0xE0d0e68297772Dd5a1f1D99897c581E2082dbA5B` |
+| Cronos         | `0xE0d0e68297772Dd5a1f1D99897c581E2082dbA5B` |
+| zkSync Era     | `0xf087c864AEccFb6A2Bf1Af6A0382B0d0f6c5D834` |
+| EVMOS          | `0x354bF866A4B006C9AF9d9e06d9364217A8616E12` |
+| Polygon zkEVM  | `0xC5E56d6b40F3e3B5fbfa266bCd35C37426537c65` |
+| Meter          | `0xbFe3f445653f2136b2FD1e6DdDb5676392E3AF16` |
+| Conflux eSpace | `0xe9d69CdD6Fe41e7B621B4A688C5D1a68cB5c8ADc` |
 
 
 ### Testnet
@@ -71,6 +72,7 @@ the frontend to interact with the contract. **Warning this example is intended o
 | Canto testnet               | `0xA2aa501b19aff244D90cc15a4Cf739D2725B5729` |
 | Meter testnet               | `0x5fF5B9039FbD8256864A4460B7EA77093A65B1b5` |
 | Mantle testnet              | `0xA2aa501b19aff244D90cc15a4Cf739D2725B5729` |
+| Conflux eSpace testnet      | `0xA2aa501b19aff244D90cc15a4Cf739D2725B5729` |
 
 
 ## Price Feed IDs
