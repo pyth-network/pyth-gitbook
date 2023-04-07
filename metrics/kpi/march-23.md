@@ -35,3 +35,7 @@
 **Connected Blockchains**
 
 ![](../../.gitbook/assets/kpi/march-23/mar-23-connected-blockchains.png)
+
+**Cross-chain Price Updates**
+
+![](../../.gitbook/assets/kpi/march-23/mar-23-price-updates.png)
