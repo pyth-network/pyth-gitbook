@@ -45,6 +45,7 @@ the frontend to interact with the contract. **Warning this example is intended o
 | Polygon zkEVM  | `0xC5E56d6b40F3e3B5fbfa266bCd35C37426537c65` |
 | Meter          | `0xbFe3f445653f2136b2FD1e6DdDb5676392E3AF16` |
 | Conflux eSpace | `0xe9d69CdD6Fe41e7B621B4A688C5D1a68cB5c8ADc` |
+| Canto          | `0x98046Bd286715D3B0BC227Dd7a956b83D8978603` |
 
 
 ### Testnet
