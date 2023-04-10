@@ -19,10 +19,15 @@ Pyth is currently available on the following cosmwasm chains:
 ### Testnet
 | Network   | Contract address                             |
 | --------- | -------------------------------------------- |
+| Injective | `inj12j43nf2f0qumnt2zrrmpvnsqgzndxefujlvr08` |
+### Testnet
+| Network   | Contract address                             |
+| --------- | -------------------------------------------- |
 | Injective | `inj1z60tg0tekdzcasenhuuwq3htjcd5slmgf7gpez` |
 
 ## Price Feeds
 
 | Network | Available Price Feeds                                             |
 | -------------- | -----------------------------------------------------------|
+| Cosmwasm Mainnet  |[https://pyth.network/developers/price-feed-ids#cosmwasm-mainnet](https://pyth.network/developers/price-feed-ids#cosmwasm-mainnet)|
 | Cosmwasm Testnet  |[https://pyth.network/developers/price-feed-ids#cosmwasm-testnet](https://pyth.network/developers/price-feed-ids#cosmwasm-testnet)|
