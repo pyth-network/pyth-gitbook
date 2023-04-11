@@ -12,6 +12,10 @@ Typically, users of Pyth Network prices will submit a single transaction that si
 On-chain prices can only move forward in time. If a user submits a Wormhole message with a less recent price the Pyth program will not fail but will
 also not update the price. This in particular means that there's no guarantee that when a user atomically updates the price and then interacts with an application powered by Pyth,
 the price that the application will read will be equal to the price the user submitted.
+
+You can find an in-depth explanation from one of our contributors, Jayant:
+[Explaining the Pyth Network On-Demand Oracle Model: Pyth Tutorials](https://youtu.be/qdwrs23Qc9g)
+
 ## Advantages
 
 The on-demand model has several benefits over the push model:
