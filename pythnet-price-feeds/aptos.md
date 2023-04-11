@@ -13,6 +13,7 @@ The mechanism by which price feeds are updated on Aptos is explained [here](./py
 ## Examples
 - [Minimal on-chain contract](https://github.com/pyth-network/pyth-crosschain/blob/main/target_chains/aptos/examples/fetch_btc_price/sources/example.move) which updates and returns the Pyth BTC/USD price.
 - [Full-stack React app and on-chain contract](https://github.com/pyth-network/pyth-crosschain/tree/main/target_chains/aptos/examples/mint_nft) which uses the [pyth-aptos-js](https://github.com/pyth-network/pyth-crosschain/tree/main/target_chains/aptos/sdk/js) package to update the price used by the contract.
+- [In-depth explanation](https://youtu.be/0b0RXi41pN0) of how Pyth works on Aptos and how to integrate Pyth data in your application from one of our contributor.
 
 ## Networks 
 
