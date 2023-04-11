@@ -28,3 +28,5 @@ The [Blockdaemon pyth-go](https://github.com/Blockdaemon/pyth-go) client can be 
 {% endtab %}
 {% endtabs %}
 
+You can find an in-depth explanation from one of our contributors, Daniel:
+[How to Build with Pyth Data Off-Chain: Pyth Tutorials](https://youtu.be/YgD4IWTKD2c)
