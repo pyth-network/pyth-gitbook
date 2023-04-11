@@ -6,3 +6,6 @@ Application developers can simply pass the relevant account to their solana prog
 Pyth provides a [Solana SDK](solana.md) to assist with this process.
 
 Before getting started with the SDK, please read [_Using Price Feeds_](best-practices.md) to understand how Pyth price feeds are represented, and to learn best practices to use Pyth prices safely and correctly.
+
+For more details, you can find an in-depth explanation from one of our contributors, Guillermo:
+[How to Build with Pyth Data on Solana: Pyth Tutorials](https://youtu.be/1TVYuf_RMa0)
