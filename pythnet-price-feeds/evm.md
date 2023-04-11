@@ -17,16 +17,14 @@ Please see the github readme for additional information on this service.
 In addition, you can find an in-depth explanation from one of our contributors, Ali:
 [How to Build with Pyth Data on EVM Chains (with Pusher): Pyth Tutorials](https://youtu.be/yhmo81JOH10)
 
-## Networks
-
-Pyth is currently available on the following EVM-based chains:
-
 ## Example - Oracle Swap 
 
 [Oracle Swap](https://github.com/pyth-network/pyth-crosschain/tree/main/target_chains/ethereum/examples/oracle_swap) is an end-to-end example application that uses Pyth Network. This application is an AMM that allows users to swap two assets at the Pyth-provided exchange rate. This application contains both the contract, and
 the frontend to interact with the contract. **Warning this example is intended only as a demonstration of Pyth price feeds and is not for production use**.
 
+## Networks
 
+Pyth is currently available on the following EVM-based chains:
 
 ### Mainnet
 

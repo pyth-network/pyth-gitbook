@@ -1,12 +1,12 @@
 # Understanding Publishing Slots
 
-When a quoter publishes a price, the pyth-client API also forwards what it thinks is the current slot on solana. This is known as its publishing slot.
+When a quoter publishes a price, the pyth-client API also forwards what it thinks is the current slot on Solana and Pythnet. This is known as its publishing slot.
 
 The publishing slot and price is stored as the latest update for that publisher on-chain but only if the price is for a later slot than that currently stored. This is to prevent prices from being updated out-of-order and to facilitate arbitration between multiple publishers.
 
 The aggregation algorithm only combines prices from publishers that were published within 25 slots of the current on-chain slot.
 
-Not all published prices get included in the pyth contract due to unreliable transports and the way solana formulates and reaches consensus on each slot.
+Not all published prices get included in the pyth contract due to unreliable transports and the way Solana and Pythnet formulate and reach consensus on each slot.
 
 A quoter may detect if a published price is dropped by comparing the list of publishing slots it submits vs what it subsequently receives in each aggregate price callback.
 
