@@ -14,6 +14,9 @@ Protocols can run this service to push regular updates to the on-chain Pyth pric
 This service is useful for protocols that already depend on regular push updates and want to simplify  migrating to Pyth.
 Please see the github readme for additional information on this service.
 
+In addition, you can find an in-depth explanation from one of our contributors, Ali:
+[How to Build with Pyth Data on EVM Chains (with Pusher): Pyth Tutorials](https://youtu.be/yhmo81JOH10)
+
 ## Networks
 
 Pyth is currently available on the following EVM-based chains:
