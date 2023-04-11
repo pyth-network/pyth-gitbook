@@ -1,7 +1,7 @@
 # Introduction
 
 Pyth Network is an oracle that publishes financial market data to multiple blockchains.
-Our market data is contributed by over 70 [first-party publishers](https://pyth.network/publishers/), including some of the biggest exchanges and market making firms in the world.
+Our market data is contributed by over 80 [first-party publishers](https://pyth.network/publishers/), including some of the biggest exchanges and market making firms in the world.
 We offer price feeds for a number of different asset classes, including [US equities, commodities, and cryptocurrencies](https://pyth.network/price-feeds/).
 Each price feed publishes a [robust aggregate](how-pyth-works/price-aggregation.md) of publisher prices that updates multiple times per second.
 
@@ -17,3 +17,4 @@ Other useful links may be:
   * [Publish Data](publishers/publish-data.md) -- Data Providers can read these documents to learn how to publish data to the Pyth Network.
   * [How Pyth Works](how-pyth-works/how-pyth-works.md) -- Learn more about the mechanisms behind the network.
   * [Pyth Metrics](metrics/metrics.md) -- See metrics of the network's adoption and growth.
+  * [Pyth Tutorials](https://youtube.com/playlist?list=PL-wxIsxi1V--5-p0eREKI0H8eszz7MGEg) -- Developers can watch contributors explaining the inner workings of the Pyth network and how to integrate with the Pyth Price Feeds in your application.
