@@ -17,3 +17,4 @@ Other useful links may be:
   * [Publish Data](publishers/publish-data.md) -- Data Providers can read these documents to learn how to publish data to the Pyth Network.
   * [How Pyth Works](how-pyth-works/how-pyth-works.md) -- Learn more about the mechanisms behind the network.
   * [Pyth Metrics](metrics/metrics.md) -- See metrics of the network's adoption and growth.
+  * [Pyth Tutorials](https://youtube.com/playlist?list=PL-wxIsxi1V--5-p0eREKI0H8eszz7MGEg) -- Developers can watch contributors explaining the inner workings of the Pyth network and how to integrate with the Pyth Price Feeds in your application.
