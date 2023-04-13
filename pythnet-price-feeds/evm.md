@@ -6,6 +6,11 @@ description: Consume Pyth Network prices in EVM applications
 
 On-chain EVM programs can use the [Solidity SDK](https://github.com/pyth-network/pyth-sdk-solidity) to read Pyth prices. The off-chain portion of the application can use [pyth-evm-js](https://github.com/pyth-network/pyth-crosschain/tree/main/target_chains/ethereum/sdk/js) to generate price update transactions. This repository's [Quickstart](https://github.com/pyth-network/pyth-crosschain/tree/main/target_chains/ethereum/sdk/js#quickstart) includes an example of both the on- and off-chain code necessary to integrate with Pyth.
 
+## Example - Oracle Swap 
+
+[Oracle Swap](https://github.com/pyth-network/pyth-crosschain/tree/main/target_chains/ethereum/examples/oracle_swap) is an end-to-end example application that uses Pyth Network.
+This application is an AMM that allows users to swap two assets at the Pyth-provided exchange rate. This application contains both the contract, and the frontend to interact with the contract. 
+
 ## EVM price pusher
 
 [Pyth EVM price pusher](https://github.com/pyth-network/pyth-crosschain/tree/main/price_pusher)
@@ -20,12 +25,6 @@ In addition, you can find an in-depth explanation from one of our contributors, 
 ## Networks
 
 Pyth is currently available on the following EVM-based chains:
-
-## Example - Oracle Swap 
-
-[Oracle Swap](https://github.com/pyth-network/pyth-crosschain/tree/main/target_chains/ethereum/examples/oracle_swap) is an end-to-end example application that uses Pyth Network. This application is an AMM that allows users to swap two assets at the Pyth-provided exchange rate. This application contains both the contract, and
-the frontend to interact with the contract. **Warning this example is intended only as a demonstration of Pyth price feeds and is not for production use**.
-
 
 
 ### Mainnet
