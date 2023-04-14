@@ -20,3 +20,8 @@ This peer-to-peer network has built-in redundancy and is therefore inherently mo
 Please find more information about building and running the price service from [here][price-service-repo].
 
 [price-service-repo]: https://github.com/pyth-network/pyth-crosschain/tree/main/price_service/server
+
+## API Endpoints
+
+{% openapi url="https://petstore.swagger.io/v2/swagger.json" %}
+{% endopenapi %}
