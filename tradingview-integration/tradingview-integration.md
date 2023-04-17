@@ -6,7 +6,7 @@ The TradingView integration is a web-based widget that allows users to view Pyth
 
 # Technical Integration
 
-1. Add the following script(s) from https://www.tradingview.com/widget/advanced-chart/ to your website depending on your framework:
+1. Add the following script(s) from [TradingView](https://www.tradingview.com/widget/advanced-chart/) to your website depending on your framework:
 
 {% tabs %}
 {% tab title="html" %}
