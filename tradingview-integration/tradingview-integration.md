@@ -103,7 +103,7 @@ export default function TradingViewWidget() {
 {% endtab %}
 {% endtabs %}
 
-2. Replace the `symbol` parameter with the Pyth symbol you want to display. For example, to display the price of Ethereum, use `symbol: "PYTH/ETHUSD"`.
+2. Replace the `symbol` parameter with the Pyth symbol you want to display. For example, to display the price of Ethereum, use `symbol: "PYTH:ETHUSD"`.
 
 3. Replace the `interval` parameter with the time interval you want to display. For example, to display the price of Ethereum in 1-minute intervals, use `interval: "1"`. Possible resolutions are daily (D or 1D, 2D ... ), weekly (1W, 2W ...), monthly (1M, 2M...) and an intra-day resolution – minutes(1, 2 ...).
 
