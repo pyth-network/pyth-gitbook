@@ -16,10 +16,11 @@ The mechanism by which price feeds are updated on Cosmwasm is explained [here](.
 ## Networks
 
 Pyth is currently available on the following cosmwasm chains: 
-### Testnet
+### Mainnet
 | Network   | Contract address                             |
 | --------- | -------------------------------------------- |
 | Injective | `inj12j43nf2f0qumnt2zrrmpvnsqgzndxefujlvr08` |
+
 ### Testnet
 | Network   | Contract address                             |
 | --------- | -------------------------------------------- |
