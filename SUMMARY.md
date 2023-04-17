@@ -19,6 +19,8 @@
 
 * [Benchmarks](benchmarks/benchmarks.md)
 
+* [TradingView Integration](tradingview-integration/tradingview-integration.md)
+
 * [Publish Data](publishers/publish-data.md)
   * [Understanding Publishing Slots](publishers/understanding-publishing-slots.md)
   * [pyth-client Websocket API](publishers/pyth-client-websocket-api.md)
