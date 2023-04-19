@@ -48,8 +48,8 @@ Pyth price feeds follow the [traditional market hours](https://www.cmegroup.com/
 | ----------- | ----------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
 | Crypto      | 24/7                                                                                | No market close                                                                                                                  |
 | US Equities | Every weekday from 2.30PM UTC to 9PM UTC                                            | Markets are closed on weekends, US Holidays, and during extraordinary events                                                     |
-| FX          | From Sunday 5PM ET to Friday 5PM ET. Trading is closed from 10PM to 11PM UTC daily | Trading continues during most US holidays                                                                                        |
-| Metals      | From Sunday 5PM ET to Friday 5PM ET. Trading is closed from 10PM to 11PM UTC daily | Spot gold and silver trading also follow [CME holiday closures](https://www.cmegroup.com/tools-information/holiday-calendar.html)|
+| FX          | From Sunday 5PM ET to Friday 5PM ET | Trading continues during most US holidays                                                                                        |
+| Metals      | From Sunday 5PM ET to Friday 5PM ET | Spot gold and silver trading also follow [CME holiday closures](https://www.cmegroup.com/tools-information/holiday-calendar.html)|
 
 # Latency
 
