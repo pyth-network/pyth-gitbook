@@ -17,7 +17,7 @@ The mechanism by which price feeds are updated on Aptos is explained [here](./py
 
 ## Networks 
 
-Pyth is currently deployed on Aptos Mainnet.
+Pyth is currently deployed on Aptos Mainnet and Testnet.
 
 ## Addresses
 

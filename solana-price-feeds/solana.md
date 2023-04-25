@@ -4,19 +4,9 @@ description: Consume Pyth prices in Solana programs.
 
 # Pyth on Solana
 
-We provide two different SDKs for Solana on-chain programs to use Pyth prices:
+We provide one SDK for Solana on-chain programs to use Pyth prices:
 
-{% tabs %}
-{% tab title="Rust" %}
 The [pyth-sdk-solana crate](https://github.com/pyth-network/pyth-sdk-rs/tree/main/pyth-sdk-solana) can be used to consume Pyth prices inside Solana programs written in Rust.
-{% endtab %}
-
-{% tab title="NEON EVM" %}
-[NEON](https://neon-labs.org) is an EVM compatibility layer for Solana, allowing users to migrate their Ethereum applications to Solana with minimum effort.
-
-The [pyth-neon](https://github.com/pyth-network/pyth-neon) library is an interface to Pyth oracles for NEON applications.
-{% endtab %}
-{% endtabs %}
 
 ## Example Program
 
