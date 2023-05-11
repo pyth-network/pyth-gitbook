@@ -24,11 +24,15 @@ Pyth is currently available on the following cosmwasm chains:
 ### Testnet
 | Network   | Contract address                             |
 | --------- | -------------------------------------------- |
-| Injective | `inj1z60tg0tekdzcasenhuuwq3htjcd5slmgf7gpez` |
+| Injective | `inj1yzx0wdn6t7xrjdpgztnrraq57nw2zxhstr97xw` |
+| Sei Atlantic 2 | `sei1977nnu5jqatteqgve8tx7nzu9y7eh6cvq0e4g6xjx8tf5wm4nkmsfljunh` |
+| Osmosis Test 4 | `osmo1xws8v2yv50v0spn90yr9fe9zx8zxfppl3syn38zw59npvp8dd70sutnvsm` |
+| Osmosis Test 5 | `osmo12u2vqdecdte84kg6c3d40nwzjsya59hsj048n687m9q3t6wdmqgsq6zrlx` |
+| Neutron Pion 1 | `neutron1zpn7yhxqx2f0c6cpmp3fr42yafupz9elglvgdss2300c847ph0hsgurhlj` |
+| Juno | `juno1ygyhu0zn69zm0354nzpd7zrp5xs9vpkqcuk7kfneyghrpa87msmqeskxqa` |
 
 ## Price Feeds
-
+Pyth contracts, both testnet and mainnet, are enabled to use mainnet price feed ids. 
 | Network | Available Price Feeds                                             |
 | -------------- | -----------------------------------------------------------|
 | Cosmwasm Mainnet  |[https://pyth.network/developers/price-feed-ids#cosmwasm-mainnet](https://pyth.network/developers/price-feed-ids#cosmwasm-mainnet)|
-| Cosmwasm Testnet  |[https://pyth.network/developers/price-feed-ids#cosmwasm-testnet](https://pyth.network/developers/price-feed-ids#cosmwasm-testnet)|
