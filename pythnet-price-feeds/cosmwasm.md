@@ -37,6 +37,6 @@ Pyth is currently available on the following cosmwasm chains:
 
 ## Price Feed IDs
 
-The price feed IDs for cosmwasm are the same for both mainnet and testnet.
+The price feed IDs for cosmwasm chains are the same for both mainnet and testnet.
 
 - [List of price feed ids](https://pyth.network/developers/price-feed-ids#cosmwasm-mainnet)
