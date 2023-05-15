@@ -20,6 +20,10 @@ Then, follow the links below to find the right SDK for your ecosystem:
 [aptos.md](aptos.md)
 {% endcontent-ref %}
 
+{% content-ref url="sui.md" %}
+[sui.md](sui.md)
+{% endcontent-ref %}
+
 {% content-ref url="bas.md" %}
 [bas.md](bas.md)
 {% endcontent-ref %}
