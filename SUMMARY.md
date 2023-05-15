@@ -11,6 +11,7 @@
   * [Using Price Feeds](pythnet-price-feeds/best-practices.md)
   * [Pyth on EVM](pythnet-price-feeds/evm.md)
   * [Pyth on Aptos](pythnet-price-feeds/aptos.md)  
+  * [Pyth on Sui](pythnet-price-feeds/sui.md)
   * [Pyth on Cosmwasm](pythnet-price-feeds/cosmwasm.md)  
   * [Pyth on BAS Chains](pythnet-price-feeds/bas.md) 
   * [Pyth for Off-chain Apps](pythnet-price-feeds/off-chain.md)
