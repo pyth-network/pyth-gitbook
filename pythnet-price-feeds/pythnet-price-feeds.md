@@ -16,8 +16,13 @@ Then, follow the links below to find the right SDK for your ecosystem:
 [evm.md](evm.md)
 {% endcontent-ref %}
 
+
 {% content-ref url="aptos.md" %}
 [aptos.md](aptos.md)
+{% endcontent-ref %}
+
+{% content-ref url="cosmwasm.md" %}
+[cosmwasm.md](cosmwasm.md)
 {% endcontent-ref %}
 
 {% content-ref url="sui.md" %}
@@ -26,10 +31,6 @@ Then, follow the links below to find the right SDK for your ecosystem:
 
 {% content-ref url="bas.md" %}
 [bas.md](bas.md)
-{% endcontent-ref %}
-
-{% content-ref url="cosmwasm.md" %}
-[cosmwasm.md](cosmwasm.md)
 {% endcontent-ref %}
 
 {% content-ref url="off-chain.md" %}
