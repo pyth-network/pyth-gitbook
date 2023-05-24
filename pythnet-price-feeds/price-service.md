@@ -14,6 +14,15 @@ These endpoints can be used to test integrations with Pyth Network:
 | mainnet | https://xc-mainnet.pyth.network |
 | testnet | https://xc-testnet.pyth.network |
 
+```
+# Example API call
+$ curl https://xc-testnet.pyth.network/api/latest_vaas?ids[]=0xf9c0172ba10dfa4d19088d94f5bf61d3b54d5bd7483a322a982e1373ee8ea31b
+
+# Example Response
+["AQAAAAABALNY33VN+Pxh+vh02T9mAjCkNlug8K7qYTEPa+vU/hcSP+IGYDm75QCZ2oVdYdV45tXmsnAqnQwnybTt5QqOX8wBZG4AGAAAAAAAGqJ4OdZBsHdDwMtfaMUfjNMdLAdivsANxvzSVDPvGrW2AAAAAAMOaTIBUDJXSAADAAEAAQIABQCdHNsaXh40VtKXfuDT1wdlI58IpChVuVCP1HnhXG3E0f7s9VN3DZsQll+Ptkdx6T9WkKGC7cMr5KMjbgyqpuBYGgAAAAcxcTjgAAAAAAG6Nuf////4AAAABy+1l2gAAAAAAS3wagEAAAABAAAAAgAAAABkbgAYAAAAAGRuABQAAAAAZG4AEgAAAAcxWUAQAAAAAAEH63AAAAAAZG4AFGogZxwOP4yyGc4/RuWuCWpPL9+TbSvU2okl9wCH1R3YMAKUeVmHlykONjihcSwpveI2fQ7KeU93iyW1pHLxkt4AAAACoO+6gAAAAAAAmJaA////+AAAAAKgDbl4AAAAAACW+rcBAAAAAQAAAAIAAAAAZG4AGAAAAABkbgAXAAAAAGRuABQAAAACoOKsoQAAAAAAw+FuAAAAAGRuABco/gXScIxlcRgqfJ0f9FeiIbRl7fXqmvE3P5Vi0WuNFfnAFyuhDfpNGQiNlPW/YdO1TVvXSDoyKpguE3PujqMbAAACbg2tzH8AAAAAHz3sv/////gAAAJuPkE5QAAAAAAkkZ1wAQAAAAEAAAACAAAAAGRuABgAAAAAZG4AFwAAAABkbgAVAAACbg13O78AAAAAJKtrvwAAAABkbgAXizjbcA6LNGQOaB7Jpz6JYIvaKUFVR6Ik+WWFGStLnceUvOSu6I/fpbWNgQkL1rN4Rxf6bfhUGdnwRDO7PWFdXAAAAAAFAlNUAAAAAAAA9ED////4AAAAAAUHGlgAAAAAAAEesgEAAAABAAAAAgAAAABkbgAYAAAAAGRuABcAAAAAZG4AFAAAAAAFAlNUAAAAAAAA9EAAAAAAZG4AFztpo88HVkbF/YFItwW4EH5hoaJT1dioQ1Xctiiz8dEgMXdeHWiXEp6KhO66l1d4+1ABW4gDnpvBQLvYOWlKwK4AAAAAAGyBWAAAAAAAABOK////+AAAAAAAbHdcAAAAAAAAD4ABAAAAAQAAAAIAAAAAZG4AGAAAAABkbgAYAAAAAGRuABUAAAAAAGyBWAAAAAAAABOKAAAAAGRuABU="]
+
+```
+
 For production deployments, developers integrating with Pyth Network are **strongly encouraged** to host their own instance of the price service for maximum resilience and decentralization.
 By running an independent instance of this service, developers tap directly into Wormhole's peer-to-peer network to stream Pyth price updates.
 This peer-to-peer network has built-in redundancy and is therefore inherently more reliable than a centralized service operated by the PDA.
