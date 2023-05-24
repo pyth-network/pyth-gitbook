@@ -13,12 +13,6 @@ Pyth publishes prices for two kinds of feeds:
 1. Stable price feeds consist of prices generated on the pythnet blockchain. These feeds are available on both mainnet and testnet blockchains. Use stable feeds if you would like your test environment to be identical to your production environment.
 2. Edge price feeds consist of prices generated on the pythtest blockchain, which is Pyth's test environment for new features. Consequently, these feeds are not as reliable as the stable feeds, and there are other differences as well (e.g., different price feed ids). These feeds are only available on testnets.
 
-### Price Service Public Endpoints
-| Price feeds | url                             |
-| ------- | ------------------------------- |
-| stable | https://xc-mainnet.pyth.network |
-| edge | https://xc-testnet.pyth.network |
-
 ## Examples
 
 - [Minimal on-chain contract](https://github.com/pyth-network/pyth-crosschain/blob/main/target_chains/cosmwasm/examples/cw-contract) which queries the Pyth contract.
