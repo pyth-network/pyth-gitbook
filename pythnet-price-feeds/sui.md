@@ -34,7 +34,7 @@ public fun parse_and_verify(
       the_clock: &Clock
   ): VAA
 ```
-### 2. `pyth::pyth::update_single_price_feed`
+### 2. `create_price_infos_hot_potato`
 
 Use the verified VAA and create a hot potato vector containing the latest price updates.
 ```Rust
@@ -87,7 +87,7 @@ public fun get_price(
 # 3. Examples
 
 See the `./scripts` folder for examples of programmable transactions for creating price feeds and updating price feeds.
-- [Demo for updating a price feed](./scripts/pyth/update_price_feeds.ts)
+- [Demo for updating a price feed](https://github.com/pyth-network/pyth-crosschain/blob/sui/hot_potato/target_chains/sui/scripts/pyth/update_price_feeds.ts)
 
 To build and test the contracts, run the following
 ```
@@ -139,7 +139,7 @@ rev = "d050ad1d67a5b7da9fb65030aad12ef5d774ccad"
 
 ## 2. How do I find the Sui Object ID of a PriceInfoObject for a Pyth Price Feed?
 
-The mapping of Pyth price feed IDs to `PriceInfoObject` object IDs can be found [here](./scripts/generated/). (Note: this may go out of date as more price feeds are introduced and created over time).
+The mapping of Pyth price feed IDs to `PriceInfoObject` object IDs can be found [here](https://github.com/pyth-network/pyth-crosschain/blob/sui/hot_potato/target_chains/sui/README.md). (Note: this may go out of date as more price feeds are introduced and created over time).
 
 This mapping is also stored on-chain, and can be queried on-chain using the getter function `pyth::state::get_price_info_object_id` defined in the Pyth package.
 
