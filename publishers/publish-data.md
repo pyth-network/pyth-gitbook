@@ -44,7 +44,7 @@ If you do so, please share both public keys with the Pyth Data Association.
 
 ## Procure validators
 
-Every data provider to the network will require both a Solana RPC node and a Pythnet validator.
+Every data provider to the network will require both a Pythnet RPC node and a Pythnet validator.
 The Pyth Data Association will assist you with this step.
 
 ## Pyth-agent
