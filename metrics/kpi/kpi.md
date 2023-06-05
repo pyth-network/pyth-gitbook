@@ -2,6 +2,10 @@
 
 Every month, the Pyth contributors collect informative data points on the network, its growth, as well as its performance. 
 
+**Disclaimer**
+
+All data points shown in the charts and graphs are just rough approximations of the overall performance of Pyth. Due to its permissionless nature, any dApp can plug and integrate with Pyth without letting the Pyth contributors know about it. Certain information such as dApps TVS, Trading Volume and Total Integrations may provide incomplete depiction of the Pyth metrics.
+
 - **Data Publishers**
 
 Data is king, and the Pyth network stands committed to onboarding only high-quality data sources and establishing a natural bridge — without intermediaries — between these sources and the end-users.
@@ -33,6 +37,10 @@ You can check Pyth’s adoption rate by looking at NPM and Rust downloads.
 NPM (“Node Package Manager”) is the default package manager for JavaScript’s runtime Node.js, which is needed whenever you want to integrate Pyth on your website frontend.
 
 A (Rust) crate is a binary or library. The crate root is a source file that the Rust compiler starts from and makes up the root module of your crate. This enables you to call on-chain data and make your protocol works.
+
+{% content-ref url="may-23.md" %}
+[may-23.md](may-23.md)
+{% endcontent-ref %}
 
 {% content-ref url="april-23.md" %}
 [april-23.md](april-23.md)
