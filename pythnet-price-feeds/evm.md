@@ -48,6 +48,7 @@ Pyth is currently available on the following EVM-based chains:
 | Meter          | `0xbFe3f445653f2136b2FD1e6DdDb5676392E3AF16` |
 | Conflux eSpace | `0xe9d69CdD6Fe41e7B621B4A688C5D1a68cB5c8ADc` |
 | Canto          | `0x98046Bd286715D3B0BC227Dd7a956b83D8978603` |
+| Kava           | `0xA2aa501b19aff244D90cc15a4Cf739D2725B5729` |
 
 
 ### Testnet
@@ -76,6 +77,7 @@ Pyth is currently available on the following EVM-based chains:
 | Meter testnet               | `0x5fF5B9039FbD8256864A4460B7EA77093A65B1b5` |
 | Mantle testnet              | `0xA2aa501b19aff244D90cc15a4Cf739D2725B5729` |
 | Conflux eSpace testnet      | `0xA2aa501b19aff244D90cc15a4Cf739D2725B5729` |
+| Kava testnet                | `0x98046Bd286715D3B0BC227Dd7a956b83D8978603` |
 
 
 ## Price Feed IDs
