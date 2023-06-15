@@ -49,6 +49,7 @@ Pyth is currently available on the following EVM-based chains:
 | Conflux eSpace | `0xe9d69CdD6Fe41e7B621B4A688C5D1a68cB5c8ADc` |
 | Canto          | `0x98046Bd286715D3B0BC227Dd7a956b83D8978603` |
 | Kava           | `0xA2aa501b19aff244D90cc15a4Cf739D2725B5729` |
+| Gnosis         | `0x2880aB155794e7179c9eE2e38200202908C17B43` |
 
 
 ### Testnet
