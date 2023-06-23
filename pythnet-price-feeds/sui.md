@@ -143,6 +143,6 @@ The mapping of Pyth price feed IDs to `PriceInfoObject` object IDs can be found 
 
 This mapping is also stored on-chain, and can be queried on-chain using the getter function `pyth::state::get_price_info_object_id` defined in the Pyth package.
 
-Also recall that the list of Pyth price feed IDs can be found [here](https://pyth.network/developers/price-feed-ids#pyth-evm-testnet).
+Also recall that the list of Pyth price feed IDs can be found [here](https://pyth.network/developers/price-feed-ids#sui-mainnet).
 
 
