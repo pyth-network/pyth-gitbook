@@ -52,7 +52,7 @@ Use the hot potato price updates vector to update a price feed.
 Note that conventional Pyth price IDs are found [here](https://pyth.network/developers/price-feed-ids#sui-mainnet).
 However, instead of passing in a Pyth price feed ID to update the price feed (which is what is done on other chains), one must pass in a `PriceInfoObject` ID instead.
 
-The `PriceInfoObject` IDs are distinct from Pyth price feed IDs, and are stored in a map on-chain (Pyth price feed ID => PriceInfoObject ID). We pulled this map into a local json file [here](./scripts/generated). The `PriceInfoObject` ID can also be queried on-chain by calling the `pyth::state::get_price_info_object_id` found in the Pyth package. See the common questions section below for more info.
+The `PriceInfoObject` IDs are distinct from Pyth price feed IDs, and are stored in a map on-chain (Pyth price feed ID => PriceInfoObject ID). We pulled this map into a local json file [here](https://github.com/pyth-network/pyth-crosschain/tree/main/target_chains/sui/scripts/generated). The `PriceInfoObject` ID can also be queried on-chain by calling the `pyth::state::get_price_info_object_id` found in the Pyth package. See the common questions section below for more info.
 
 ```Rust
 public fun update_single_price_feed(
@@ -87,7 +87,7 @@ public fun get_price(
 # 3. Examples
 
 See the `./scripts` folder for examples of programmable transactions for creating price feeds and updating price feeds.
-- [Demo for updating a price feed](https://github.com/pyth-network/pyth-crosschain/blob/sui/hot_potato/target_chains/sui/scripts/pyth/update_price_feeds.ts)
+- [Demo for updating a price feed](https://github.com/pyth-network/pyth-crosschain/tree/main/target_chains/sui/scripts/pyth/update_price_feeds.ts)
 
 To build and test the contracts, run the following
 ```
@@ -139,7 +139,7 @@ rev = "d050ad1d67a5b7da9fb65030aad12ef5d774ccad"
 
 ## 2. How do I find the Sui Object ID of a PriceInfoObject for a Pyth Price Feed?
 
-The mapping of Pyth price feed IDs to `PriceInfoObject` object IDs can be found [here](https://github.com/pyth-network/pyth-crosschain/blob/sui/hot_potato/target_chains/sui/README.md). (Note: this may go out of date as more price feeds are introduced and created over time).
+The mapping of Pyth price feed IDs to `PriceInfoObject` object IDs can be found [here](https://github.com/pyth-network/pyth-crosschain/tree/main/target_chains/sui/README.md). (Note: this may go out of date as more price feeds are introduced and created over time).
 
 This mapping is also stored on-chain, and can be queried on-chain using the getter function `pyth::state::get_price_info_object_id` defined in the Pyth package.
 
