@@ -52,7 +52,7 @@ Use the hot potato price updates vector to update a price feed.
 Note that conventional Pyth price IDs are found [here](https://pyth.network/developers/price-feed-ids#pyth-evm-mainnet).
 However, instead of passing in a Pyth price feed ID to update the price feed (which is what is done on other chains), one must pass in a `PriceInfoObject` ID instead.
 
-The `PriceInfoObject` IDs are distinct from Pyth price feed IDs, and are stored in a map on-chain (Pyth price feed ID => PriceInfoObject ID). We pulled this map into a local json file [here](./scripts/generated). The `PriceInfoObject` ID can also be queried on-chain by calling the `pyth::state::get_price_info_object_id` found in the Pyth package. See the common questions section below for more info.
+The `PriceInfoObject` IDs are distinct from Pyth price feed IDs, and are stored in a map on-chain (Pyth price feed ID => PriceInfoObject ID). We pulled this map into a local json file [here](https://github.com/pyth-network/pyth-crosschain/tree/main/target_chains/sui/scripts/generated). The `PriceInfoObject` ID can also be queried on-chain by calling the `pyth::state::get_price_info_object_id` found in the Pyth package. See the common questions section below for more info.
 
 ```Rust
 public fun update_single_price_feed(
