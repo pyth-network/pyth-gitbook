@@ -30,9 +30,9 @@ Pyth is currently available on the following cosmwasm chains:
 | -------------- | -------------------------------------------------------------------- |
 | Injective      | [`inj18hckkzqf47mdhd734g6papk6wj20y24rm43sk9`](https://testnet.explorer.injective.network/contract/inj18hckkzqf47mdhd734g6papk6wj20y24rm43sk9/)                         |
 | Osmosis Test 5 | [`osmo1hpdzqku55lmfmptpyj6wdlugqs5etr6teqf7r4yqjjrxjznjhtuqqu5kdh`](https://testnet.mintscan.io/osmosis-testnet/wasm/contract/osmo1hpdzqku55lmfmptpyj6wdlugqs5etr6teqf7r4yqjjrxjznjhtuqqu5kdh)    |
-| Sei Atlantic 2 | `sei1w2rxq6eckak47s25crxlhmq96fzjwdtjgdwavn56ggc0qvxvw7rqczxyfy`    |
+| Sei Atlantic 2 | [`sei1w2rxq6eckak47s25crxlhmq96fzjwdtjgdwavn56ggc0qvxvw7rqczxyfy`](https://www.seiscan.app/testnet/contracts/sei1w2rxq6eckak47s25crxlhmq96fzjwdtjgdwavn56ggc0qvxvw7rqczxyfy)    |
 | Neutron Pion 1 | `neutron1f86ct5az9qpz2hqfd5uxru02px2a3tz5zkw7hugd7acqq496dcms22ehpy` |
-| Juno           | `juno1eacsrua27njc35pxz37y97gmcjs899t59f8pf0rkejjyvtmhws5q6lxsdd`    |
+| Juno           | [`juno1eacsrua27njc35pxz37y97gmcjs899t59f8pf0rkejjyvtmhws5q6lxsdd`](https://testnet.ping.pub/juno/account/juno1eacsrua27njc35pxz37y97gmcjs899t59f8pf0rkejjyvtmhws5q6lxsdd)    |
 
 ### Edge
 
@@ -40,9 +40,9 @@ Pyth is currently available on the following cosmwasm chains:
 | -------------- | -------------------------------------------------------------------- |
 | Injective      | [`inj18rlflp3735h25jmjx97d22c72sxk260amdjxlu`](https://testnet.explorer.injective.network/contract/inj18rlflp3735h25jmjx97d22c72sxk260amdjxlu/)                         |
 | Osmosis Test 5 | [`osmo1lltupx02sj99suakmuk4sr4ppqf34ajedaxut3ukjwkv6469erwqtpg9t3`](https://testnet.mintscan.io/osmosis-testnet/wasm/contract/osmo1lltupx02sj99suakmuk4sr4ppqf34ajedaxut3ukjwkv6469erwqtpg9t3)    |
-| Sei Atlantic 2 | `sei1kpntez76v38yuxhhaaahdmvjxnr5tkr8tq077smefs7uw70rj5yqw2aewy`    |
+| Sei Atlantic 2 | [`sei1kpntez76v38yuxhhaaahdmvjxnr5tkr8tq077smefs7uw70rj5yqw2aewy`](https://www.seiscan.app/testnet/contracts/sei1kpntez76v38yuxhhaaahdmvjxnr5tkr8tq077smefs7uw70rj5yqw2aewy)    |
 | Neutron Pion 1 | `neutron1xxmcu6wxgawjlajx8jalyk9cxsudnygjg0tvjesfyurh4utvtpes5wmpjp` |
-| Juno           | `juno1h93q9kwlnfml2gum4zj54al9w4jdmuhtzrh6vhycnemsqlqv9l9snnznxs`    |
+| Juno           | [`juno1h93q9kwlnfml2gum4zj54al9w4jdmuhtzrh6vhycnemsqlqv9l9snnznxs`](https://testnet.ping.pub/juno/account/juno1h93q9kwlnfml2gum4zj54al9w4jdmuhtzrh6vhycnemsqlqv9l9snnznxs)    |
 
 ## Price Feed IDs
 
