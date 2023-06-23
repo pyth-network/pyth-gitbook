@@ -64,7 +64,7 @@ Pyth is currently available on the following EVM-based chains:
 | Aurora testnet              | [`0x4305FB66699C3B2702D4d05CF36551390A4c69C6`](https://explorer.testnet.aurora.dev/address/0x4305FB66699C3B2702D4d05CF36551390A4c69C6) |
 | Optimism Goerli (testnet)   | [`0xff1a0f4744e8582DF1aE09D5611b887B6a12925C`](https://goerli-optimism.etherscan.io/address/0xff1a0f4744e8582df1ae09d5611b887b6a12925c) |
 | Celo Alfajores (testnet)    | [`0xff1a0f4744e8582DF1aE09D5611b887B6a12925C`](https://explorer.celo.org/alfajores/address/0xff1a0f4744e8582DF1aE09D5611b887B6a12925C) |
-| KCC testnet                 | `0x15D35b8985e350f783fe3d95401401E194ff1E6f` |
+| KCC testnet                 | [`0x15D35b8985e350f783fe3d95401401E194ff1E6f`](https://scan-testnet.kcc.network/address/0x15D35b8985e350f783fe3d95401401E194ff1E6f) |
 | Cronos testnet              | [`0xBAEA4A1A2Eaa4E9bb78f2303C213Da152933170E`](https://cronos.org/explorer/testnet3/address/0xBAEA4A1A2Eaa4E9bb78f2303C213Da152933170E) |
 | Arbitrum Goerli (testnet)   | [`0x939C0e902FF5B3F7BA666Cc8F6aC75EE76d3f900`](https://goerli.arbiscan.io/address/0x939C0e902FF5B3F7BA666Cc8F6aC75EE76d3f900) |
 | zkSync Era Goerli (testnet) | [`0xC38B1dd611889Abc95d4E0a472A667c3671c08DE`](https://goerli.explorer.zksync.io/address/0xC38B1dd611889Abc95d4E0a472A667c3671c08DE) |
