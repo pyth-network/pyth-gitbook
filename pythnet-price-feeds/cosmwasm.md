@@ -27,6 +27,7 @@ Pyth is currently available on the following cosmwasm chains:
 | --------- | -------------------------------------------- |
 | Injective Mainnet | [`inj12j43nf2f0qumnt2zrrmpvnsqgzndxefujlvr08`](https://explorer.injective.network/contract/inj12j43nf2f0qumnt2zrrmpvnsqgzndxefujlvr08/) |
 | Osmosis Mainnet | [`osmo13ge29x4e2s63a8ytz2px8gurtyznmue4a69n5275692v3qn3ks8q7cwck7`](https://www.mintscan.io/osmosis/wasm/contract/osmo13ge29x4e2s63a8ytz2px8gurtyznmue4a69n5275692v3qn3ks8q7cwck7) |
+| Neutron Mainnet | [`neutron1m2emc93m9gpwgsrsf2vylv9xvgqh654630v7dfrhrkmr5slly53spg85wv`](https://www.mintscan.io/neutron/wasm/contract/neutron1m2emc93m9gpwgsrsf2vylv9xvgqh654630v7dfrhrkmr5slly53spg85wv) |
 | -------------- | -------------------------------------------------------------------- |
 | Injective      | [`inj18hckkzqf47mdhd734g6papk6wj20y24rm43sk9`](https://testnet.explorer.injective.network/contract/inj18hckkzqf47mdhd734g6papk6wj20y24rm43sk9/)                         |
 | Osmosis Test 5 | [`osmo1hpdzqku55lmfmptpyj6wdlugqs5etr6teqf7r4yqjjrxjznjhtuqqu5kdh`](https://testnet.mintscan.io/osmosis-testnet/wasm/contract/osmo1hpdzqku55lmfmptpyj6wdlugqs5etr6teqf7r4yqjjrxjznjhtuqqu5kdh)    |
