@@ -38,7 +38,7 @@
 
 **Traded Volume**
 
-![](../../.gitbook/assets/kpi/june-23/jun-23-all-chain-monthly-traded-volume.png)
+![](../../.gitbook/assets/kpi/june-23/jun-23-all-chain-volume.png
 
 **Trading Volume by Segment (latest month)**
 
