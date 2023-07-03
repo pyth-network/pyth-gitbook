@@ -8,7 +8,7 @@
 
 ![](../../.gitbook/assets/kpi/june-23/pyth-jun-23.jpg)
 
-**Daily Average Updates (DAFTs)**
+**Daily Average Updates (DAUs)**
 
 ![](../../.gitbook/assets/kpi/june-23/jun-23-daily-average-updates.png)
 
