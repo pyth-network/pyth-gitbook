@@ -8,9 +8,9 @@
 
 ![](../../.gitbook/assets/kpi/june-23/pyth-jun-23.jpg)
 
-**Daily Average Fee Transactions (DAFTs)**
+**Daily Average Updates (DAFTs)**
 
-![](../../.gitbook/assets/kpi/june-23/jun-23-daily-average-fee-transactions-dafts.png)
+![](../../.gitbook/assets/kpi/june-23/jun-23-daily-average-updates.png)
 
 **Cross-chain Price Updates**
 
@@ -38,7 +38,7 @@
 
 **Traded Volume**
 
-![](../../.gitbook/assets/kpi/june-23/jun-23-all-chain-volume.png
+![](../../.gitbook/assets/kpi/june-23/jun-23-all-chain-volume.png)
 
 **Trading Volume by Segment (latest month)**
 
@@ -51,8 +51,4 @@
 **Connected Blockchains**
 
 ![](../../.gitbook/assets/kpi/june-23/jun-23-connected-blockchains.png)
-
-**Client Downloads**
-
-![](../../.gitbook/assets/kpi/june-23/jun-23-client-downloads.png)
 
