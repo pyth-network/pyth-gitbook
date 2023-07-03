@@ -12,6 +12,10 @@
 
 ![](../../.gitbook/assets/kpi/june-23/jun-23-daily-average-fee-transactions-dafts.png)
 
+**Cross-chain Price Updates**
+
+![](../../.gitbook/assets/kpi/june-23/jun-23-monthly-price-update.png)
+
 **#PoweredByPyth Applications**
 
 ![](../../.gitbook/assets/kpi/june-23/jun-23-apps-integrations.png)
@@ -24,35 +28,31 @@
 
 ![](../../.gitbook/assets/kpi/june-23/jun-23-data-providers.png)
 
-
-**All Chain Total Value Secured**
+**Total Value Secured**
 
 ![](../../.gitbook/assets/kpi/june-23/jun-23-all-chain-tvs.png)
 
-**Monthly Total Value Secured**
+**Total Value Secured by Segment (latest month)**
 
 ![](../../.gitbook/assets/kpi/june-23/jun-23-dapps-tvs.png)
+
+**Traded Volume**
+
+![](../../.gitbook/assets/kpi/june-23/jun-23-all-chain-monthly-traded-volume.png)
+
+**Trading Volume by Segment (latest month)**
+
+![](../../.gitbook/assets/kpi/june-23/jun-23-trading-volume.png)
 
 **Cumulative Traded Volume**
 
 ![](../../.gitbook/assets/kpi/june-23/jun-23-traded-volume.png)
 
-**All Chain Traded Volume**
+**Connected Blockchains**
 
-![](../../.gitbook/assets/kpi/june-23/jun-23-all-chain-monthly-traded-volume.png)
-
-**Monthly Trading Volume**
-
-![](../../.gitbook/assets/kpi/june-23/jun-23-trading-volume.png)
+![](../../.gitbook/assets/kpi/june-23/jun-23-connected-blockchains.png)
 
 **Client Downloads**
 
 ![](../../.gitbook/assets/kpi/june-23/jun-23-client-downloads.png)
 
-**Connected Blockchains**
-
-![](../../.gitbook/assets/kpi/june-23/jun-23-connected-blockchains.png)
-
-**Cross-chain Price Updates**
-
-![](../../.gitbook/assets/kpi/june-23/jun-23-monthly-price-update.png)
