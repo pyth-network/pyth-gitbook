@@ -2,7 +2,7 @@
 
 **Overall Momentum**
 
-![](../../.gitbook/assets/kpi/june-23/)
+![](../../.gitbook/assets/kpi/june-23/pyth-momentum-jun-23.jpg)
 
 **Monthly Recap**
 
