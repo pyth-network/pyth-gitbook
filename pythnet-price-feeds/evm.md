@@ -51,6 +51,8 @@ Pyth is currently available on the following EVM-based chains:
 | Kava           | [`0xA2aa501b19aff244D90cc15a4Cf739D2725B5729`](https://explorer.kava.io/address/0xA2aa501b19aff244D90cc15a4Cf739D2725B5729) |
 | Gnosis         | [`0x2880aB155794e7179c9eE2e38200202908C17B43`](https://gnosisscan.io/address/0x2880ab155794e7179c9ee2e38200202908c17b43) |
 | WEMIX          | ['0xA2aa501b19aff244D90cc15a4Cf739D2725B5729`](https://explorer.wemix.com/address/0xA2aa501b19aff244D90cc15a4Cf739D2725B5729) |
+| Base           | [`0x8250f4aF4B972684F7b336503E2D6dFeDeB1487a`](https://basescan.org/address/0x8250f4aF4B972684F7b336503E2D6dFeDeB1487a#internaltx) |
+
 
 ### Testnet
 
