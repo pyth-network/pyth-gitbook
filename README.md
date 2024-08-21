@@ -1,5 +1,5 @@
 ### :warning: This repo is deprecated :warning:
-**Pyth documentation is moved to (this)[https://github.com/trufflesuite/truffle](https://github.com/pyth-network/documentation] repo.**
+**Pyth documentation is moved to [this](https://github.com/pyth-network/documentation) repo.**
 
 
 # Introduction
