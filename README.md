@@ -1,3 +1,7 @@
+### :warning: This repo is deprecated :warning:
+**Pyth documentation is moved to [this](https://github.com/pyth-network/documentation) repo.**
+
+
 # Introduction
 
 Pyth Network is an oracle that publishes financial market data to multiple blockchains.
