@@ -50,6 +50,9 @@ Pyth price feeds follow the [traditional market hours](https://www.cmegroup.com/
 | US Equities | Every weekday from 2.30PM UTC to 9PM UTC                                            | Markets are closed on weekends, US Holidays, and during extraordinary events                                                     |
 | FX          | From Sunday 5PM ET to Friday 5PM ET | Trading continues during most US holidays                                                                                        |
 | Metals      | From Sunday 5PM ET to Friday 5PM ET | Spot gold and silver trading also follow [CME holiday closures](https://www.cmegroup.com/tools-information/holiday-calendar.html)|
+| Rates       | Every weekday from 8PM ET to 5PM ET | Markets are closed weekends and follow [NYSE Holidays and Trading Hours](https://www.nyse.com/markets/hours-calendars)|
+| Commodities | WTI Contracts: From Sunday 6PM ET to Friday 5PM ET | WTI Contracts: Daily maintenance window applies from 5PM ET to 6PM ET and follow [CME holiday closures](https://www.cmegroup.com/tools-information/holiday-calendar.html)|
+| Commodities | BRENT Contracts: From Sunday 6PM ET to Friday 6PM ET | BRENT Contracts: Daily maintenance window applies from 6PM ET to 8PM ET, Monday to Thursday and follow [ICE holiday closures](https://www.ice.com/publicdocs/Trading_Schedule.pdf)|
 
 # Latency
 
